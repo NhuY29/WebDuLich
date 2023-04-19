@@ -1,0 +1,194 @@
+.main {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    /* height: 100%;
+    background-color: aliceblue; */
+}
+.header-above {
+    background-color: aliceblue;
+    width: 100%;
+    height: 80px;
+}
+
+.menu-right {
+    margin-left: 650px;
+    margin-top: -60px;
+}
+
+.header-above-menu {
+    margin-left: 200px;
+    margin-top: -80px;
+    /* position: relative; */
+}
+
+.header-above-menu a {
+    text-decoration: none;
+    color: #2d4271;
+}
+
+.header-above-menu ul {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.header-above-menu li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    /* background-color: beige;
+    border: 1px solid black; */
+}
+
+.header-above-menu .search {
+    line-height: 50px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.logOn {
+    font-size: 25px;
+}
+
+.menu-right-form {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.menu-right-search[type="text"] {
+    padding: 8px;
+    border: 2px solid #ffc107;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.formDK {
+    margin-top: 50px;
+    width: 550px;
+    height: 700px;
+    /* background-color: aliceblue; */
+    margin-left:30%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    display: flex;
+    margin-left: 100px;
+}
+
+.logIn,
+.register {
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.register {
+    background-color: #0d6efd;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+}
+
+.required,
+.password {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.other {
+    display: flex;
+}
+.facebook, .google {
+    font-size: 15px;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #007bff;
+    cursor: pointer;
+    color: white;
+}
+.In {
+    display: flex;
+}
+.In li, 
+.DongTour li, 
+.LienHe li,
+.ThongTin li  {
+    list-style-type: none;
+    color:#2d4271;
+}
+.DongTour {
+    margin-left: 350px;
+    margin-top: -350px;
+}
+.LienHe {
+    margin-left: 600px;
+    margin-top: -210px;
+}
+.QR {
+    margin-left: 950px;
+    margin-top: -200px;
+}
+.ChungNhan {
+    margin-left: 0px;
+    margin-top: 200px;
+}
+.ThanhToan {
+    margin-left: 950px;
+    margin-top: -300px;
+}
+.ThanhToan img {
+   margin: 10px;
+}
+.ThongTin {
+    margin-left: 350px;
+    margin-top: -300px;
+}
+.MXH {
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.MXH i {
+    font-size: 30px;
+    margin: 10px;
+}
+.MXH button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fe2214;
+    background-color: #fe2214;
+}
+footer {
+    background-color:rgba(128, 128, 128, 0.05);
+    width: 100%;
+    height: 600px;
+    bottom: 0;
+}
+
