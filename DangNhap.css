@@ -12,10 +12,13 @@
     width: 100%;
     height: 80px;
 }
-
+.menu-left {
+    left: 0;
+}
 .menu-right {
     margin-left: 650px;
     margin-top: -60px;
+    right: 0;
 }
 
 .header-above-menu {
@@ -135,6 +138,8 @@ button[type="submit"] {
 }
 .In {
     display: flex;
+    left: 0;
+    top: 0;
 }
 .In li, 
 .DongTour li, 
@@ -144,35 +149,40 @@ button[type="submit"] {
     color:#2d4271;
 }
 .DongTour {
-    margin-left: 350px;
-    margin-top: -350px;
+    margin-left: 27%;
+    margin-top: -27%;
+    top: 0;
 }
 .LienHe {
-    margin-left: 600px;
-    margin-top: -210px;
+    margin-left: 45%;
+    margin-top: -15%;
+    top: 0;
 }
 .QR {
-    margin-left: 950px;
-    margin-top: -200px;
+    margin-left: 70%;
+    margin-top: -15%;
+    right: 0;
 }
 .ChungNhan {
-    margin-left: 0px;
-    margin-top: 200px;
+    margin-left: 0%;
+    margin-top: 10%;
+    right: 0;
 }
 .ThanhToan {
-    margin-left: 950px;
-    margin-top: -300px;
+    margin-left: 70%;
+    margin-top: -15%;
+    right: 0;
 }
 .ThanhToan img {
    margin: 10px;
 }
 .ThongTin {
-    margin-left: 350px;
-    margin-top: -300px;
+    margin-left: 27%;
+    margin-top:-15%;
 }
 .MXH {
-    margin-left: 600px;
-    margin-top: -300px;
+    margin-left: 45%;
+    margin-top: -20%;
 }
 .MXH i {
     font-size: 30px;
@@ -188,7 +198,7 @@ button[type="submit"] {
 footer {
     background-color:rgba(128, 128, 128, 0.05);
     width: 100%;
-    height: 600px;
+    height: 50%;
     bottom: 0;
 }
 
