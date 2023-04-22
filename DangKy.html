@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./DangKy.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
+    <title>Form Đăng Ký Hội Viên</title>
+
+    <script>
+        function togglePassword() {
+            var passwordInput = document.getElementById("password");
+            var passwordIcon = document.getElementById("password-icon");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                passwordIcon.classList.remove("fa-eye-slash");
+                passwordIcon.classList.add("fa-eye");
+            } else {
+                passwordInput.type = "password";
+                passwordIcon.classList.remove("fa-eye");
+                passwordIcon.classList.add("fa-eye-slash");
+            }
+        }
+
+        function resetConfirmPassword() {
+            var confirmPasswordInput = document.getElementById("confirm-password");
+            confirmPasswordInput.value = "";
+        }
+
+        function checkPasswords() {
+            var passwordInput = document.getElementById("password");
+            var confirmPasswordInput = document.getElementById("confirm-password");
+            var passwordMatchMessage = document.getElementById("password-match-message");
+            if (passwordInput.value !== confirmPasswordInput.value) {
+                passwordMatchMessage.innerHTML = "Mật khẩu không trùng khớp.";
+                passwordMatchMessage.style.color = "red";
+                return false;
+            } else {
+                passwordMatchMessage.innerHTML = " ";
+                return true;
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="HoiVien">
+        <h2>Đăng Ký Hội Viên</h2>
+        <p>Để hoàn tất đăng ký Hội viên VietravelPlus, quý khách vui lòng điền đầy đủ thông tin vào mẫu dưới đây và nhấn
+            vào nút đăng ký. Xin chân thành cảm ơn quý khách hàng.</p>
+        <form action="">
+            <label for="HoTen">Họ Tên <span class="HoTen">(*)</span>:</label>
+            <input type="text" minlength="1" maxlength="30" required>
+
+            <label for="SDT">Di Động <span class="HoTen">(*)</span></label>
+            <input type="tel" pattern="[0-9]{10}" required>
+            
+
+            <label for="NgaySinh">Ngày Sinh:</label>
+            <input type="date" class="date">
+
+            <label for="GioiTinh">Giới Tính</label>
+            <select name="GT">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+                <option value="Khác">Khác</option>
+            </select>
+            
+
+            <label for="CMND">CMND</label>
+            <input type="text">
+
+            <label for="NgayCap">Ngày Cấp</label>
+            <input type="date">
+            
+
+            <label for="Passport">Passport</label>
+            <input type="text">
+            <label for="Email">Email</label>
+            <input type="text">
+            
+
+            <label for="NgayCapPassport" >Ngày Cấp</label>
+            <input type="date"> 
+            <label for="NgayHetHan">Ngày Hết Hạn</label>
+            <input type="date">
+           
+
+            <label for="DiaChi">Địa Chỉ</label>
+            <input type="text" class="dai">
+            
+            <label for="DiaChi">Mã Giới Thiệu</label>
+            <input type="text" class="dai">
+           
+
+           
+            <div class="password-input-container">
+                <label for="password">Mật khẩu: <span class="MatKhau">(*)</span> </label>
+                <input type="password" id="password" name="password" required>
+                <button type="button" onclick="togglePassword()">
+                    <i class="fas fa-eye-slash" id="password-icon"></i>
+                </button>
+            </div> 
+            
+            <div class="confirm-password-input-container">
+                <label for="confirm-password">Nhập lại mật khẩu: <span class="NhapLai">(*)</span></label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <button type="button" onclick="resetConfirmPassword()">Nhập lại</button>
+                <button type="button" onclick="checkPasswords()">Kiểm tra</button>
+            </div>
+
+            <div id="password-match-message"></div>
+
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="terms-checkbox" name="terms-checkbox"
+                    required>
+                <label class="form-check-label" for="terms-checkbox">
+                    Tôi đồng ý với các <a href="#">điều khoản</a>.
+                </label> 
+            </div> 
+            <div class="DK">
+                <button type="submit" class="btn btn-primary" class="DK">Đăng ký</button>
+            </div>
+            
+        </form>
+    </div>
+
+</body>
+
+</html>
