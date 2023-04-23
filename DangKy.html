@@ -47,88 +47,143 @@
 </head>
 
 <body>
-    <div class="HoiVien">
-        <h2>Đăng Ký Hội Viên</h2>
-        <p>Để hoàn tất đăng ký Hội viên VietravelPlus, quý khách vui lòng điền đầy đủ thông tin vào mẫu dưới đây và nhấn
-            vào nút đăng ký. Xin chân thành cảm ơn quý khách hàng.</p>
-        <form action="">
-            <label for="HoTen">Họ Tên <span class="HoTen">(*)</span>:</label>
-            <input type="text" minlength="1" maxlength="30" required>
-
-            <label for="SDT">Di Động <span class="HoTen">(*)</span></label>
-            <input type="tel" pattern="[0-9]{10}" required>
-            
-
-            <label for="NgaySinh">Ngày Sinh:</label>
-            <input type="date" class="date">
-
-            <label for="GioiTinh">Giới Tính</label>
-            <select name="GT">
-                <option value="Nam">Nam</option>
-                <option value="Nữ">Nữ</option>
-                <option value="Khác">Khác</option>
-            </select>
-            
-
-            <label for="CMND">CMND</label>
-            <input type="text">
-
-            <label for="NgayCap">Ngày Cấp</label>
-            <input type="date">
-            
-
-            <label for="Passport">Passport</label>
-            <input type="text">
-            <label for="Email">Email</label>
-            <input type="text">
-            
-
-            <label for="NgayCapPassport" >Ngày Cấp</label>
-            <input type="date"> 
-            <label for="NgayHetHan">Ngày Hết Hạn</label>
-            <input type="date">
-           
-
-            <label for="DiaChi">Địa Chỉ</label>
-            <input type="text" class="dai">
-            
-            <label for="DiaChi">Mã Giới Thiệu</label>
-            <input type="text" class="dai">
-           
-
-           
-            <div class="password-input-container">
-                <label for="password">Mật khẩu: <span class="MatKhau">(*)</span> </label>
-                <input type="password" id="password" name="password" required>
-                <button type="button" onclick="togglePassword()">
-                    <i class="fas fa-eye-slash" id="password-icon"></i>
-                </button>
-            </div> 
-            
-            <div class="confirm-password-input-container">
-                <label for="confirm-password">Nhập lại mật khẩu: <span class="NhapLai">(*)</span></label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-                <button type="button" onclick="resetConfirmPassword()">Nhập lại</button>
-                <button type="button" onclick="checkPasswords()">Kiểm tra</button>
+    <div class="main">
+        <div class="header">
+            <div class="header-above">
+                <div class="header-above-logo"><a href="index.html"><img src="./img/logo.png" alt=""></a></div>
+                <div class="header-above-menu">
+                    <ul class="menu-left">
+                        <li><a href=""><b>Du Lịch </b><i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="header-above-menu-submenu"></ul>
+                        <li><a href=""><b>Khuyến mãi</b> <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href=""><b>Tin Tức</b> <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href=""><b>Liên Hệ</b> <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href=""><b>VietTravelPlus</b></a> </li>
+                    </ul>
+                    <ul class="menu-right">
+                        <li class="search">
+                            <form action="/search" method="get">
+                                <input class="oTim" type="text" placeholder="Bắt đầu tìm kiếm..." name="">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </li>
+                        <li class="logOn"><a href="./DangNhap.html" target="_parent"><i
+                                    class="fa-regular fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </div>
+        <div class="HoiVien">
+            <h2>Đăng Ký Hội Viên</h2>
+            <p>Để hoàn tất đăng ký Hội viên VietravelPlus, quý khách vui lòng điền đầy đủ thông tin vào mẫu dưới đây và
+                nhấn
+                vào nút đăng ký. Xin chân thành cảm ơn quý khách hàng.</p>
+            <form action="">
+                <label for="HoTen">Họ Tên <span class="HoTen">(*)</span>:</label>
+                <input type="text1" minlength="1" maxlength="30" required>
 
-            <div id="password-match-message"></div>
+                <label for="SDT">Di Động <span class="HoTen">(*)</span></label>
+                <input type="tel" pattern="[0-9]{10}" required>
 
 
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="terms-checkbox" name="terms-checkbox"
-                    required>
-                <label class="form-check-label" for="terms-checkbox">
-                    Tôi đồng ý với các <a href="#">điều khoản</a>.
-                </label> 
-            </div> 
-            <div class="DK">
-                <button type="submit" class="btn btn-primary" class="DK">Đăng ký</button>
-            </div>
-            
-        </form>
+                <label for="NgaySinh">Ngày Sinh:</label>
+                <input type="date" class="date">
+
+                <label for="GioiTinh">Giới Tính</label>
+                <select name="GT">
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                    <option value="Khác">Khác</option>
+                </select>
+
+
+                <label for="CMND">CMND</label>
+                <input type="text1">
+
+                <label for="NgayCap">Ngày Cấp</label>
+                <input type="date">
+
+
+                <label for="Passport">Passport</label>
+                <input type="text1">
+                <label for="Email">Email</label>
+                <input type="text1">
+
+
+                <label for="NgayCapPassport">Ngày Cấp</label>
+                <input type="date">
+                <label for="NgayHetHan">Ngày Hết Hạn</label>
+                <input type="date">
+
+
+                <label for="DiaChi">Địa Chỉ</label>
+                <input type="text1" class="dai">
+
+                <label for="DiaChi">Mã Giới Thiệu</label>
+                <input type="text1" class="dai">
+
+
+
+                <div class="password-input-container" style="width: 360px;">
+                    <label for="password">Mật khẩu: <span class="MatKhau">(*)</span> </label>
+                    <input type="password" id="password" name="password" required>
+                    <!-- <button type="button" onclick="togglePassword()">
+                        <i class="fas fa-eye-slash" id="password-icon"></i>
+                    </button> -->
+                </div>
+
+                <div class="confirm-password-input-container">
+                    <label for="confirm-password">Nhập lại mật khẩu: <span class="NhapLai">(*)</span></label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <button type="button" onclick="resetConfirmPassword()">Nhập lại</button>
+                    <button type="button" onclick="checkPasswords()">Kiểm tra</button>
+                </div>
+
+                <div id="password-match-message"></div>
+
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="terms-checkbox" name="terms-checkbox"
+                        required>
+                    <label class="form-check-label" for="terms-checkbox">
+                        Tôi đồng ý với các <a href="#DieuKhoan">điều khoản bên dưới</a>.
+                    </label>
+                </div>
+                <div class="DK">
+                    <button type="submit" class="btn btn-primary" class="DK">Đăng ký</button>
+                </div>
+
+            </form>
+        </div>
+        <div id="DieuKhoan">
+            <hr width="100%">
+            <h4>ĐIỀU KHOẢN ĐĂNG KÝ HỘI VIÊN</h4>
+            <p>- Hội viên đăng ký chương trình cung cấp đúng các thông tin về số điện thoại, địa chỉ liên hệ, địa chỉ
+                email của Hội viên. Khi có thay đổi, Hội viên có thể tự cập nhật vào tài khoản tại VietravelPlus.com
+                hoặc liên hệ thông báo trực tiếp với nhân viên Vietravel và yêu cầu cập nhật.</p>
+            <p>- Hội viên tham gia chương trình được cộng điểm Vàng và điểm Thưởng sau khi sử dụng dịch vụ tại Vietravel
+                theo hệ số cộng điểm và theo các quy định về điểm thưởng khác được công bố tại từng thời điểm.</p>
+            <p>- Vietravel có quyền thay đổi các điều kiện và điều khoản của chương trình Khách hàng thân thiết bất kỳ
+                thời điểm nào có (hoặc không) báo trước và sẽ công bố chính thức trên VietravelPlus.com.</p>
+            <p>- Vietravel có quyền sửa đổi cách thức của chương trình hoặc những quyền lợi có được từ chương trình tại
+                bất kỳ thời điểm nào, có (hoặc không) báo trước và sẽ công bố chính thức trên VietravelPlus.com.</p>
+            <p>- Vietravel có quyền tạm ngừng hoặc chấm dứt toàn bộ chương trình Khách hàng thân thiết tại bất kỳ thời
+                điểm nào, có (hoặc không) báo trước</p>
+            <p>- Vietravel được miễn trừ chịu trách nhiệm nếu Hội viên không nhận được các ưu đãi và lợi ích từ chương
+                trình do số điện thoại, email Hội viên có thay đổi mà không cập nhật vào hồ sơ hội viên hoặc do gửi ấn
+                phẩm, thư tín qua đường bưu điện đến Hội viên bị thất lạc</p>
+            <p>- Mọi khiếu nại, yêu cầu bồi thường của Hội viên liên quan đến chương trình sẽ do Vietravel giải quyết.
+                Sự giải quyết của Vietravel có giá trị áp dụng sau cùng.</p>
+            <p>- Vietravel được phép sử dụng những thông tin của Hội viên trong các trường hợp: phục vụ cho việc nghiên
+                cứu thị trường, lên kế hoạch kinh doanh nhằm phục vụ Hội viên tốt hơn của Vietravel hoặc đối tác chương
+                trình, gửi phần thưởng hay các ấn phẩm đến Hội viên mà không cần sự đồng ý của Hội viên hoặc các trường
+                hợp khác được Hội viên cho phép</p>
+            <p>- Hội viên được khuyến khích đọc kỹ và được xem như chấp nhận nội dung chương trình Khách hàng thân thiết
+                VietravelPlus trước khi đăng ký trở thành Hội viên</p>
+            <hr width="100%">
+        </div>
     </div>
-
 </body>
 
 </html>

@@ -1,41 +1,131 @@
+.main {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-above {
+  background-color: aliceblue;
+  width: 100%;
+  height: 80px;
+  top: 0;
+}
+
+.menu-left {
+  left: 0;
+}
+
+.menu-right {
+  margin-left: 650px;
+  margin-top: -60px;
+  right: 0;
+}
+
+.header-above-menu {
+  margin-left: 200px;
+  margin-top: -80px;
+  /* position: relative; */
+}
+
+.header-above-menu a {
+  text-decoration: none;
+  color: #2d4271;
+}
+
+.header-above-menu ul {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+}
+
+.header-above-menu li {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  /* background-color: beige;
+  border: 1px solid black; */
+}
+
+.header-above-menu .search {
+  line-height: 50px;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.logOn {
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.oTim {
+  padding: 8px;
+  border: 2px solid #ffc107;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.header-below img {
+  width: 100%;
+  height: 400px;
+}
+
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Segoe UI", sans-serif;
-  }
-  
-  .HoiVien {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.HoiVien {
     width: 40%;
     margin: 0 auto;
     padding-top: 50px;
 
   }
-  
-  h2 {
+
+h2 {
     color: #2d4271;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
   }
-  
-  p {
+
+p {
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
   }
-  
-  form {
+
+form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     
   }
-  
-  form label {
+
+form label {
     font-size: 16px;
     margin-right: 10px;
   }
-  form input[type="text"],
+  form input[type="text1"],
   form input[type="tel"],
   form input[type="date"],
   form select,
@@ -48,33 +138,33 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 5px #2d4271;
   }
+
   
-  
-  form input[type="text"].dai,
-  form input[type="text"].date {
+  form input[type="text1"].dai,
+  form input[type="text1"].date {
     width: 100%;
   } 
-  
-  form select {
+
+form select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-position: right;
     background-size: 20px;
   }
-  
-  form input[type="checkbox"] {
+
+form input[type="checkbox"] {
     margin-right: 10px;
   }
-  
-  .password-input-container,
+
+.password-input-container,
   .confirm-password-input-container {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
   
-  .password-input-container button,
+/* .password-input-container button, */
   .confirm-password-input-container button,
   .DK button{
     background-color: #2d4271;
@@ -87,19 +177,26 @@ body {
     margin-left: 10px;
   }
   
-  .password-input-container button:hover,
-  .confirm-password-input-container button:hover {
+.password-input-container button:hover,
+  .confirm-password-input-container button:hover,
+  .DK button:hover {
     opacity: 0.8;
   }
-  
-  #password-icon {
+
+#password-icon {
     margin-left: -30px;
     cursor: pointer;
   }
   
-  .MatKhau,
+.MatKhau,
   .NhapLai,
   .HoTen {
     font-size: 18px;
     color: red;
   }
+#DieuKhoan {
+  padding: 0px 15px;
+ }
+#DieuKhoan h4 {
+  color: #1583E0;
+ }
