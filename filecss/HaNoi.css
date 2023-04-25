@@ -150,10 +150,14 @@ button[type="submit"] {
     line-height: 1.5; 
     /* Tạo khoảng cách giữa các dòng */
 }
-.Tour {
+/* .Tour {
     width: 100%;
     height: 600px;
-    /* background-color: #e2f3ff; */
+    background-color: #e2f3ff;
+} */
+.first,
+.second {
+    display: flex;
 }
 .Tour1,
 .Tour2,
@@ -168,6 +172,8 @@ button[type="submit"] {
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.1s ease-out;
+    margin-left: 2%;
+    margin-top: 2%;
 
 }
 .Tour1 img,
@@ -248,22 +254,4 @@ button[type="submit"] {
 .Tour6 div{
     padding: 6px 6px;
 }
-.Tour2 {
-    margin-left: 32%;
-    margin-top: -60%;
-}
-.Tour3 {
-    margin-left: 64%;
-    margin-top: -59%;
-}
-.Tour4 {
-    margin-top: 3%;
-}
-.Tour5 {
-    margin-left: 32%;
-    margin-top: -59%;
-}
-.Tour6 {
-    margin-left: 64%;
-    margin-top: -59%;
-}
+
