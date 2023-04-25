@@ -56,3 +56,26 @@ window.addEventListener("load", function () {
     }
 }
 );
+function menudulich(){
+    var event = document.querySelector(".main-dropdown");
+    event.style.display = "block";
+    
+};
+function menutintuc(){
+   
+    var event2 = document.querySelector(".ubertor-news");
+    event2.style.display = "block";
+};
+function menukhuyenmai(){
+    var event3 = document.querySelector(".main-dropdown2");
+    event3.style.display = "block";
+    
+};
+function closedmenu(){
+    var event = document.querySelector(".main-dropdown");
+    event.style.display = "none";
+    var event2 = document.querySelector(".ubertor-news");
+    event2.style.display = "none";
+    var event3 = document.querySelector(".main-dropdown2");
+    event3.style.display = "none";
+};
