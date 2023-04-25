@@ -141,6 +141,11 @@ button[type="submit"] {
     cursor: pointer;
     color: white;
 }
+
+
+
+/* footer*/
+
 .In {
     display: flex;
     left: 0;
@@ -153,42 +158,35 @@ button[type="submit"] {
     list-style-type: none;
     color:#2d4271;
 }
+
+
+.footer-top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+   
+}
+.In{
+width: 25%;
+}
+
 .DongTour {
-    margin-left: 27%;
-    margin-top: -27%;
-    top: 0;
+   width: 25%;
+    
 }
 .LienHe {
-    margin-left: 45%;
-    margin-top: -15%;
-    top: 0;
+    width: 25%;
+    
 }
 .QR {
-    margin-left: 70%;
-    margin-top: -15%;
-    right: 0;
-}
-.ChungNhan {
-    margin-left: 0%;
-    margin-top: 10%;
-    right: 0;
-}
-.ThanhToan {
-    margin-left: 70%;
-    margin-top: -15%;
-    right: 0;
+   
+    width: 25%;
 }
 .ThanhToan img {
    margin: 10px;
 }
-.ThongTin {
-    margin-left: 27%;
-    margin-top:-15%;
-}
-.MXH {
-    margin-left: 45%;
-    margin-top: -20%;
-}
+
 .MXH i {
     font-size: 30px;
     margin: 10px;
@@ -200,10 +198,88 @@ button[type="submit"] {
     border: 1px solid #fe2214;
     background-color: #fe2214;
 }
+
+
+
+
 footer {
     background-color:rgba(128, 128, 128, 0.05);
     width: 100%;
-    height: 50%;
-    bottom: 0;
+    height: 600px;
+    margin-top: 50px;
 }
+
+.in-uberator{
+    position: absolute;
+    display: flex;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+ 
+}
+.in-uberators{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.tieude{
+width: 85%;
+height: 20%;
+margin-left: auto;
+ margin-right: auto;
+
+}
+.tieude>h2{
+    color: #2d4271;
+    font-size: 30px;
+}
+.in-uberator>li{
+    font-size: 20px;
+}
+.QR-download{
+ display: flex;
+}
+
+.icon-child{
+    width: 100%;
+    height:50px;
+    margin-top: 50%;
+}
+.icon-child>i{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+/*footer bottom */
+
+.footer-bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.itembot{
+    width: 25%;
+}
+.uberator-thanhtoan{
+    display: flex;
+   
+
+}
+.uberator-thanhtoan>li{
+   padding: 1%;
+}
+.dm>li{
+height: 50px;
+}
+.metnha{
+    position: absolute;
+    top :100px;
+}
+.dm{
+    display: flex;
+    
+}
+
 
