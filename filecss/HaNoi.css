@@ -262,18 +262,22 @@ button[type="submit"] {
 }
 .Phan1 {
     width: 100%;
-    height: 100%;
+    height: 100px;
+    /* background-color: #ffc107 */
 }
 .Phan2 {
+    /* background-color: #9b1e1e; */
     width: 100%;
     height: 150px;
 }
 .Phan2>p {
     width: 100%;
-    height: 20px;
+    height: 30px;
+    /* background-color: #fff; */
 }
 .Phan3 {
     width: 100%;
     height: 100px;
+    /* background-color: #df7b7e; */
 }
 
