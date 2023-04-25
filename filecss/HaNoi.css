@@ -87,38 +87,41 @@ button[type="submit"] {
     margin-left: 8px;
     font-size: 16px;
 }
- .content {
+
+.content {
     width: 100%;
     height: 100%;
     /* background-color:antiquewhite; */
- }
-  .left {
+}
+
+.left {
     width: 20%;
     height: 100%;
     background-color: #F8F9FA;
     margin-top: 5%;
     /* background-color: #ffc107; */
- }
- input[type="date"] {
+}
+
+input[type="date"] {
     width: 100%;
     height: 40px;
     border: 2px solid #2d4271;
     border-radius: 3px;
     padding: 0;
- }
- select[name = "LoaiTour"],
- select[name = "Điểm Đến"],
- input[type="date"]
- {
+}
+
+select[name="LoaiTour"],
+select[name="Điểm Đến"],
+input[type="date"] {
     width: 100%;
     height: 40px;
     border: 2px solid #2d4271;
     border-radius: 3px;
- }
+}
 
- .NgayDi button, 
- .SoNguoi button,
- .DongTour button{
+.NgayDi button,
+.SoNguoi button,
+.DongTour button {
     width: 100px;
     height: 50px;
     line-height: 50px;
@@ -130,13 +133,15 @@ button[type="submit"] {
     margin-top: 2%;
     padding: 0;
     cursor: pointer;
- }
- .NgayDi button:hover,
- .SoNguoi button:hover,
- .DongTour button:hover {
+}
+
+.NgayDi button:hover,
+.SoNguoi button:hover,
+.DongTour button:hover {
     background-color: #4D4AEF;
     color: #FFF;
 }
+
 .right {
     width: 75%;
     height: 100%;
@@ -144,12 +149,14 @@ button[type="submit"] {
     margin-top: -60%;
     /* background-color: #4D4AEF; */
 }
+
 .right p {
     color: #2d4271;
     font-size: 15px;
-    line-height: 1.5; 
+    line-height: 1.5;
     /* Tạo khoảng cách giữa các dòng */
 }
+
 /* .Tour {
     width: 100%;
     height: 600px;
@@ -159,12 +166,13 @@ button[type="submit"] {
 .second {
     display: flex;
 }
+
 .Tour1,
 .Tour2,
 .Tour3,
 .Tour4,
 .Tour5,
-.Tour6{
+.Tour6 {
     width: 30%;
     height: 600px;
     /* background-color: yellow; */
@@ -176,15 +184,17 @@ button[type="submit"] {
     margin-top: 2%;
 
 }
+
 .Tour1 img,
 .Tour2 img,
 .Tour3 img,
 .Tour4 img,
 .Tour5 img,
-.Tour6 img{
+.Tour6 img {
     width: 100%;
     height: 250px;
 }
+
 /* .Tour1 button,
 .Tour2 button,
 .Tour3 button,
@@ -201,83 +211,93 @@ button[type="submit"] {
 .Tour3:hover,
 .Tour4:hover,
 .Tour5:hover,
-.Tour6:hover{
+.Tour6:hover {
     transform: translateY(-10px);
 }
+
 .Tour1 a:hover b,
 .Tour2 a:hover b,
 .Tour3 a:hover b,
 .Tour4 a:hover b,
 .Tour5 a:hover b,
-.Tour6 a:hover b{
+.Tour6 a:hover b {
     color: #007bff;
 }
+
 .Tour1 a,
 .Tour2 a,
 .Tour3 a,
 .Tour4 a,
 .Tour5 a,
-.Tour6 a{
+.Tour6 a {
     text-decoration: none;
 }
+
 .Gia {
     margin-left: 2%;
-    background-color: #FD5056; 
+    background-color: #FD5056;
 
 }
+
 .Gia a {
     color: #FFF;
 }
+
 .Gia:hover {
     background-color: #df7b7e;
 }
+
 .ChiTiet {
     margin-left: 40%;
     background-color: #fff;
 }
+
 .ChiTiet a {
-    color: #4D4AEF; 
+    color: #4D4AEF;
 }
+
 .ChiTiet:hover {
     background-color: #4D4AEF;
     cursor: pointer;
 
 }
-.ChiTiet:hover a{
+
+.ChiTiet:hover a {
     color: #fff;
 }
+
 .Tour1 div,
 .Tour2 div,
 .Tour3 div,
 .Tour4 div,
 .Tour5 div,
-.Tour6 div{
+.Tour6 div {
     padding: 6px 6px;
 }
+
 .Phan3 button {
     width: 25%;
     height: 50px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
+
 .Phan1 {
     width: 100%;
     height: 100px;
-    /* background-color: #ffc107 */
 }
+
 .Phan2 {
-    /* background-color: #9b1e1e; */
     width: 100%;
     height: 150px;
 }
+
 .Phan2>p {
     width: 100%;
     height: 30px;
-    /* background-color: #fff; */
 }
+
 .Phan3 {
     width: 100%;
     height: 100px;
-    /* background-color: #df7b7e; */
 }
-
