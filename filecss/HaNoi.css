@@ -1,0 +1,269 @@
+.main {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.header-above {
+    background-color: aliceblue;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    position: relative;
+}
+
+.menu-left {
+    left: 0;
+}
+
+.menu-right {
+    margin-left: 650px;
+    margin-top: -60px;
+    right: 0;
+}
+
+.header-above-menu {
+    margin-left: 200px;
+    margin-top: -80px;
+}
+
+.header-above-menu a {
+    text-decoration: none;
+    color: #2d4271;
+}
+
+.header-above-menu ul {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.header-above-menu li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    /* background-color: beige;
+    border: 1px solid black; */
+}
+
+.header-above-menu .search {
+    line-height: 50px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.logOn {
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid #ffc107;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+ .content {
+    width: 100%;
+    height: 100%;
+    /* background-color:antiquewhite; */
+ }
+  .left {
+    width: 20%;
+    height: 100%;
+    background-color: #F8F9FA;
+    margin-top: 5%;
+    /* background-color: #ffc107; */
+ }
+ input[type="date"] {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #2d4271;
+    border-radius: 3px;
+    padding: 0;
+ }
+ select[name = "LoaiTour"],
+ select[name = "Điểm Đến"],
+ input[type="date"]
+ {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #2d4271;
+    border-radius: 3px;
+ }
+
+ .NgayDi button, 
+ .SoNguoi button,
+ .DongTour button{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFF;
+    color: #2d4271;
+    text-align: center;
+    border: 3px solid #e2f3ff;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 0;
+    cursor: pointer;
+ }
+ .NgayDi button:hover,
+ .SoNguoi button:hover,
+ .DongTour button:hover {
+    background-color: #4D4AEF;
+    color: #FFF;
+}
+.right {
+    width: 75%;
+    height: 100%;
+    margin-left: 22%;
+    margin-top: -60%;
+    /* background-color: #4D4AEF; */
+}
+.right p {
+    color: #2d4271;
+    font-size: 15px;
+    line-height: 1.5; 
+    /* Tạo khoảng cách giữa các dòng */
+}
+.Tour {
+    width: 100%;
+    height: 600px;
+    /* background-color: #e2f3ff; */
+}
+.Tour1,
+.Tour2,
+.Tour3,
+.Tour4,
+.Tour5,
+.Tour6{
+    width: 30%;
+    height: 600px;
+    /* background-color: yellow; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease-out;
+
+}
+.Tour1 img,
+.Tour2 img,
+.Tour3 img,
+.Tour4 img,
+.Tour5 img,
+.Tour6 img{
+    width: 100%;
+    height: 250px;
+}
+.Tour1 button,
+.Tour2 button,
+.Tour3 button,
+.Tour4 button,
+.Tour5 button,
+.Tour6 button {
+    width: 80px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.Tour1:hover,
+.Tour2:hover,
+.Tour3:hover,
+.Tour4:hover,
+.Tour5:hover,
+.Tour6:hover{
+    transform: translateY(-10px);
+}
+.Tour1 a:hover b,
+.Tour2 a:hover b,
+.Tour3 a:hover b,
+.Tour4 a:hover b,
+.Tour5 a:hover b,
+.Tour6 a:hover b{
+    color: #007bff;
+}
+.Tour1 a,
+.Tour2 a,
+.Tour3 a,
+.Tour4 a,
+.Tour5 a,
+.Tour6 a{
+    text-decoration: none;
+}
+.Gia {
+    margin-left: 2%;
+    background-color: #FD5056; 
+
+}
+.Gia a {
+    color: #FFF;
+}
+.Gia:hover {
+    background-color: #df7b7e;
+}
+.ChiTiet {
+    margin-left: 40%;
+    background-color: #fff;
+}
+.ChiTiet a {
+    color: #4D4AEF; 
+}
+.ChiTiet:hover {
+    background-color: #4D4AEF;
+    cursor: pointer;
+
+}
+.ChiTiet:hover a{
+    color: #fff;
+}
+.Tour1 div,
+.Tour2 div,
+.Tour3 div,
+.Tour4 div,
+.Tour5 div,
+.Tour6 div{
+    padding: 6px 6px;
+}
+.Tour2 {
+    margin-left: 32%;
+    margin-top: -60%;
+}
+.Tour3 {
+    margin-left: 64%;
+    margin-top: -59%;
+}
+.Tour4 {
+    margin-top: 3%;
+}
+.Tour5 {
+    margin-left: 32%;
+    margin-top: -59%;
+}
+.Tour6 {
+    margin-left: 64%;
+    margin-top: -59%;
+}
