@@ -307,12 +307,109 @@ button[type="submit"] {
     position:absolute;
     background-color:#ebecee;
     height: 420px;
-    width: 1300px;
-   left: calc(50% - 650px);
+    width: 68%;
+    left: calc(50% - 34%);
     bottom: calc(50% - 485px);
+    border-radius: 10px;
+   
 }
-
+.uberator-hear-container{
+    padding: 0;
+    margin: 0;
+}
+.hear-container{
+    height: 110px;
+    width: 100%;
+  
+}
+.menu-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,66,113,.8); 
+     border-radius: 10px 10px 0 0;
+}
 .uberator-hear-container>li{
     display: inline-block;
-    padding: 20px;
+    padding: 16px 24px;
+}
+.uberator-hear-container>li>p{
+    text-align: center;
+    color: azure;
+}
+.uberrator-seach-tour>li{
+    display: inline-block;
+}
+.uberrator-seach-tour>li>button{
+    padding: 8px 16px;
+    border:solid #ebecee;;
+}
+.content-container{
+    height: 50px;
+}
+.footer-tour{
+    position: relative;
+    width: 100%;
+    background-color: aqua;
+    height: 250px;
+    border-radius: 0  0 10px 10px;
+}
+.tour-box1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: calc(25% - 25%);
+    bottom: calc(25% - 125px);
+    
+}
+
+.tour-box-item{
+    display: inline-block;
+    margin-left: 2%;
+}
+.tb1,.tb3{
+    width: 15%;
+    height: 75px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 5px solid #ffc107;
+    
+}
+.tb2{
+    width: 5%;
+    height: 37%;
+    margin-right: 2%;
+    position: relative;
+}
+.tb2>i{
+    position: absolute;
+    font-size: 50px;
+    left: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+}
+.kt1{
+    width: 20%;
+    height: 75px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 5px solid #ffc107;
+}
+.kt2{
+    width: 15%;
+    height: 75px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 5px solid #ffc107;
+}
+.kt3{
+width: 9%;
+height: 37%;
+border-radius: 5px;
+background-color: #2d4271;
+position: relative;
+}
+.kt3>i{
+    position: absolute;
+    font-size: 50px;
+    left: calc(50% - 25px);
+    bottom: calc(50% - 25px);
 }
