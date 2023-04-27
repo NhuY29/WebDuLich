@@ -103,14 +103,14 @@ padding: 10px;
     position: absolute;
     height: 100%;
     top: -2px;
-    left: 20%;
-    width: 40%;
+    left: 10%;
+    width: 60%;
 }
 
 .menu-right-div{
     position: absolute;
     height: 100%;
-    width: 40%;
+    width: 20%;
     top: 0px;
     right: 5%;
 }
