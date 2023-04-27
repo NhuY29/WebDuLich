@@ -7,121 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./filecss/DiemDen.css">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
-    <link rel="stylesheet" href="./filejava/start.js">
-    <title>Du Lịch Huế</title>
+    <title>Du Lịch Phú Quốc</title>
 </head>
 
 <body>
     <div class="main">
-         
         <div class="header">
             <div class="header-above">
-                <div class="imglogo-header">
-                    <img src="./img/logo.png" alt="" class="photo">
-                </div>
-                 
-                    
-                    <div class="menu-left-div">
-                        <ul class="menu-left ">
-                        <li class="list-menu"><b>Du Lịch </b><i class="fa-solid fa-angle-down" onclick="menudulich()" ></i>
-                         
-                        </li>
-                        <li class="list-menu"><a href=""><b>Khuyến mãi</b> <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li class="list-menu"><b>Tin Tức</b> <i class="fa-solid fa-angle-down" onclick="menutintuc()"></i>
-                            <ul class="ubertor-news menunone">
-                                <li class="list-news"><a href="">Tin mới  </a></li>
-                                <li class="list-news"><a href="">Tin tức du lịch</a></li>
-                                <li class="list-news"><a href="">  Cẩm nang du lịch</a></li>
-                                <li class="list-news"><a href="">Kinh Nghiệm du lịch</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-menu"><b>Liên Hệ</b> <i class="fa-solid fa-angle-down" onclick="menukhuyenmai()"></i></li>
-                        <li class="list-menu"><a href=""><b>VietTravelPlus</b></a> </li>
+                <div class="header-above-logo"><img src="./img/logo.png" alt=""></div>
+                <div class="header-above-menu">
+                    <ul class="menu-left">
+                        <li><a href=""><b>Du Lịch </b><i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href=""><b>Khuyến mãi</b> <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href=""><b>Tin Tức</b> <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href=""><b>Liên Hệ</b> <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href=""><b>VietTravelPlus</b></a> </li>
                     </ul>
-                    </div>
-                    <div class="menu-right-div">
-                          <ul class="menu-right">
-                        <li class="search list-menu">
+                    <ul class="menu-right">
+                        <li class="search">
                             <form action="/search" method="get">
                                 <input type="text" placeholder="Bắt đầu tìm kiếm..." name="">
                                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                             </form>
                         </li>
-                        <li class="logOn list-menu"><a href="./DangNhap.html" target="_parent"><i
+                        <li class="logOn"><a href="./DangNhap.html" target="_parent"><i
                                     class="fa-regular fa-user"></i></a></li>
                     </ul>
-                    </div>
-                  
-                
-            </div>
-        </div>
-        <div class="main-dropdown">
-            <div class="menu-dropdown goout">
-                <div class="menu-dropdown-item">
-                    <ul class="upberator-dropdown">
-                          <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN BẮC</a></B></li>
-                          <li class="list-dropdown"><a href="">Du lịch Hà Nội</a></li>
-                          <li class="list-dropdown"><a href="">Du lịch Hải Phòng</a></li>
-                          <li class="list-dropdown"><a href="">  Du lịch Hạ Long</a></li>
-                          <li class="list-dropdown"><a href="">Du lịch Bắc Ninh</a></li>
-                          <li class="list-dropdown"><a href="">Du lịch Phú Thọ</a></li>
-                          <li class="list-dropdown"><B><a href=""> Xem tất cả</a></B> </li>
-                    </ul>
-                </div>
-                <div class="menu-dropdown-item">
-                    <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN TRUNG </a></B></li>
-                        <li class="list-dropdown"><a href="">Du lịch Huế</a></li>
-                        <li class="list-dropdown"><a href="">Du lịch Quảng Trị</a></li>
-                        <li class="list-dropdown"><a href="">  Du lịch Quảng Bình </a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Đà Nẵng </a></li>
-                        <li class="list-dropdown"><a href="">  Du lịch Quảng Nam</a></li>
-                        <li class="list-dropdown"><B><a href=""> Xem tất cả</a></B> </li>
-                    </ul>
-                </div>
-                <div class="menu-dropdown-item">
-                    <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN TÂY NAM BỘ </a></B></li>
-                        <li class="list-dropdown"><a href="">  Du lịch Phú Quốc </a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Tiền Giang</a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Cần Thơ  </a></li>
-                        <li class="list-dropdown"><a href="">Du lịch Vĩnh Long</a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Sóc Trăng</a></li>
-                        <li class="list-dropdown"><B><a href=""> Xem tất cả</a></B> </li>
-                    </ul>
-                </div>
-                <div class="menu-dropdown-item">
-                    <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN ĐÔNG NAM BỘ </a></B></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Đồng Nai</a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Bà Rịa - Vũng Tàu</a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Côn Đảo </a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch TP. Hồ Chí Minh</a></li>
-                        <li class="list-dropdown"><a href=""> Du lịch Tây Ninh</a></li>
-                        <li class="list-dropdown"><B><a href=""> Xem tất cả</a></B> </li>
-        
-                    </ul>
                 </div>
             </div>
         </div>
-        <div class="main-dropdown2">
-            <div class="menu-dropdown2">
-                <ul class="uperator-dropdown2">
-                    <li class="list-dropdown2"> <a href="">Vietravel & Sacombank tung ưu đãi “Tiền về đầy ví - Du hí thả ga” </a>  </li>
-                    <li class="list-dropdown2"> <a href="">  Vietravel & JCB tung ưu đãi “Thanh toán liền tay - Nhận ngay deal xịn”</a></li>
-                    <li class="list-dropdown2"> <a href="">  Vietravel triển khai chương trình ưu đãi cùng VNPAY “Trúng deal to – Du lịch chẳng lo”</a></li>
-                    <li class="list-dropdown2"> <a href="">  Vietravel & Sacombank: Quẹt thẻ liền tay - Giảm ngay 1 triệu đồng</a></li>
-                </ul>
-            </div>
-        </div>
-       
         <div class="content">
-            <div class="left testhu">
+            <div class="left">
                 <div>
                     <h2 style="color: #2D4271;">Lọc Kết Quả</h2>
                 </div>
                 <div>
-                    <h3 style="background-color: #4D4AEF; color: #FFF; width: 100%; height: 40px;line-height: 40px;">Huế</h3>
+                    <h3 style="background-color: #4D4AEF; color: #FFF; width: 100%; height: 40px;line-height: 40px;">Phú Quốc</h3>
                 </div>
 
                 <div>
@@ -136,73 +57,7 @@
 
                 <div>
                     <h4 style="color: #2D4271;">Điểm Đi</h4> <br>
-                    <select name="Điểm Đến">
-                        <option value="0">--Chọn điểm đến--</option>
-                        <option value="99">An Giang</option>
-                        <option value="53">Bà Rịa - Vũng Tàu</option>
-                        <option value="130">Bắc Kạn</option>
-                        <option value="206">Bạc Liêu</option>
-                        <option value="33">Bắc Ninh</option>
-                        <option value="188">Bến Tre</option>
-                        <option value="94">Bình Định</option>
-                        <option value="367">Bình Dương</option>
-                        <option value="369">Bình Phước</option>
-                        <option value="194">Bình Thuận</option>
-                        <option value="47">Buôn Ma Thuột</option>
-                        <option value="137">Cà Mau</option>
-                        <option value="56">Cần Thơ</option>
-                        <option value="129">Cao Bằng</option>
-                        <option value="192">Côn Đảo</option>
-                        <option value="45">Đà Lạt</option>
-                        <option value="42">Đà Nẵng</option>
-                        <option value="341">Đắk Nông</option>
-                        <option value="187">Điện Biên</option>
-                        <option value="52">Đồng Nai</option>
-                        <option value="199">Đồng Tháp</option>
-                        <option value="108">Nghệ An</option>
-                        <option value="135">Hà Giang</option>
-                        <option value="32">Hạ Long</option>
-                        <option value="361">Hà Nam</option>
-                        <option value="29">Hà Nội</option>
-                        <option value="59">HÀ TIÊN</option>
-                        <option value="195">Hà Tĩnh</option>
-                        <option value="30">Hải Phòng</option>
-                        <option value="363">Hòa Bình</option>
-                        <option value="380">HÒN SƠN</option>
-                        <option selected="" value="39">Huế</option>
-                        <option value="193">Kiên Giang</option>
-                        <option value="48">Kon Tum</option>
-                        <option value="37">Lạng Sơn</option>
-                        <option value="38">Lào Cai</option>
-                        <option value="214">Long An</option>
-                        <option value="232">Nam Định</option>
-                        <option value="44">Nha Trang</option>
-                        <option value="35">Ninh Bình</option>
-                        <option value="106">Ninh Thuận</option>
-                        <option value="49">Pleiku</option>
-                        <option value="51">Phan Thiết</option>
-                        <option value="54">Phú Quốc</option>
-                        <option value="34">Phú Thọ</option>
-                        <option value="121">Phú Yên</option>
-                        <option value="41">Quảng Bình</option>
-                        <option value="198">Quảng Ngãi</option>
-                        <option value="43">Quảng Nam</option>
-                        <option value="196">Quảng Ninh</option>
-                        <option value="40">Quảng Trị</option>
-                        <option value="141">Quy Nhơn</option>
-                        <option value="58">Sóc Trăng</option>
-                        <option value="134">Sơn La</option>
-                        <option value="203">Tây Ninh</option>
-                        <option value="55">Tiền Giang</option>
-                        <option value="197">TP. Hồ Chí Minh</option>
-                        <option value="213">Trà Vinh</option>
-                        <option value="377">Tuyên Quang</option>
-                        <option value="233">Thái Bình</option>
-                        <option value="133">Thanh Hóa</option>
-                        <option value="57">Vĩnh Long</option>
-                        <option value="202">Vĩnh Phúc</option>
-                        <option value="231">Yên Bái</option>
-                    </select>
+                    <select name="Điểm Đến"><option selected="" value="0">--Tất cả--</option><option value="7">Bình Dương</option><option value="18">Buôn Ma Thuột</option><option value="20">Cà Mau</option><option value="5">Cần Thơ</option><option value="24">Đà Lạt</option><option value="4">Đà Nẵng</option><option value="3">Hà Nội</option><option value="6">Hải Phòng</option><option value="10">Huế</option><option value="14">Long Xuyên</option><option value="8">Nha Trang</option><option value="13">Phú Quốc</option><option value="15">Quảng Ngãi</option><option value="17">Quảng Ninh</option><option value="11">Quy Nhơn</option><option value="22">Rạch Giá</option><option value="29">Thanh Hóa</option><option value="1">TP. Hồ Chí Minh</option><option value="19">Vinh</option><option value="16">Vũng Tàu</option></select>
                 </div>
 
                 <div class="NgayDi">
@@ -260,26 +115,26 @@
 
             </div>
 
-           <div class="right testhu">
-                <h1 style="color: #2D4271; text-align: center;">Du lịch Huế</h1>
+            <div class="right">
+                <h1 style="color: #2D4271; text-align: center;">Du lịch Quảng Trị</h1>
                 <hr>
-                <p>Huế thương sơn thủy hữu tình, nơi tọa lạc Đại Nội, Ngọ Môn, Điện Thái Hòa, Tử Cấm Thành, Lăng Tự Đức, Thế Miếu, Hiển Lâm Các, Cửu Đỉnh xưa của 13 vị vua triều Nguyễn. Chùa Thiên Mụ lưu giữ cổ vật lịch sử, nghệ thuật quý giá. Chiều buông, ta ngồi thuyền rồng xuôi dòng sông Hương thưởng thức ca hò Huế, thả hoa đăng cầu phúc lộc.</p>
-                <p>Đăng ký tour Huế cùng Vietravel, Quý khách có thể đến khám phá các điểm đến nổi bật sau: Đại Nội, Chùa Thiên Mụ, Huế, Nhà vườn An Hiên, Lăng Tự Đức, Lăng Khải Định, Đầm Lập An,</p>
-                <p>Để hiểu hơn về Huế Mời Quý khách tham khảo Kinh nghiệm du lịch Huế</p>
+                <p>Quảng Trị nổi tiếng với cụm Di tích Hiền Lương, Địa đạo Vịnh Mốc, Thành Cổ Quảng Trị. Bên cạnh đó Quảng Trị còn có nhiều danh lam thắng cảnh đẹp như Trằm Trà Lộc, suối nước nóng Klu, thác Ồ Ồ và nhiều bãi biển đẹp như Cửa Tùng, Cửa Việt, Vĩnh Thái, đảo Cồn Cỏ là nơi mang vẻ đẹp rất riêng với cát trắng tinh khôi, bằng phẳng, mịn màng, làn nước trong xanh mát lòng du khách.</p>
+                <p>Đăng ký tour Quảng Trị cùng Vietravel, Quý khách có thể đến khám phá các điểm đến nổi bật sau: Thánh địa La Vang,</p>
+                <p>Để hiểu hơn về Quảng Trị Mời Quý khách tham khảo Kinh nghiệm du lịch Quảng Trị</p>
 
                 <div class="first">
                     <div class="Tour1">
-                        <img src="./img/hue6.jpg" alt="">
+                        <img src="./img/QT1.jpg" alt="">
                         <div>
                             <div class="Phan1">
-                                <p style="font-size: 12px;">12/05/2023 - 5N4Đ - Giờ đi: 07:10</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Huế - La Vang - Động Phong Nha & Thiên Đường - KDL Bà Nà - Cầu Vàng - Sơn Trà - Hội An - Đà Nẵng</B></a>
+                                <p style="font-size: 12px;">12/09/2023 - 2N1Đ - Giờ đi: 10:10</p>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Sông Đakrông - Cầu treo Đakrông - Núi Talung - núi Klu - Đà Nẵng</B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3399-013-130523VN</p>
-                                <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">8,590,000₫</b></p>
+                                    NDSGN3398-060-040523VU-V</p>
+                                <p>Nơi Khởi Hành: <b>Đà Nẵng</b></p>
+                                <p><b style="color: #FD5056;">2,590,000₫</b></p>
                             </div>
 
                             <div class="Phan3">
@@ -293,17 +148,17 @@
 
 
                     <div class="Tour2">
-                        <img src="./img/Hue1.jpg" alt="">
+                        <img src="./img/QT2.jpg" alt="">
                         <div>
                             <div class="Phan1">
-                                <p style="font-size: 12px;">05/09/2023 - 3N2Đ - Giờ đi: 05:45/p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Đà Nẵng - Hội An - Bà Nà - Cầu Vàng - Huế - Trải nghiệm đi thuyền dạo Sông Hoài & Tặng show Ký Ức Hội An</B></a>
+                                <p style="font-size: 12px;">15/09/2023 - 3N2Đ - Giờ đi: 05:45</p>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Khe Sanh - Nghĩa trang liệt sĩ Trường Sơn - Địa đạo Vịnh Mốc - Thành cổ Quảng Trị</B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN322-004-050523VN-D</p>
+                                    NDSGN3398-061-050523VU-F-1</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">6,490,000₫</b></p>
+                                <p><b style="color: #FD5056;">4,490,000₫</b></p>
                             </div>
                             <div class="Phan3">
                                 <button class="Gia"><a href=""><i class="fa-solid fa-cart-shopping"></i>Đặt
@@ -316,17 +171,17 @@
 
 
                     <div class="Tour3">
-                        <img src="./img/hue2.jpg" alt="">
+                        <img src="./img/QT3.jpg" alt="">
                         <div>
                             <div class="Phan1">
                                 <p style="font-size: 12px;">2/08/2023 - 4N3Đ - Giờ đi: 05:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Bao Vinh Ngày Về </B></a>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Cầu Hiền Lương và sông Bến Hải - Cửa khẩu Lao Bảo </B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDHUE129-008-070523XE</p>
-                                <p>Nơi Khởi Hành: <b>Huế</b></p>
-                                <p><b style="color: #FD5056;">500,000₫</b></p>
+                                    NDSGN3318-013-060523VJ-VE</p>
+                                <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
+                                <p><b style="color: #FD5056;">7,590,000₫</b></p>
                             </div>
                             <div class="Phan3">
                                 <button class="Gia"><a href=""><i class="fa-solid fa-cart-shopping"></i>Đặt
@@ -341,17 +196,17 @@
 
                 <div class="second">
                     <div class="Tour4">
-                        <img src="./img/hue3.jpg" alt="" width="100%">
+                        <img src="./img/QT4.jpg" alt="" width="100%">
                         <div>
                             <div class="Phan1">
-                                <p style="font-size: 12px;">06/05/2023 - 4N3Đ - Giờ đi: 07:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Đà Nẵng – KDL Bà Nà – Sơn Trà – Hội An – La Vang - Động Phong Nha – Làng hương Thủy Xuân - Huế</B></a>
+                                <p style="font-size: 12px;">06/06/2023 - 2N3Đ - Giờ đi: 01:00</p>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Trằm Trà Lộc - Hướng Hóa - Sân bay Tà Cơn - Nhà tù Lao Bảo</B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3318-013-060523VJ-V</p>
+                                    NDSGN3399-013-130523VN-D</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minhg</b></p>
-                                <p><b style="color: #FD5056;">7,400,000₫</b></p>
+                                <p><b style="color: #FD5056;">9,400,000₫</b></p>
                             </div>
                             <div class="Phan3">
                                 <button class="Gia"><a href=""><i class="fa-solid fa-cart-shopping"></i>Đặt
@@ -362,17 +217,17 @@
                     </div>
 
                     <div class="Tour5">
-                        <img src="./img/hue4.jpg" alt="" width="100%">
+                        <img src="./img/QT5.jpg" alt="" width="100%">
                         <div>
                             <div class="Phan1">
-                                <p style="font-size: 12px;">09/06/2023 - 4N3Đ - Giờ đi: 04:10</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Đà Nẵng - Huế - Đầm Lập An - La Vang - Động Thiên Đường - KDL Bà Nà - Cầu Vàng - Hội An - Đà Nẵng (Khách sạn 4 sao)</B></a>
+                                <p style="font-size: 12px;">09/10/2023 - 4N3Đ - Giờ đi: 04:10</p>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Thác Chênh Vênh - Động Prai - Thác Tà Puồng – Động Tà Puồng</B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3391-020-090523VU-V</p>
+                                    NDSGN3398-063-090523VU-V</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">3,500,000₫</b></p>
+                                <p><b style="color: #FD5056;">4,500,000₫</b></p>
                             </div>
                             <div class="Phan3">
                                 <button class="Gia"><a href=""><i class="fa-solid fa-cart-shopping"></i>Đặt
@@ -384,17 +239,17 @@
 
 
                     <div class="Tour6">
-                        <img src="./img/hue5.jpg" alt="" width="100%">
+                        <img src="./img/QT6.jpg" alt="" width="100%">
                         <div>
                             <div class="Phan1">
                                 <p style="font-size: 12px;">07/07/2023 - 4N3Đ - Giờ đi: 07:10</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Đà Nẵng - Huế - Đại Nội - Đầm Lập An - KDL Bà Na - Cầu Vàng - Sơn Trà - Phố cổ Hội An - Đà Nẵng </B></a>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Đảo Cồn Cỏ - Mũi Trèo - Mũi Lay - Suối nước nóng Klu (Khách Sạn 5 Sao)</B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3351-017-140523VU-F</p>
+                                    NDSGN3398-064-110523VU-D-1</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">5,000,000₫</b></p>
+                                <p><b style="color: #FD5056;">15,000,000₫</b></p>
                             </div>
                             <div class="Phan3">
                                 <button class="Gia"><a href=""><i class="fa-solid fa-cart-shopping"></i>Đặt
