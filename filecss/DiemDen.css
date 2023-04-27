@@ -103,7 +103,7 @@ padding: 10px;
     position: absolute;
     height: 100%;
     top: -2px;
-    left: 10%;
+    left: 20%;
     width: 40%;
 }
 
@@ -119,6 +119,8 @@ padding: 10px;
 .menu-right{
     position: absolute;
     right: 0;
+    list-style-type: none;
+    bottom: 0;
 }
 .logOn>i{
     position: absolute;
@@ -132,9 +134,10 @@ padding: 10px;
     color: #2d4271;
 }
 
-.menu-left , .menu-right {
+.menu-left  {
     list-style-type: none;
-    display: flex;
+    position: absolute;
+    bottom: 20px;
 }
 
 .header-above .list-menu {
@@ -142,12 +145,13 @@ padding: 10px;
     height: 50px;
     line-height: 80px;
     text-align: center;
-margin-top: -4%;
-padding: 2%;
+display: inline-block;
     /* background-color: beige;
     border: 1px solid black; */
 }
-
+.list-menu>b{
+    text-align: center;
+}
 .header-above .search {
     line-height: 50px;
     width: 300px;
@@ -156,13 +160,15 @@ padding: 2%;
 }
 
 .logOn {
+    position: absolute;
     font-size: 30px;
+    bottom: 20px;
 }
 
 form {
     display: flex;
     align-items: center;
-    margin-top: 5px;
+ 
 }
 
 input[type="text"] {
@@ -205,13 +211,14 @@ button[type="submit"] {
 .right {
    
     width: 80%;
+    height: 100%;
 }
 .left {
     width: 20%;
-    
+    height: 100%;
+    padding: 12% 0;
     background-color: #F8F9FA;
-    padding-left: 3%;
-    padding-top: 10%;
+   
 }
 .left h3  {
 background-color: #4D4AEF;
