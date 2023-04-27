@@ -9,15 +9,19 @@
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
     <link rel="stylesheet" href="./filejava/start.js">
     <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
     <title>Travel</title>
 </head>
 
 <body>
 
     <div class="main">
-        <div class="header">
-            <div class="header-above">
-                  <div class="header-above-menu">
+        <div class="headers">
+            <div class="header-aboves">
+                  <div class="header-above-menus">
                     <img src="./img/logo.png" alt="" class="photo">
                     <div class="menu-left-div">
                         <ul class="menu-left ">
@@ -53,44 +57,7 @@
                 </div>
             </div>
         </div>
-            <!-- -------------------------------- -->
-            <!--slider 
-            <div class="slider">
-                <i class="ti-angle-left slider-prev"></i>
-                <ul class="slider-dots">
-                    <li class="slider-dot-item active" data-index="0"></li>
-                    <li class="slider-dot-item" data-index="1"></li>
-                    <li class="slider-dot-item" data-index="2"></li>
-                    <li class="slider-dot-item" data-index="3"></li>
-                    <li class="slider-dot-item" data-index="4"></li>
-                </ul>
-                <div class="slider-wrapper">
-                    <div class="slider-main">
-                        <div class="slider-item ra">
-                            <img src="https://images.unsplash.com/photo-1475809913362-28a064062ccd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                                alt="" />
-                        </div>
-                        <div class="slider-item">
-                            <img src="https://images.unsplash.com/photo-1463501810073-6e31c827a9bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                                alt="" />
-                        </div>
-                        <div class="slider-item">
-                            <img src="https://images.unsplash.com/photo-1497752531616-c3afd9760a11?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                                alt="" />
-                        </div>
-                        <div class="slider-item">
-                            <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80"
-                                alt="" />
-                        </div>
-                        <div class="slider-item">
-                            <img src="https://images.unsplash.com/photo-1470093851219-69951fcbb533?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                                alt="" />
-                        </div>
-                    </div>
-                </div>
-                <i class="ti-angle-right slider-next"></i>
-            </div>
-        </div>-->
+         
           <!--menuuuu-->
 <div class="main-dropdown">
     <div class="menu-dropdown goout">
@@ -151,12 +118,12 @@
         </ul>
     </div>
 </div>
-<div class="content">
+<div class="content" >
 <div class="content-img">
 <img src="./img/sl_230410_kvhe2023_1920-570px.jpg" alt="">
 </div>
-<div class="container">
-<div class="hear-container">
+<div class="containers">
+<div class="hear-container" onclick="closedmenu()">
     <div class="menu-container">
          <ul class="uberator-hear-container">
         <li> 
@@ -202,7 +169,41 @@
 </div>
 
 </div>
+<div class="content-2">
+    <div class="slider-run">
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="la.jpg" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="chicago.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="ny.jpg" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+    </div>
+</div>
        
     </div>
     
