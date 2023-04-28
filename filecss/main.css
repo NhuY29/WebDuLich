@@ -476,30 +476,39 @@ background-color: #ebecee;
    
 }
 .tieude-content-item{
-    height: 40px;
+    height: 100px;
 }
 .list-items-contents{
     height: 350px;
-    width: 21%;
+    width: 17%;
     display: inline-block;
-    margin-left: 3%;
+    margin-left: 2%;
     position: relative;
     border: 3px solid #bec5d1;
-    border-radius: 10px;
+    border-radius: 20px;
+   
 }
 .list-items-contents>a>img{
     height: 100%;
     width: 100%; 
+    border: 3px solid #bec5d1;
+    border-radius: 20px;
+ 
+    
 }
 .gioithieu-tour{
     position: absolute;
-    bottom: 10%;
+    bottom: 0%;
     width: 100%;
-    height: 20%;
+    height: 30%;
+    background-image: linear-gradient(0,rgba(83, 77, 136, 0.5),rgba(101, 211, 211, 0.5));
+    border-radius: 20px;
 }
-.gioithieu-tour>p{
-    
-    font-size: 30px;
-    color: #ebecee;
+.gioithieu-tour>h3{
+    font-family: system-ui;
+    font-size: 25px;
+    color:bisque;
     text-align: center;
+    
+
 }
