@@ -126,6 +126,7 @@ form label {
     margin-right: 10px;
   }
   form input[type="text1"],
+  form input[type="email"],
   form input[type="tel"],
   form input[type="date"],
   form select,
