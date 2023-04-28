@@ -1,0 +1,54 @@
+.LoạiTT,
+  .Email,
+  .HoTen,
+  .TD,
+  .NoiDung,
+  .DT{
+    font-size: 18px;
+    color: red;
+  }
+.LienHeForm {
+    width: 100%;
+    height: 1000px;
+    /* background-color: antiquewhite; */
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.LienHe-left  {
+    width: 60%;
+    height: 1000px;
+    /* background-color:bisque; */
+}
+.LienHe-left b {
+    font-size: 20px;
+    color: #FD5056;
+}
+.LienHe-left  input[type="text1"],
+.LienHe-left  input[type="tel"],
+.form-select,
+.form-control
+ {
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #2d4271;
+}
+.Dongthu1,
+.Dongthu2 {
+    display: flex;
+}
+.cach {
+    margin-left: 5%;
+}
+.form-control {
+    width: 100%;
+}
+.btn-submit-LH {
+    width: 100px;
+    height: 50px;
+    float:right;
+    cursor: pointer;
+}
