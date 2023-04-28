@@ -103,7 +103,7 @@ padding: 10px;
     position: absolute;
     height: 100%;
     top: 8px;
-    left: 12%;
+    left: 15%;
     width: 40%;
 }
 
@@ -305,7 +305,7 @@ button[type="submit"] {
     position: relative;
 }
 .content-2{
-    height: 1000px;
+    height: 100%;
     width: 100%;
 }
 .containers{
@@ -452,4 +452,54 @@ position: relative;
 .carousel-item>ul>li>img{
     height: 300px;
     width: 100%;
+}
+/*content items */
+.content-items{
+    height: 1000px;
+    width: 100%;
+    background-color:#007bff;
+    position: relative;
+   
+}
+.content-items-block{
+    position: absolute;
+height: 500px;
+width: 100%;
+background-color: #ebecee;
+}
+.content-items-child{
+    height: 100%;
+    width: 70%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.tieude-content-item{
+    height: 40px;
+}
+.list-items-contents{
+    height: 350px;
+    width: 21%;
+    display: inline-block;
+    margin-left: 3%;
+    position: relative;
+    border: 3px solid #bec5d1;
+    border-radius: 10px;
+}
+.list-items-contents>a>img{
+    height: 100%;
+    width: 100%; 
+}
+.gioithieu-tour{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 20%;
+}
+.gioithieu-tour>p{
+    
+    font-size: 30px;
+    color: #ebecee;
+    text-align: center;
 }
