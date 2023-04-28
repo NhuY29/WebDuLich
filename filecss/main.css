@@ -305,7 +305,7 @@ button[type="submit"] {
     position: relative;
 }
 .content-2{
-    height: 70%;
+    height: 1000px;
     width: 100%;
 }
 .containers{
@@ -424,6 +424,32 @@ position: relative;
 }
 /*slider*/
 .slider-run{
+    height: 600px;
+    width: 100%;
+    margin-top: 220px;
+    background-color: #ffc107;
+    position: relative;
+}
+.slider-run-block{
+    width: 70%;
+    height: 75%;
+    position: absolute;
+    left: calc(50% - 35%);
+    bottom: calc(50% - 39%);
+    
+}
+.carousel-inner{
+   
+}
+.uberator-caroudel{
+    display: flex;
+    list-style-type: none;
+}
+.uberator-caroudel>li{
+    width: 32%;
+    padding: 2%;
+}
+.carousel-item>ul>li>img{
     height: 300px;
     width: 100%;
 }
