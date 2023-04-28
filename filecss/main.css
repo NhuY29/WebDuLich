@@ -427,7 +427,7 @@ position: relative;
     height: 600px;
     width: 100%;
     margin-top: 220px;
-    background-color: #ffc107;
+   
     position: relative;
 }
 .slider-run-block{
@@ -470,7 +470,7 @@ background-color: #ebecee;
 .content-items-child{
     height: 100%;
     width: 70%;
-    background-color: aqua;
+   
     margin-left: auto;
     margin-right: auto;
    
