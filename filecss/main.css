@@ -312,8 +312,8 @@ button[type="submit"] {
     position:absolute;
     background-color:#ebecee;
     height: 420px;
-    width: 68%;
-    left: calc(50% - 34%);
+    width: 90%;
+    left: calc(50% - 45%);
     bottom: calc(50% - 485px);
     border-radius: 10px;
    
@@ -427,15 +427,16 @@ position: relative;
     height: 600px;
     width: 100%;
     margin-top: 220px;
-   
+   background-color:#ebecee;
     position: relative;
 }
 .slider-run-block{
-    width: 70%;
-    height: 75%;
+    width: 90%;
+    height: 76%;
     position: absolute;
-    left: calc(50% - 35%);
+    left: calc(50% - 45%);
     bottom: calc(50% - 39%);
+    
     
 }
 .carousel-inner{
@@ -469,7 +470,7 @@ background-color: #ebecee;
 }
 .content-items-child{
     height: 100%;
-    width: 70%;
+    width: 90%;
    
     margin-left: auto;
     margin-right: auto;
