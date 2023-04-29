@@ -95,7 +95,10 @@ button[type="submit"] {
     border-radius: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-
+.formDK h2 {
+    color: #2d4271; 
+    text-align: center;
+}
 .btn {
     display: flex;
     margin-left: 100px;
@@ -109,6 +112,10 @@ button[type="submit"] {
     text-align: center;
     cursor: pointer;
 }
+.logIn {
+    font-size: 24px;
+     color:#2d4271;
+}
 
 .register {
     background-color: #0d6efd;
@@ -120,7 +127,9 @@ button[type="submit"] {
     text-decoration: none;
     color: white;
 }
-
+.register b {
+    font-size: 24px;
+}
 .required,
 .password {
     color: red;
@@ -141,7 +150,27 @@ button[type="submit"] {
     cursor: pointer;
     color: white;
 }
-
+.facebook {
+    background-color: #4267B2; 
+}
+.google {
+    background-color: #FD5056;
+     margin-left: 25px;
+}
+label b {
+   color: #2d4271; 
+   font-size: 18px;
+}
+input {
+    width: 370px;
+     height: 40px; 
+      border-radius: 5px; 
+      border: 1px solid black;
+}
+p {
+    color: #2d4271;
+     margin-left: 150px;
+}
 /* footer*/
 
 .In {
