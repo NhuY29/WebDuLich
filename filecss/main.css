@@ -456,7 +456,7 @@ position: relative;
 }
 /*content items */
 .content-items{
-    height: 1000px;
+    height: 2000px;
     width: 100%;
     background-color:#007bff;
     position: relative;
@@ -471,7 +471,7 @@ background-color: #ebecee;
 .content-items-child{
     height: 100%;
     width: 90%;
-   
+  
     margin-left: auto;
     margin-right: auto;
    
@@ -512,4 +512,136 @@ background-color: #ebecee;
     text-align: center;
     
 
+}
+
+
+
+
+.content-items-block2{
+    margin-top: 500px;
+    position: absolute;
+    height: 700px;
+width: 100%;
+background-color: #ebecee;
+}
+.Tour1,
+.Tour2,
+.Tour3{
+    width: 30%;
+    height: 600px;
+    /* background-color: yellow; */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.1s ease-out;
+    margin-left: 2%;
+    margin-top: 2%;
+
+
+}
+
+.Tour1 img,
+.Tour2 img,
+.Tour3 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+.Tour1:hover,
+.Tour2:hover,
+.Tour3:hover {
+    transform: translateY(-10px);
+}
+
+.Tour1 a:hover b,
+.Tour2 a:hover b,
+.Tour3 a:hover b {
+    color: #007bff;
+}
+
+.Tour1 a,
+.Tour2 a,
+.Tour3 a {
+    text-decoration: none;
+}
+
+.Gia {
+    margin-left: 2%;
+    background-color: #FD5056;
+
+}
+
+.Gia a {
+    color: #FFF;
+}
+
+.Gia:hover {
+    background-color: #df7b7e;
+}
+
+.ChiTiet {
+    margin-left: 40%;
+    background-color: #fff;
+}
+
+.ChiTiet a {
+    color: #4D4AEF;
+}
+
+.ChiTiet:hover {
+    background-color: #4D4AEF;
+    cursor: pointer;
+
+}
+
+.ChiTiet:hover a {
+    color: #fff;
+}
+
+.Tour1 div,
+.Tour2 div,
+.Tour3 div {
+   
+    border-radius: 10px;
+}
+
+.Phan3 button {
+    width: 25%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.Phan1 {
+    width: 100%;
+    height: 100px;
+    
+}
+
+.Phan2 {
+    width: 100%;
+    height: 150px;
+}
+
+.Phan2>p {
+    margin-top: 1%;
+    width: 100%;
+    height: 30px;
+}
+
+.Phan3 {
+    width: 100%;
+    height: 100px;
+}
+.first{
+    display: flex;
+    position: relative;
+}
+.phanthan{
+    background-color: #FFF;
+}
+.Phan1,.Phan2,.Phan3{
+    margin-left: 1%;
 }
