@@ -296,6 +296,7 @@ height: 200px;
     transform: translateY(-10px);
     animation: modi 2s infinite;
     color: red;
+    cursor: pointer;
   }
 @keyframes modi{
     0%{
