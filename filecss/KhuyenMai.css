@@ -1,8 +1,8 @@
-.KM1 {
+.KM {
     width: 100%;
     height: 1500px;
 }
-.KM1-left {
+.KM-left {
     width: 70%;
     height: 1500px;
     margin-left: 1%;
@@ -10,25 +10,25 @@
 .head {
     font-size: 30px;
 }
-.KM1 {
+.KM {
     display: flex;
 }
-.KM1-left img {
+.KM-left img {
     width: 100%;
-    height: 30%;
+    height: 40%;
 }
-.KM1-left p,
-.KM1-left li {
+.KM-left p,
+.KM-left li {
     font-size: 16px;
     line-height: 1.5;
 }
-.KM1-right {
+.KM-right {
     width: 25%;
     height: 1500px;
     margin-left: 3%;
 }
-.KM1-right p,
-.KM1-right li {
+.KM-right p,
+.KM-right li {
     font-size: 16px;
     line-height: 1.5;
 }
@@ -36,7 +36,7 @@ li a {
     text-decoration: none;
     color: #2D4271;
 }
-.KM1-left>b>a {
+.KM-left>b>a {
     color:#2D4271 ;
     text-decoration: none;
     cursor: pointer;
