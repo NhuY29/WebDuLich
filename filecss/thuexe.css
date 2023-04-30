@@ -208,7 +208,7 @@ button[type="submit"] {
 .main-content{
     height: 2000px;
     width: 100%;
-    background-color: #ffc107;
+
 }
 .logo-content{
     width: 100%;
@@ -223,7 +223,7 @@ height: 600px;
 }
 .menu-car{
     width: 90%;
-    height: 1400px ;
+    height: 2000px ;
     margin-left: auto;
     margin-right: auto;
     background-color: #999;
@@ -247,4 +247,70 @@ height: 600px;
     background-color: #666;
     color: white;
   }
-  
+  #myBtnContainer{
+    width: 100%;
+height: 200px;
+  }
+  .row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column{
+    width: 30%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+   display: none;
+  }
+  .show{
+    display: block;
+  }
+  .nature{
+
+  }
+  .cars{
+
+  }
+  .people{
+    
+  }
+  .content{
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(115, 116, 113);
+    border-radius: 10px;
+  }
+  .img-content{
+  height: 80%;
+  }
+  .img-content>img{
+    height: 100%;
+    border-radius: 10px;
+  }
+  .text-content{
+    
+     text-align: center;
+     border-radius: 10px;
+  }
+  .content:hover{
+    transform: translateY(-10px);
+    animation: modi 2s infinite;
+    color: red;
+  }
+@keyframes modi{
+    0%{
+opacity: 1;
+    }
+    25%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    75%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0.3;
+    }
+}
