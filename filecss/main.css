@@ -616,13 +616,13 @@ background-color: #ebecee;
 
 .Phan1 {
     width: 100%;
-    height: 100px;
+    height: 40%;
     
 }
 
 .Phan2 {
     width: 100%;
-    height: 150px;
+    height: 40%;
 }
 
 .Phan2>p {
@@ -633,7 +633,7 @@ background-color: #ebecee;
 
 .Phan3 {
     width: 100%;
-    height: 100px;
+    height: 20%;
 }
 .first{
     display: flex;
@@ -641,6 +641,8 @@ background-color: #ebecee;
 }
 .phanthan{
     background-color: #FFF;
+    width: 100%;
+    height: 360px;
 }
 .Phan1,.Phan2,.Phan3{
     margin-left: 1%;
