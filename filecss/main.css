@@ -575,6 +575,7 @@ background-color: #ebecee;
 
 .Gia a {
     color: #FFF;
+    text-decoration: none;
 }
 
 .Gia:hover {
@@ -588,6 +589,7 @@ background-color: #ebecee;
 
 .ChiTiet a {
     color: #4D4AEF;
+    text-decoration: none;
 }
 
 .ChiTiet:hover {
@@ -693,9 +695,10 @@ width: 100%;
 .sale-trailer-sale{
     height: 40px;
     width: 175px;
-    background-color: #007bff;
+    background-color: #2d4271;
     border-radius: 10px;
    position: relative;
+   color: #fff;
 }
 .sale-trailer-sale>p{
     width: 170px;
@@ -712,6 +715,7 @@ width: 100%;
 }
 .star>li>i{
     font-size: 20px;
+    color: #ffc107;
 }
 .sale-coment{
     width: 100%;
@@ -721,6 +725,12 @@ width: 100%;
     width: 100%;
     height: 50px;
     height: 70%;
+}
+.iconnnn>h5 {
+    color: #2d4271;
+}
+.iconnnn> i {
+    background-color: #ffc107;
 }
 
 .iconnnn .cs{
@@ -742,11 +752,17 @@ height: 40%;
 margin-right: 2%;
     margin-left: 2%;
 }
+.sale-trailer >h5>b {
+    color: #2d4271;
+}
 .sale-icon{
 width: 96%;
 height: 30%;
 margin-right: 2%;
     margin-left: 2%;
+}
+.sale-icon >p {
+    color: #999;
 }
 .sale-coment{
 width: 96%;
@@ -758,23 +774,30 @@ margin-right: 2%;
     height: 30%;
     display: flex;
 }
+.iconti>p {
+    color: #4D4AEF;
+}
 .iconti>i{
     font-size: 20px;
     
     margin-right: 2%;
+}
+.ti-truck {
+    color: #4D4AEF;
 }
 .sale-icon>p{
 font-size: 15px;
 }
 .sale3{
     position: relative;
+    border-left: 1px solid #999;
 }
 .sale3-item-block{
 position: absolute;
 width: 100%;
 height: 65%;
 bottom: 0;
-background-color: #bec5d1;
+/* background-color: #bec5d1; */
 text-align: right;
 }
 .sale-phan1{
@@ -786,9 +809,13 @@ text-align: right;
 }
 .phan-footer{
     height: 20%;
+    color: #4D4AEF;
 }
 .sss>.ChiTiet{
    margin-right: 5%;
+}
+.sale-phan1>h6>b{
+    color: #2d4271;
 }
 .sale-phan1>p>B{
     font-size: 30px;
