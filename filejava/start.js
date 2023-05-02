@@ -105,10 +105,10 @@ changeimg = function(){
         change = 0 ;
     }
 }
-setInterval(changeimg,1000);
+setInterval(changeimg,3000);
 
 
-
+// menu xe
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
