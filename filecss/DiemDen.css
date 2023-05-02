@@ -12,8 +12,17 @@ body {
     font-family: "Segoe UI", sans-serif;
 }
 .header{
-   
+   position: fixed;
     width: 100%;
+    z-index: 20;
+}
+.header-above.sticky {
+   background: #c7c2c2;
+   opacity: 0.9;
+   
+}
+.header-above.sticky.menu-left>b{
+    color: #faf5f5;
 }
 .header-above {
     background-color: aliceblue;
@@ -21,6 +30,7 @@ body {
     height: 80px;
     top: 0;
      position: relative;
+    transition: all 0.5s ease-in-out;
 }
 .imglogo-header{
      width: 10%;
