@@ -659,7 +659,7 @@ background-color: #ebecee;
     position: absolute;
     height: 400px;
 width: 100%;
-background-color:#df7b7e
+/* background-color:#df7b7e */
 }
 .tieude-uudai{
     width: 100%;
@@ -677,13 +677,13 @@ background-color:#df7b7e
 .items-sale-contents{
     width: 25%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
  
 }
 .items-sale-contents2{
     width: 50%;
     height: 100%;
-    background-color: rgb(20, 240, 67);
+    /* background-color: rgb(20, 240, 67); */
 
 }
 .sale1>img{
