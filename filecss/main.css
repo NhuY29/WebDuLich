@@ -471,7 +471,7 @@ background-color: #ebecee;
 .content-items-child{
     height: 100%;
     width: 90%;
-  
+  background-color: #4D4AEF;
     margin-left: auto;
     margin-right: auto;
    
@@ -646,4 +646,154 @@ background-color: #ebecee;
 }
 .Phan1,.Phan2,.Phan3{
     margin-left: 1%;
+}
+
+/* content-3*/
+
+
+
+
+
+.content-items-block3{
+    margin-top: 1200px;
+    position: absolute;
+    height: 400px;
+width: 100%;
+background-color:#df7b7e
+}
+.tieude-uudai{
+    width: 100%;
+    height: 10%;
+}
+.sale-content{
+    width: 100%;
+    height: 90%;
+    background-color: #FFF;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid #999;
+
+}
+.items-sale-contents{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+ 
+}
+.items-sale-contents2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(20, 240, 67);
+
+}
+.sale1>img{
+height: 100%;
+width: 100%;
+}
+.sale-trailer-sale{
+    height: 40px;
+    width: 175px;
+    background-color: #007bff;
+    border-radius: 10px;
+   position: relative;
+}
+.sale-trailer-sale>p{
+    width: 170px;
+    height: 50%;
+    position: absolute;
+    left: calc(50% - 79px);
+    bottom: calc(50% - 60%);
+}
+.star{
+    padding: 0;
+}
+.star>li{
+    display: inline;
+}
+.star>li>i{
+    font-size: 20px;
+}
+.sale-coment{
+    width: 100%;
+}
+.iconnnn{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    height: 70%;
+}
+
+.iconnnn .cs{
+    font-size: 60px;
+   
+    position: relative;
+    height: 70%;
+
+    margin-right: 2%;
+}
+.iconnnn .cs>h2{
+position: absolute;
+top: 2%;
+left: 15%;
+}
+.sale-trailer{
+width: 96%;
+height: 40%;
+margin-right: 2%;
+    margin-left: 2%;
+}
+.sale-icon{
+width: 96%;
+height: 30%;
+margin-right: 2%;
+    margin-left: 2%;
+}
+.sale-coment{
+width: 96%;
+height: 30%;
+margin-right: 2%;
+    margin-left: 2%;
+}
+.iconti{
+    height: 30%;
+    display: flex;
+}
+.iconti>i{
+    font-size: 20px;
+    
+    margin-right: 2%;
+}
+.sale-icon>p{
+font-size: 15px;
+}
+.sale3{
+    position: relative;
+}
+.sale3-item-block{
+position: absolute;
+width: 100%;
+height: 65%;
+bottom: 0;
+background-color: #bec5d1;
+text-align: right;
+}
+.sale-phan1{
+    width: 100%;
+    height: 50%;
+}
+.sss{
+    height: 30%;
+}
+.phan-footer{
+    height: 20%;
+}
+.sss>.ChiTiet{
+   margin-right: 5%;
+}
+.sale-phan1>p>B{
+    font-size: 30px;
+    color: red;
+}
+.sale-content:hover{
+transform:translateY(-10px);
 }
