@@ -96,16 +96,7 @@ function closedmenu(){
     event3.style.display = "none";
 };
 // su kien doi img
-var change = 1 ;
-changeimg = function(){
-    var imgs = ["./img/TX1.png","./img/VT1.jpg","./img/TG4.jpg"];
-    document.getElementById('img').src = imgs[change];
-    change++;
-    if(change == 3){
-        change = 0 ;
-    }
-}
-setInterval(changeimg,3000);
+
 
 
 // menu xe

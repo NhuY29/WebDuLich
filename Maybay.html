@@ -113,7 +113,7 @@
         </div>
         <div class="main-content">
         <div class="logo-content">
-            <img id="img" src="./img/TX1.png" alt="">
+            <img id="img" src="./img/thuemaybay.jpg" alt="">
         </div>
         <div class="menu-car">
             <h1>MENU MAY BAY</h1>
@@ -431,5 +431,17 @@
   
       </footer>
         <script src="./filejava/start.js"></script>
+        <script>
+            var change = 1 ;
+            changeimg = function(){
+  var imgs = ["./img/thuemaybay.jpg","./img/thuemaybay1.jpg","./img/thuemaybay2.jpg","./img/thuemaybay3.jpg"];
+  document.getElementById('img').src = imgs[change];
+  change++;
+  if(change == 4){
+      change = 0 ;
+  }
+}
+setInterval(changeimg,3000);
+        </script>
 </body>
 </html>

@@ -572,6 +572,21 @@
 
     </footer>
     <script src="./filejava/start.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous">
+    </script>
+    <script>
+          $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $(".header-above").addClass('sticky');
+                }
+                else{
+                    $(".header-above").removeClass('sticky');
+                }
+
+            });
+        });
+    </script>
 </body>
 
 </html>

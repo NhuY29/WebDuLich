@@ -456,6 +456,18 @@
 
     </footer>
     <script src="./filejava/start.js"></script>
+    <script>
+        var change = 1 ;
+changeimg = function(){
+    var imgs = ["./img/TX1.png","./img/logoxe.jpg","./img/logoxe1.jpg"];
+    document.getElementById('img').src = imgs[change];
+    change++;
+    if(change == 3){
+        change = 0 ;
+    }
+}
+setInterval(changeimg,3000);
+     </script>
 </body>
 
 </html>
