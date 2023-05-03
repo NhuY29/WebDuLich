@@ -1,3 +1,4 @@
+
 .main {
     padding: 0;
     margin: 0;
@@ -322,6 +323,9 @@ button[type="submit"] {
     padding: 0;
     margin: 0;
 }
+.uberator-hear-container p i {
+    font-size: 18px;
+}
 .hear-container{
     height: 110px;
     width: 100%;
@@ -354,9 +358,10 @@ button[type="submit"] {
 .footer-tour{
     position: relative;
     width: 100%;
-    background-color: aqua;
+    background-color: #fff;
     height: 250px;
     border-radius: 0  0 10px 10px;
+    border: 1px solid #2d4271 ;
 }
 .tour-box1{
     width: 100%;
@@ -427,7 +432,7 @@ position: relative;
     height: 600px;
     width: 100%;
     margin-top: 220px;
-   background-color:#ebecee;
+   background-color:#a9cff3;
     position: relative;
 }
 .slider-run-block{
@@ -458,7 +463,7 @@ position: relative;
 .content-items{
     height: 2000px;
     width: 100%;
-    background-color:#007bff;
+    background-color:#a9cff3;
     position: relative;
    
 }
@@ -466,12 +471,11 @@ position: relative;
     position: absolute;
 height: 500px;
 width: 100%;
-background-color: #ebecee;
+background-color:#a9cff3;
 }
 .content-items-child{
     height: 100%;
-    width: 90%;
-  background-color: #4D4AEF;
+    width: 90%; 
     margin-left: auto;
     margin-right: auto;
    
@@ -522,7 +526,7 @@ background-color: #ebecee;
     position: absolute;
     height: 700px;
 width: 100%;
-background-color: #ebecee;
+background-color:#a9cff3;
 }
 .Tour1,
 .Tour2,
@@ -667,6 +671,7 @@ width: 100%;
     width: 100%;
     height: 10%;
 }
+
 .sale-content{
     width: 100%;
     height: 90%;
@@ -707,6 +712,7 @@ width: 100%;
     left: calc(50% - 79px);
     bottom: calc(50% - 60%);
 }
+
 .star{
     padding: 0;
 }
@@ -754,6 +760,9 @@ margin-right: 2%;
 }
 .sale-trailer >h5>b {
     color: #2d4271;
+}
+.sale-trailer h5:hover b {
+    color: #4D4AEF;
 }
 .sale-icon{
 width: 96%;
@@ -823,4 +832,5 @@ text-align: right;
 }
 .sale-content:hover{
 transform:translateY(-10px);
+cursor: pointer;
 }
