@@ -59,7 +59,7 @@ body {
 }
 .menu-dropdown{
     position: absolute;
-    width: 300%;
+    width: 190%;
     height: 800px;
     background-color:rgb(248, 248, 247);
     top: 80px;
@@ -168,8 +168,8 @@ padding: 10px;
 
 .header-above .list-menu {
     width: 100px;
-    height: 50px;
-    line-height: 80px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
 display: inline-block;
 margin-left: 5px;
