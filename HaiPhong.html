@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="./filecss/DiemDen.css">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
 <link rel="stylesheet" href="./filejava/start.js">
+<link rel="stylesheet" href="./filejava/loading.js">
+<link rel="stylesheet" href="./filejava/jquery-3.6.4.min.map">
     
     <title>Du Lịch Hải Phòng</title>
 </head>
 
-<body>
+<body class="preloading">
+    <div class="loadi">
+        <div class="loading">
+            <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
+        </div>
+    </div>
     <div class="main">
     <!-- copy tu khuc nay -->
         <div class="header">
@@ -554,6 +561,7 @@
 
     </footer>
     <script src="./filejava/start.js"></script>
+    <script src="./filejava/loading.js"></script>
     <!-- them duoi nay -->
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script>
@@ -567,6 +575,12 @@
       }
 
   });
+});
+    </script>
+    <script>
+        $(window).on('load',function(event){
+$('body').removeClass(".preloading")
+$('.loadi').delay(3000).fadeOut('fast');
 });
     </script>
 </body>
