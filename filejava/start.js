@@ -57,43 +57,43 @@
 // }
 // );
 // su kien click
-function menudulich(){ 
-     var event = document.querySelector(".main-dropdown");
-    event.style.display = "block";
-     var event2 = document.querySelector(".ubertor-news");
-    event2.style.display = "none";
-    var event3 = document.querySelector(".main-dropdown2");
-    event3.style.display = "none";
-   
-    
-};
-function menutintuc(){
+function menudulich() {
+  var event = document.querySelector(".main-dropdown");
+  event.style.display = "block";
+  var event2 = document.querySelector(".ubertor-news");
+  event2.style.display = "none";
+  var event3 = document.querySelector(".main-dropdown2");
+  event3.style.display = "none";
 
-     var event2 = document.querySelector(".ubertor-news");
-    event2.style.display = "block";
-    var event3 = document.querySelector(".main-dropdown2");
-    event3.style.display = "none";
-    var event = document.querySelector(".main-dropdown");
-    event.style.display = "none";
-   
+
 };
-function menukhuyenmai(){
-     var event3 = document.querySelector(".main-dropdown2");
-    event3.style.display = "block";
-    var event = document.querySelector(".main-dropdown");
-    event.style.display = "none";
-    var event2 = document.querySelector(".ubertor-news");
-    event2.style.display = "none";
-   
-    
+function menutintuc() {
+
+  var event2 = document.querySelector(".ubertor-news");
+  event2.style.display = "block";
+  var event3 = document.querySelector(".main-dropdown2");
+  event3.style.display = "none";
+  var event = document.querySelector(".main-dropdown");
+  event.style.display = "none";
+
 };
-function closedmenu(){
-    var event = document.querySelector(".main-dropdown");
-    event.style.display = "none";
-    var event2 = document.querySelector(".ubertor-news");
-    event2.style.display = "none";
-    var event3 = document.querySelector(".main-dropdown2");
-    event3.style.display = "none";
+function menukhuyenmai() {
+  var event3 = document.querySelector(".main-dropdown2");
+  event3.style.display = "block";
+  var event = document.querySelector(".main-dropdown");
+  event.style.display = "none";
+  var event2 = document.querySelector(".ubertor-news");
+  event2.style.display = "none";
+
+
+};
+function closedmenu() {
+  var event = document.querySelector(".main-dropdown");
+  event.style.display = "none";
+  var event2 = document.querySelector(".ubertor-news");
+  event2.style.display = "none";
+  var event3 = document.querySelector(".main-dropdown2");
+  event3.style.display = "none";
 };
 // su kien doi img
 
@@ -116,7 +116,7 @@ function AddClass(element, name) {
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
   }
 }
 
@@ -126,7 +126,7 @@ function RemoveClass(element, name) {
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
     }
   }
   element.className = arr1.join(" ");
@@ -137,10 +137,31 @@ function RemoveClass(element, name) {
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+  btns[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
+}
+// ----------------sự kiện nút đặt hàng-------------------
+  function checkLogin() {
+    if (!isLoggedIn()) {
+    alert('Bạn cần đăng nhập trước khi mua hàng');
+  // Chuyển hướng đến trang đăng nhập
+  window.location.href = "/DangNhap.html";
+    } else {
+    // Thực hiện các thao tác mua hàng
+    buyItem();
+    }
+}
+
+  function isLoggedIn() {
+    // Hàm kiểm tra xem người dùng đã đăng nhập chưa
+    return false;
+}
+
+  function buyItem() {
+    // Hàm thực hiện các thao tác mua hàng
+    alert('Bạn đã mua hàng thành công');
 }
 

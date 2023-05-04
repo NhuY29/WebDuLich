@@ -6,6 +6,7 @@
     width: 70%;
     height: 1500px;
     margin-left: 1%;
+    margin-top: 10%;
 }
 .head {
     font-size: 30px;
@@ -26,6 +27,7 @@
     width: 25%;
     height: 1500px;
     margin-left: 3%;
+    margin-top: 10%;
 }
 .KM-right p,
 .KM-right li {
@@ -72,4 +74,7 @@ li a {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
+}
+.footer-top {
+    margin-top: 20%;
 }
