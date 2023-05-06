@@ -172,19 +172,19 @@
             <p>Để hoàn tất đăng ký Hội viên VietravelPlus, quý khách vui lòng điền đầy đủ thông tin vào mẫu dưới đây và
                 nhấn
                 vào nút đăng ký. Xin chân thành cảm ơn quý khách hàng.</p>
-            <form action="">
+            <form action="xulidki.php" method = "post">
                 <label for="HoTen">Họ Tên <span class="HoTen">(*)</span>:</label>
                 <input type="text1" minlength="1" maxlength="30" required name="hoten">
 
                 <label for="SDT">Di Động <span class="HoTen">(*)</span></label>
-                <input type="tel" pattern="[0-9]{10}" required name="Phone">
+                <input type="tel" pattern="[0-9]{10}" required name="didong">
 
 
                 <label for="NgaySinh">Ngày Sinh:</label>
                 <input type="date" class="date" name="ngaysinh">
 
                 <label for="GioiTinh">Giới Tính</label>
-                <select name="GT">
+                <select name="gioitinh">
                     <option value="Nam">Nam</option>
                     <option value="Nữ">Nữ</option>
                     <option value="Khác">Khác</option>
@@ -205,7 +205,7 @@
 
 
                 <label for="NgayCapPassport">Ngày Cấp</label>
-                <input type="date" name="passport2">
+                <input type="date" name="ngaycap2">
                 <label for="NgayHetHan">Ngày Hết Hạn</label>
                 <input type="date" name="ngayhethan">
 
@@ -228,7 +228,7 @@
 
                 <div class="confirm-password-input-container">
                     <label for="confirm-password">Nhập lại mật khẩu: <span class="NhapLai">(*)</span></label>
-                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <input type="password" id="confirm-password" name="matkhau" required>
                     <button type="button" onclick="resetConfirmPassword()">Nhập lại</button>
                     <button type="button" onclick="checkPasswords()">Kiểm tra</button>
                 </div>
