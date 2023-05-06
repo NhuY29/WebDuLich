@@ -11,7 +11,12 @@
     <title>Thuê xe</title>
 </head>
 
-<body>
+<body class="preloading">
+    <div class="loadi">
+        <div class="loading">
+            <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
+        </div>
+    </div>
     <div class="main">
 
         <div class="header-above">
@@ -456,6 +461,8 @@
 
     </footer>
     <script src="./filejava/start.js"></script>
+    <script src="./filejava/loading.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script>
         var change = 1 ;
 changeimg = function(){
@@ -466,8 +473,15 @@ changeimg = function(){
         change = 0 ;
     }
 }
+
 setInterval(changeimg,3000);
      </script>
+       <script>
+        $(window).on('load', function (event) {
+            $('body').removeClass(".preloading")
+            $('.loadi').delay(3000).fadeOut('fast');
+        });
+    </script>
 </body>
 
 </html>
