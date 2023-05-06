@@ -12,7 +12,12 @@
     <title>Du Lịch Phú Quốc</title>
 </head>
 
-<body>
+<body class="preloading">
+    <div class="loadi">
+        <div class="loading">
+            <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
+        </div>
+    </div>
     <div class="main">
          
         <div class="header">
@@ -610,6 +615,12 @@
 
   });
 });
+    </script>
+    <script>
+        $(window).on('load', function (event) {
+            $('body').removeClass(".preloading")
+            $('.loadi').delay(3000).fadeOut('fast');
+        });
     </script>
 </body>
 
