@@ -120,20 +120,20 @@
                     <b><a href="./DangKy.html">Đăng Ký</a></b>
                 </div>
             </div> <br>
-            <form action="" style="margin-left: 100px;">
+            <form action="xulydangnhap.php" style="margin-left: 100px;"  method = "post">
                 <div class="fix1">
                     <label for="name"><b>Số điện thoại hoặc email</b></label>
                     <span class="required">*</span> <br>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="email" id="name" required>
                 </div> <br>
                 <!-- required được sử dụng để đánh dấu trường thông tin là bắt buộc  -->
                 <div class="fix1">
                     <label for="name"><b>Mật Khẩu</b></label>
                     <span class="password">*</span> <br>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="matkhau" id="name" required>
                 </div>
                 <div style="margin-left: 250px; margin-top: 2%;"><a href="">Lấy lại mật khẩu</a></div> <br>
-                <div><button
+                <div><button type="submit"
                         style="width: 370px; height: 50px; border-radius: 5px ; border: 2px solid #fd5056;background-color:#fd5056; color: white; cursor: pointer;">ĐĂNG
                         NHẬP <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
                 </div>
