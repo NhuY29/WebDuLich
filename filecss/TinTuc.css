@@ -1,0 +1,438 @@
+.main {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.loadi{
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+   position:fixed;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+  display: block;
+  background-color: #B0E0E6;
+}
+.loading{
+    
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+}
+.loading>img{
+   
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+.header{
+   
+    width: 100%;
+}
+.header-above {
+    background-color: aliceblue;
+    width: 100%;
+    height: 80px;
+    top: 0;
+     position: relative;
+}
+.imglogo-header{
+     width: 10%;
+    position: absolute;
+    height: 100%;
+}
+.photo{
+   
+}
+
+/* menu*/
+.main-dropdown,.main-dropdown2{
+    
+   display: none;
+}
+.menu-dropdown,.menu-dropdown2{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color:rgb(248, 248, 247);
+    top: 80px;
+    display: flex;
+    border-radius: 0 0 10px 10px ;
+    border: 3px solid #ebecee;
+    z-index: 10;
+}
+.menu-dropdown-item{
+    width: 25%;
+   
+}
+.upberator-dropdown,.uperator-dropdown2{
+     list-style-type: none;
+}
+.list-dropdown{
+    padding: 20px;
+}
+.list-dropdown>a{
+    text-decoration: none;
+    color: #2d4271;
+}
+.list-dropdown2>a{
+    text-decoration: none;
+    color: #2d4271;
+}
+.lisdp>B>a{
+    text-decoration: none;
+    color: #2d4271;
+}
+.list-dropdown2{
+padding: 30px;
+}
+
+.ubertor-news{
+    position: absolute;
+    display: block;
+    padding: 0;
+    list-style: none;
+    z-index: 12;
+    
+}
+.menunone{
+    display: none;
+}
+
+.list-news{
+    text-align: left;
+height: 40px;
+padding: 10px;
+    background-color:rgb(248, 248, 247);
+}
+.list-news>a{
+    color: #2d4271;
+   line-height: 20px;
+}
+.list-news:hover{
+    background-color: #999;
+}
+
+/* menu ringht left */
+.menu-left-div{
+    position: absolute;
+    height: 100%;
+    top: -2px;
+    left: 15%;
+    width: 55%;
+}
+
+.menu-right-div{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    top: 0px;
+    right: 5%;
+}
+
+
+.menu-right{
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+    bottom: 0;
+}
+.logOn>i{
+    position: absolute;
+    font-size: 50px;
+    left: calc(50% - 15px);
+    bottom: calc(50% - 15px);
+    padding-top: 5px;
+}
+.header-above-menu a {
+    text-decoration: none;
+    color: #2d4271;
+}
+
+.menu-left  {
+    list-style-type: none;
+    position: absolute;
+    bottom: 20px;
+}
+
+.header-above .list-menu {
+    width: 100px;
+    height: 50px;
+    line-height: 80px;
+    text-align: center;
+display: inline-block;
+margin-left: 5px;
+    /* background-color: beige;
+    border: 1px solid black; */
+}
+.list-menu>b{
+    text-align: center;
+    color:#2d4271;
+    cursor: pointer;
+}
+.list-menu>a{
+    text-decoration: none;  
+    color:#2d4271;
+}
+.header-above .search {
+    line-height: 50px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.logOn {
+    position: absolute;
+    font-size: 30px;
+    bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+ 
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid #ffc107;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.header-below img {
+    width: 100%;
+    height: 400px;
+}
+
+#dropdow {
+    width: 100%;
+    height: 500px;
+    background-color: #2d4271;
+}
+.content {
+    width: 100%;
+    height: 2000px;
+    background-color:#B0E0E6;
+}
+.content h2 {
+    color: #fd5056;
+    text-align: center;
+    font-size: 25px;
+}
+.content img {
+    border-radius: 2%;
+}
+.TinTuc,
+.Child{
+    display: flex;
+
+}
+
+.Child a {
+    text-decoration: none;
+    font-size: 16px;
+    color:#2d4271;
+    font-weight: bold;
+}
+.Child a:hover {
+    color: #007bff;
+} 
+.Child h4 {
+    color: #fd5056;
+}
+.TinTuc-right div {
+    width: 100%;
+    height: 100px;
+    margin-left: 2%;
+}
+.TinTuc-right img {
+    width: 250px;
+    height:150px;
+}
+.video-youtube {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(ytb.jpg);
+}
+/* footer */
+.In {
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.In li,
+.DongTour li,
+.LienHe li,
+.ThongTin li {
+    list-style-type: none;
+    color: #2d4271;
+}
+
+
+.footer-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.In {
+    width: 25%;
+}
+
+.DongTour {
+    width: 25%;
+
+}
+
+.LienHe {
+    width: 25%;
+
+}
+
+.QR {
+
+    width: 25%;
+}
+
+.ThanhToan img {
+    margin: 10px;
+}
+
+.MXH i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.MXH button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fe2214;
+    background-color: #fe2214;
+}
+
+
+
+
+footer {
+    background-color: rgba(128, 128, 128, 0.05);
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.in-uberator {
+    position: absolute;
+    display: flex;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+
+}
+
+.in-uberators {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude {
+    width: 85%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude>h2 {
+    color: #2d4271;
+    font-size: 30px;
+}
+
+.in-uberator>li {
+    font-size: 20px;
+}
+
+.QR-download {
+    display: flex;
+}
+
+.icon-child {
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+}
+
+.icon-child>i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+/*footer bottom */
+.footer-bottom li,
+.footer-top li {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.itembot {
+    width: 25%;
+}
+
+.uberator-thanhtoan {
+    display: flex;
+
+
+}
+
+.uberator-thanhtoan>li {
+    padding: 1%;
+}
+
+.dm>li {
+    height: 50px;
+}
+
+.metnha {
+    position: absolute;
+    top: 100px;
+}
+
+.dm {
+    display: flex;
+
+}
