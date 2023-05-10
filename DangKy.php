@@ -10,19 +10,7 @@
     <title>Form Đăng Ký Hội Viên</title>
 
     <script>
-        function togglePassword() {
-            var passwordInput = document.getElementById("password");
-            var passwordIcon = document.getElementById("password-icon");
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                passwordIcon.classList.remove("fa-eye-slash");
-                passwordIcon.classList.add("fa-eye");
-            } else {
-                passwordInput.type = "password";
-                passwordIcon.classList.remove("fa-eye");
-                passwordIcon.classList.add("fa-eye-slash");
-            }
-        }
+      
 
         function resetConfirmPassword() {
             var confirmPasswordInput = document.getElementById("confirm-password");
@@ -226,9 +214,7 @@
                 <div class="password-input-container" style="width: 360px;">
                     <label for="password">Mật khẩu: <span class="MatKhau">(*)</span> </label>
                     <input type="password" id="password" name="password" required>
-                    <!-- <button type="button" onclick="togglePassword()">
-                        <i class="fas fa-eye-slash" id="password-icon"></i>
-                    </button> -->
+                    
                 </div>
 
                 <div class="confirm-password-input-container">

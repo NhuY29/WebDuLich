@@ -480,7 +480,7 @@ background-color:#a9cff3;
     width: 90%; 
     margin-left: auto;
     margin-right: auto;
-   
+    background-color: #ffc107;
 }
 .tieude-content-item{
     height: 100px;
@@ -852,4 +852,39 @@ box-shadow: 3px 3px 3px grey;
     font-size: 30px;
     color: #2d4271;
     font-family:cursive
+}
+.content-item-block4{
+    margin-top: 1800px;
+    position: absolute;
+    height: 800px;
+      width: 100%;
+      background-color: #2d4271;
+}
+.list-content-child-tour{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-img-tour{
+width: 22%;
+height: 250px;
+   margin-left: 2%;
+   border-radius: 10px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.list-img-tour>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.icon-tour{
+    position: absolute;
+    font-size: 50px;
+   color: #ebecee;
 }
