@@ -233,7 +233,7 @@ button[type="submit"] {
 .content {
     width: 100%;
     height: 1500px;
-    background-color:#B0E0E6;
+    /* background-color:#B0E0E6; */
 }
 .content h2 {
     color: #fd5056;
@@ -307,7 +307,7 @@ button[type="submit"] {
     width: 100%;
     height: 700px;
     text-align: center;
-    background-image: url(/img/ytb.jpg);
+    background-image: url(/img/anhytb.gif);
     background-repeat: no-repeat;
     background-size: cover;
 
