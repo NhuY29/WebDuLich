@@ -58,6 +58,7 @@ span{
     position: absolute;
     top: 50%;
     left: 5%;
+    z-index: 1;
 }
 .text>p{
     margin-bottom: 2%;
@@ -109,4 +110,24 @@ color: white;
     100%{
       opacity: 0.4;
     }
+}
+.menu-classlist{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(166, 244, 247, 0.7);
+    float: right;
+    z-index: 2;
+    text-align: center;
+}
+.uberator-menulist{
+    list-style-type: none;
+}
+.uberator-menulist>li>a{
+    font-size: 30px;
+    line-height: 150px;
+   
+    color:cadetblue;
 }
