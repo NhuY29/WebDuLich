@@ -8,7 +8,7 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 .main{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-image: url(/img/ccs.jpg);
     background-size: cover;
@@ -79,17 +79,20 @@ span{
     transition: 0.3s;
 }
 .social{
+width: 100px;
+height: 100px;
 position: absolute;
 left: 5%;
-bottom: 8%;
-
+bottom: 5%;
+margin-top: 3%
 }
 .social>ul{
-    display: flex;
+    display: inline-flex;
     list-style-type: none;
 }
 .social>ul>li{
     padding: 20px;
+    margin: 45px auto;
 }
 .social>ul>li>i{
 font-size: 40px;
