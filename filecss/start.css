@@ -118,8 +118,8 @@ color: white;
     justify-content: center;
     align-items: center;
     background-color: rgba(166, 244, 247, 0.7);
-    float: right;
-    z-index: 2;
+    position: absolute;
+    right: -100%;
     text-align: center;
 }
 .uberator-menulist{
