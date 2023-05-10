@@ -116,21 +116,21 @@ header input:checked ~ .menu-items{
 line-height: 100px;
 }
 .uberator-items>li>a{
-    color: cyan;
+    color: #1E90FF;
 }
 .header-text{
     position: absolute;
     
 }
 .header-text>h1{
-    color: turquoise;
+    color:#1E90FF;
     font-size: 50px;
     margin-bottom: 50px;
 }
 .header-text>a{
     padding: 30px 100px;
     background-color: cadetblue;
-    color: rgb(111, 210, 30);
+    color: #000080;
     border-radius: 50px;
     font-size: 25px;
     opacity: 0.3;
@@ -140,7 +140,7 @@ line-height: 100px;
 .header-text>a:hover{
     background-color: transparent;
     border: 5px solid #333;
-    color: aquamarine;
+    color: #00CED1;
 }
 @keyframes animetionsdatve{
     0%{
