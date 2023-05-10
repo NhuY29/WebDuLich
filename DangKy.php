@@ -36,7 +36,7 @@
 <body class="preloading">
     <div class="loadi">
         <div class="loading">
-            <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
+            <img src="./img/gifsea.webp" alt="">
         </div>
     </div>
 

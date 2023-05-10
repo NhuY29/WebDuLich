@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script&family=Libre+Franklin:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Libre+Franklin:ital,wght@1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/ccs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0, 0.9);
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.content>h2{
+    font-size: 50px;
+    color: rgb(255, 255, 254);
+}
+span{
+    font-weight: 400;
+}
+.content ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.content ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 254); 
+    font-size: 15px;
+}
+.content ul li::after{
+    content: "";
+    display: block;
+    width: 0%;
+    background-color: black;
+    height: 3px;
+    margin: auto;
+    transition: 0.4s;
+}
+.content ul li:hover:after{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.text>p{
+    margin-bottom: 2%;
+    color:rgb(255, 255, 254); 
+    font-size: 20px;
+}
+.text>h1{
+    color: black;
+    font-size: 60px;
+    line-height: 90px;
+}
+.text>button{
+    background-color: rgb(147, 165, 159);
+    color: rgb(13, 13, 14);
+    padding: 20px 40px;
+    border-radius: 20px;
+    cursor:auto;
+    animation: animetionsdatve 4s infinite;
+    transition: 0.3s;
+}
+.social{
+position: absolute;
+left: 5%;
+bottom: 8%;
+
+}
+.social>ul{
+    display: flex;
+    list-style-type: none;
+}
+.social>ul>li{
+    padding: 20px;
+}
+.social>ul>li>i{
+font-size: 40px;
+color: white;
+}
+
+@keyframes animetionsdatve{
+    0%{
+       opacity: 0.4;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+      opacity: 0.4;
+    }
+}
