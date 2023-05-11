@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script&family=Libre+Franklin:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Libre+Franklin:ital,wght@1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
 .main {
     padding: 0;
     margin: 0;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Segoe UI", sans-serif;
-}
-/* oc sen */
 .loadi{
     width: 100%;
     height: 100%;
@@ -37,206 +40,166 @@ body {
     width: 100%;
     height: 100%;
 }
-/* toi day */
-
-.header {
-    position: fixed;
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+.header{
+   
     width: 100%;
-    z-index: 20;
 }
-
-.header-above.sticky {
-    background: #c7c2c2;
-    opacity: 0.9;
-
-}
-
-.header-above.sticky.menu-left>b {
-    color: #faf5f5;
-}
-
 .header-above {
     background-color: aliceblue;
     width: 100%;
     height: 80px;
     top: 0;
-    position: relative;
-    transition: all 0.5s ease-in-out;
+     position: relative;
 }
-
-.imglogo-header {
-    width: 10%;
+.imglogo-header{
+     width: 10%;
     position: absolute;
     height: 100%;
 }
-
-.photo {}
+.photo{
+   
+}
 
 /* menu*/
-.main-dropdown,
-.main-dropdown2 {
-
-    display: none;
+.main-dropdown,.main-dropdown2{
+    
+   display: none;
 }
-
-.menu-dropdown2 {
+.menu-dropdown,.menu-dropdown2{
     position: absolute;
-    width: 250%;
-    height: 600px;
-    background-color: rgb(248, 248, 247);
+    width: 100%;
+    height: 500px;
     top: 80px;
     display: flex;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px ;
     border: 3px solid #ebecee;
-    z-index: 20;
-    margin-top: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:rgb(248, 248, 247);
+    z-index: 1;
 }
-
-.menu-dropdown {
-    position: absolute;
-    width: 190%;
-    height: 800px;
-    background-color: rgb(248, 248, 247);
-    top: 80px;
-    display: flex;
-    border-radius: 0 0 10px 10px;
-    border: 3px solid #ebecee;
-    z-index: 20;
-    margin-top: 1%;
-}
-
-.menu-dropdown-item {
+.menu-dropdown-item{
     width: 25%;
-
+   
 }
-
-.upberator-dropdown,
-.uperator-dropdown2 {
-    list-style-type: none;
+.upberator-dropdown,.uperator-dropdown2{
+     list-style-type: none;
 }
-
-.list-dropdown {
+.list-dropdown{
     padding: 20px;
 }
-
-.list-dropdown>a {
+.list-dropdown>a{
     text-decoration: none;
     color: #2d4271;
 }
-
-.list-dropdown2>a {
+.list-dropdown2>a{
     text-decoration: none;
     color: #2d4271;
 }
-
-.lisdp>B>a {
+.lisdp>B>a{
     text-decoration: none;
     color: #2d4271;
 }
-
-.list-dropdown2 {
-    padding: 30px;
+.list-dropdown2{
+padding: 30px;
 }
 
-.ubertor-news {
-    position: absolute;
-    display: block;
-    padding: 0;
+.ubertor-news{
     list-style: none;
     z-index: 12;
-    margin-top: 1%;
+    position: absolute;
+    top: 175%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-.menunone {
+.menunone{
     display: none;
 }
 
-.list-news {
+.list-news{
     text-align: left;
-    height: 40px;
-    padding: 10px;
-    background-color: rgb(248, 248, 247);
-    line-height: 40px;
+height: 80px;
+padding-left: 20px;
+padding-right: 20px;
+    background-color:rgb(248, 248, 247);
 }
-
-.list-news>a {
+.list-news>a{
     color: #2d4271;
-    line-height: 20px;
-    text-decoration: none;
-    text-align: center;
+   line-height: 20px;
 }
-
-.list-news:hover {
+.list-news:hover{
     background-color: #999;
 }
 
 /* menu ringht left */
-.menu-left-div {
+.menu-left-div{
     position: absolute;
     height: 100%;
-    top: -2px;
+ bottom: 20%;
     left: 15%;
     width: 55%;
 }
 
-.menu-right-div {
+.menu-right-div{
     position: absolute;
-    height: 100%;
+    height: 30px;
     width: 20%;
-    top: 0px;
+    /* top: 0px; */
     right: 5%;
+    bottom: 20%;
 }
 
 
-.menu-right {
+.menu-right{
     position: absolute;
     right: 0;
     list-style-type: none;
     bottom: 0;
 }
-
-.logOn>i {
+.logOn>i{
     position: absolute;
     font-size: 50px;
     left: calc(50% - 15px);
     bottom: calc(50% - 15px);
-    padding-top: 5px;
-}
 
+}
 .header-above-menu a {
     text-decoration: none;
     color: #2d4271;
 }
 
-.menu-left {
+.menu-left  {
     list-style-type: none;
     position: absolute;
     bottom: 20px;
 }
 
 .header-above .list-menu {
-    width: 100px;
+    width: 125px;
     height: 50px;
     line-height: 80px;
     text-align: center;
-    display: inline-block;
-    margin-left: 5px;
+display: inline-block;
+margin-left: 5px;
     /* background-color: beige;
     border: 1px solid black; */
 }
-
-.list-menu>b {
+.header-above .list-menu h3:hover{
+    background-color: #fdfafa;
+}
+.list-menu>h3{
     text-align: center;
-    color: #2d4271;
+    color:#2d4271;
     cursor: pointer;
+    height: 86px;
 }
-
-.list-menu>a {
-    text-decoration: none;
-    color: #2d4271;
+.list-menu>a,.list-menu>h3>a{
+    text-decoration: none;  
+    color:#2d4271;
 }
-
 .header-above .search {
     line-height: 50px;
     width: 300px;
@@ -253,7 +216,7 @@ body {
 form {
     display: flex;
     align-items: center;
-
+ 
 }
 
 input[type="text"] {
@@ -283,7 +246,6 @@ button[type="submit"] {
     height: 500px;
     background-color: #2d4271;
 }
-
 /* phan content */
 .content {
     width: 100%;
