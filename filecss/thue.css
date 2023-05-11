@@ -330,7 +330,9 @@ label {
 }
 .de {
     text-align: center;
-    padding-top: 2%;
+    width: 100%;
+    height: 100px;
+    padding: 3%;
 }
 .HD {
     width: 100%;
@@ -353,6 +355,7 @@ label {
     text-align: center;
     justify-content: center;
     align-items: center;
+    /* padding-top: 5%; */
 }
 .xe {
     width: 20%;
@@ -362,6 +365,7 @@ label {
     width: 100%;
     height: 100%;
 }
+
 .footer {
     width: 100%;
     height: 500px;
