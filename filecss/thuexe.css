@@ -137,7 +137,7 @@ padding-right: 20px;
 .menu-left-div{
     position: absolute;
     height: 100%;
- bottom: 10%;
+ bottom: 20%;
     left: 15%;
     width: 55%;
 }
@@ -148,7 +148,7 @@ padding-right: 20px;
     width: 20%;
     /* top: 0px; */
     right: 5%;
-    bottom: 10%;
+    bottom: 20%;
 }
 
 
@@ -163,7 +163,7 @@ padding-right: 20px;
     font-size: 50px;
     left: calc(50% - 15px);
     bottom: calc(50% - 15px);
-    padding-top: 5px;
+
 }
 .header-above-menu a {
     text-decoration: none;
@@ -186,7 +186,7 @@ margin-left: 5px;
     /* background-color: beige;
     border: 1px solid black; */
 }
-.list-menu>b{
+.list-menu>h3{
     text-align: center;
     color:#2d4271;
     cursor: pointer;
