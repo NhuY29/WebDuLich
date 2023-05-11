@@ -1,4 +1,9 @@
-var x = 0 
+ 
 function clickmenu(){
-    document.getElementById('listmenu').style.right = x+"px" ;
+    var event = document.querySelector(".menu-classlist");
+    event.style.display = "block";
+}
+function closedmenu(){
+    var event = document.querySelector(".menu-classlist");
+    event.style.display = "none";
 }

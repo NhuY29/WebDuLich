@@ -25,6 +25,9 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+.uberator-start>li{
+    color: aliceblue;
+}
 .content>h2{
     font-size: 50px;
     color: rgb(255, 255, 254);
@@ -119,15 +122,27 @@ color: white;
     align-items: center;
     background-color: rgba(166, 244, 247, 0.7);
     position: absolute;
-    right: -100%;
     text-align: center;
+    right: 0;
+    
+}
+#listmenu{
+    display: none;
 }
 .uberator-menulist{
     list-style-type: none;
 }
+
 .uberator-menulist>li>a{
     font-size: 30px;
     line-height: 150px;
    
-    color:cadetblue;
+    color:rgb(18, 24, 24);
+}
+.closed-menu{
+    font-size: 50px;
+    color: rgb(5, 12, 12);
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
 }
