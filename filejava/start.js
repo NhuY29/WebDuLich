@@ -212,9 +212,101 @@ function crollclick6(){
   document.getElementById('hienthinoiden').innerHTML = noiden[6];
  
 }
+function crollclicd(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden1').innerHTML = noiden[0];
+ 
+}
+function crollclicd1(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden1').innerHTML = noiden[1];
+ 
+}
+
+function crollclicd2(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden1').innerHTML = noiden[2];
+ 
+}
+
+function crollclicd3(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden1').innerHTML = noiden[3];
+ 
+}
+
+function crollclicd4(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden1').innerHTML = noiden[4];
+ 
+}
+
+function crollclicd5(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden1').innerHTML = noiden[5];
+ 
+}
+
+function crollclicd6(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden1').innerHTML = noiden[6];
+ 
+}
 function batcroll(){
 document.querySelector(".tour-croll").style.display = "block" ;
+document.querySelector(".bacroll").style.display = "none" ;
+document.querySelector(".bacroll1").style.display = "none" ;
 }
 function dongcroll(){
   document.querySelector(".tour-croll").style.display = "none" ;
+  document.querySelector(".bacroll").style.display = "none" ;
+  document.querySelector(".bacroll1").style.display = "none" ;
   }
+  function batcroll2(){
+    document.querySelector(".bacroll").style.display = "block" ;
+    document.querySelector(".tour-croll").style.display = "none" ;
+    document.querySelector(".bacroll1").style.display = "none" ;
+    }
+// 
+    function crollclick7(){
+      var noiden =["Tất Cả","1-3 Ngày","4-7 ngày","8-14 ngày","Trên 14 ngày"];
+      var hienthi = document.getElementById("hienthinoiden");
+      document.getElementById('hienthinoiden2').innerHTML = noiden[0];
+     
+    }
+    function crollclick8(){
+      var noiden =["Tất Cả","1-3 Ngày","4-7 ngày","8-14 ngày","Trên 14 ngày"];
+      var hienthi = document.getElementById("hienthinoiden");
+      document.getElementById('hienthinoiden2').innerHTML = noiden[1];
+     
+    }
+    function crollclick9(){
+      var noiden =["Tất Cả","1-3 Ngày","4-7 ngày","8-14 ngày","Trên 14 ngày"];
+      var hienthi = document.getElementById("hienthinoiden");
+      document.getElementById('hienthinoiden2').innerHTML = noiden[2];
+     
+    }
+    function crollclick10(){
+      var noiden =["Tất Cả","1-3 Ngày","4-7 ngày","8-14 ngày","Trên 14 ngày"];
+      var hienthi = document.getElementById("hienthinoiden");
+      document.getElementById('hienthinoiden2').innerHTML = noiden[3];
+     
+    }
+    function crollclick11(){
+      var noiden =["Tất Cả","1-3 Ngày","4-7 ngày","8-14 ngày","Trên 14 ngày"];
+      var hienthi = document.getElementById("hienthinoiden");
+      document.getElementById('hienthinoiden2').innerHTML = noiden[4];
+     
+    }
+    function batcroll3(){
+      document.querySelector(".tour-croll").style.display = "none" ;
+      document.querySelector(".bacroll").style.display = "none" ;
+      document.querySelector(".bacroll1").style.display = "block" ;
+      }
