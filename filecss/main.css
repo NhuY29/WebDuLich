@@ -371,11 +371,12 @@ button[type="submit"] {
     position: absolute;
     left: calc(25% - 25%);
     bottom: calc(25% - 125px);
+    display: flex;
     
 }
 
 .tour-box-item{
-    display: inline-block;
+    display: flex;
     margin-left: 2%;
 }
 .tb1,.tb3{
@@ -386,12 +387,44 @@ button[type="submit"] {
     border: 5px solid #ffc107;
     
 }
+.tour-boxicon{
+    width: 30%;
+}
+.tour-box-text{
+    width: 70%;
+}
+.tour-croll{
+    width: 200px;
+    height: 140px;
+    border: 2px solid#333;
+    z-index: 30;
+    overflow-y: scroll;
+    background-color: #ebecee;
+    display: none;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 5px;
+}
+.uberator-tour-txt>li>a{
+    text-decoration: none;
+}
+.uberator-tour-txt{
+    list-style-type: none;
+    padding: 0;
+}
 .tb2{
     width: 5%;
     height: 37%;
     margin-right: 2%;
     position: relative;
 }
+
 .tb2>i{
     position: absolute;
     font-size: 50px;

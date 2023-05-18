@@ -165,3 +165,56 @@ for (var i = 0; i < btns.length; i++) {
     alert('Bạn đã mua hàng thành công');
 }
 
+function crollclick(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden').innerHTML = noiden[0];
+ 
+}
+function crollclick1(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden').innerHTML = noiden[1];
+ 
+}
+
+function crollclick2(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden').innerHTML = noiden[2];
+ 
+}
+
+function crollclick3(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden').innerHTML = noiden[3];
+ 
+}
+
+function crollclick4(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden').innerHTML = noiden[4];
+ 
+}
+
+function crollclick5(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden').innerHTML = noiden[5];
+ 
+}
+
+function crollclick6(){
+  var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
+  var hienthi = document.getElementById("hienthinoiden");
+  document.getElementById('hienthinoiden').innerHTML = noiden[6];
+ 
+}
+function batcroll(){
+document.querySelector(".tour-croll").style.display = "block" ;
+}
+function dongcroll(){
+  document.querySelector(".tour-croll").style.display = "none" ;
+  }
