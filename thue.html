@@ -21,21 +21,21 @@
 
             <div class="menu-left-div">
                 <ul class="menu-left ">
-                    <li class="list-menu"><b onclick="menudulich()">Du Lịch <i class="fa-solid fa-angle-down"></i> </b>
+                    <li class="list-menu"><h3 onclick="menudulich()">Du Lịch <i class="fa-solid fa-angle-down"></i> </h3>
 
                     </li>
                     <!-- <li class="list-menu"><a href=""><b>Liên Hệ</b></a></li> -->
-                    <li class="list-menu"><b onclick="menutintuc()">Vận Chuyển <i class="fa-solid fa-angle-down"
-                                onclick="menutintuc()"></i></b>
+                    <li class="list-menu"><h3 onclick="menutintuc()">Vận Chuyển <i class="fa-solid fa-angle-down"
+                                onclick="menutintuc()"></i></h3>
                         <ul class="ubertor-news menunone">
                             <li class="list-news"><a href="thuexe.html">Thuê Xe </a></li>
                             <li class="list-news"><a href="">Vé Máy Bay</a></li>
                         </ul>
                     </li>
-                    <li class="list-menu"><b onclick="menukhuyenmai()">Khuyến Mãi <i
-                                class="fa-solid fa-angle-down"></i></b></li>
-                    <li class="list-menu"><a href="LienHe.html"><b>Liên Hệ</b></a></li>
-                    <li class="list-menu"><a href=""><b>VietTravelPlus</b></a> </li>
+                    <li class="list-menu"><h3 onclick="menukhuyenmai()">Khuyến Mãi <i
+                                class="fa-solid fa-angle-down"></i></h3></li>
+                    <li class="list-menu"><a href="LienHe.html"><h3>Liên Hệ</h3></a></li>
+                    <li class="list-menu"><a href=""><h3>VietTravelPlus</h3></a> </li>
                 </ul>
             </div>
             <div class="menu-right-div">
@@ -57,7 +57,7 @@
             <div class="menu-dropdown goout">
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN BẮC</a></B></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./MienBac.html">TOUR MIỀN BẮC</a></B></li>
                         <li class="list-dropdown"><a href="./HaNoi.html">Du lịch Hà Nội</a></li>
                         <li class="list-dropdown"><a href="./HaiPhong.html">Du lịch Hải Phòng</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Hạ Long</a></li>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN TRUNG </a></B></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./MienTrung.html">TOUR MIỀN TRUNG </a></B></li>
                         <li class="list-dropdown"><a href="./Hue.html">Du lịch Huế</a></li>
                         <li class="list-dropdown"><a href="./QuangTri.html">Du lịch Quảng Trị</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Quảng Bình </a></li>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN TÂY NAM BỘ </a></B></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./MienTay.html">TOUR MIỀN TÂY NAM BỘ </a></B></li>
                         <li class="list-dropdown"><a href="./PhuQuoc.html"> Du lịch Phú Quốc </a></li>
                         <li class="list-dropdown"><a href="./TienGiang.html"> Du lịch Tiền Giang</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Cần Thơ </a></li>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="">TOUR MIỀN ĐÔNG NAM BỘ </a></B></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./MienDong.html">TOUR MIỀN ĐÔNG NAM BỘ </a></B></li>
                         <li class="list-dropdown"><a href="./DongNai.html"> Du lịch Đồng Nai</a></li>
                         <li class="list-dropdown"><a href="./VungTau.html"> Du lịch Bà Rịa - Vũng Tàu</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Côn Đảo </a></li>
@@ -333,5 +333,27 @@
         </div>
     </div>
 </body>
+<script src="./filejava/start.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop()) {
+                    $(".header-above").addClass('sticky');
+                }
+                else {
+                    $(".header-above").removeClass('sticky');
+                }
 
+            });
+        });
+    </script>
+    <script>
+        $(window).on('load', function (event) {
+            $('body').removeClass(".preloading")
+            $('.loadi').delay(3000).fadeOut('fast');
+        });
+    </script>
 </html>
