@@ -406,57 +406,6 @@ button[type="submit"] {
 .toalac {
     width: 30%;
 }
-/* sliding-xe */
-.car {
-    position: relative;
-    width: 180px;
-    height: 60px;
-    background-color:#2d4271;
-    border-radius: 5px;
-    animation: drive 3s linear infinite;
-  }
-  
-  .wheel {
-    position: absolute;
-    bottom: 0;
-    width: 40px;
-    height: 40px;
-    background-color: #ccc;
-    border-radius: 50%;
-    animation: rotate 1s linear infinite;
-  }
-  
-  .wheel-left {
-    left: 20px;
-  }
-  
-  .wheel-right {
-    right: 20px;
-  }
-  
-  .body {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    width: 140px;
-    height: 40px;
-    background-color: #fff;
-    border-radius: 5px;
-  }
-  @keyframes drive {
-    0% {
-      transform: translateX(-150%);
-    }
-    100% {
-      transform: translateX(150%);
-    }
-  }
-  
-  @keyframes rotate {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
 .In {
     width: 25%;
 }
