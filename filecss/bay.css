@@ -1,0 +1,572 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script&family=Libre+Franklin:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Libre+Franklin:ital,wght@1,100&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.main {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+}
+.loadi{
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+   position:fixed;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+  display: block;
+  background-color: #B0E0E6;
+}
+.loading{
+    
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+}
+.loading>img{
+   
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+.header{
+   
+    width: 100%;
+}
+.header-above {
+    background-color: aliceblue;
+    width: 100%;
+    height: 80px;
+    top: 0;
+     position: relative;
+}
+.imglogo-header{
+     width: 10%;
+    position: absolute;
+    height: 100%;
+}
+.photo{
+   
+}
+
+/* menu*/
+.main-dropdown,.main-dropdown2{
+    
+    display: none;
+ }
+ .menu-dropdown,.menu-dropdown2{
+     position: absolute;
+     width: 100%;
+     height: 500px;
+     top: 80px;
+     display: flex;
+     border-radius: 0 0 10px 10px ;
+     border: 3px solid #ebecee;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     background-color:rgb(248, 248, 247);
+     z-index: 1;
+ }
+ .menu-dropdown-item{
+     width: 25%;
+    
+ }
+ .upberator-dropdown,.uperator-dropdown2{
+      list-style-type: none;
+ }
+ .list-dropdown{
+     padding: 20px;
+ }
+ .list-dropdown>a{
+     text-decoration: none;
+     color: #2d4271;
+ }
+ .list-dropdown2>a{
+     text-decoration: none;
+     color: #2d4271;
+ }
+ .lisdp>B>a{
+     text-decoration: none;
+     color: #2d4271;
+ }
+ .list-dropdown2{
+ padding: 30px;
+ }
+ 
+ .ubertor-news{
+     list-style: none;
+     z-index: 12;
+     position: absolute;
+     top: 175%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .menunone{
+     display: none;
+ }
+ 
+ .list-news{
+     text-align: left;
+ height: 80px;
+ padding-left: 20px;
+ padding-right: 20px;
+     background-color:rgb(248, 248, 247);
+ }
+ .list-news>a{
+     color: #2d4271;
+    line-height: 20px;
+ }
+ .list-news:hover{
+     background-color: #999;
+ }
+ 
+ /* menu ringht left */
+ .menu-left-div{
+     position: absolute;
+     height: 100%;
+  bottom: 20%;
+     left: 15%;
+     width: 55%;
+ }
+ 
+ .menu-right-div{
+     position: absolute;
+     height: 30px;
+     width: 20%;
+     /* top: 0px; */
+     right: 5%;
+     bottom: 20%;
+ }
+ 
+ 
+ .menu-right{
+     position: absolute;
+     right: 0;
+     list-style-type: none;
+     bottom: 0;
+ }
+ .logOn>i{
+     position: absolute;
+     font-size: 50px;
+     left: calc(50% - 15px);
+     bottom: calc(50% - 15px);
+ 
+ }
+ .header-above-menu a {
+     text-decoration: none;
+     color: #2d4271;
+ }
+ 
+ .menu-left  {
+     list-style-type: none;
+     position: absolute;
+     bottom: 20px;
+ }
+ 
+ .header-above .list-menu {
+     width: 125px;
+     height: 50px;
+     line-height: 80px;
+     text-align: center;
+ display: inline-block;
+ margin-left: 5px;
+     /* background-color: beige;
+     border: 1px solid black; */
+ }
+ .header-above .list-menu h3:hover{
+     background-color: #fdfafa;
+ }
+ .list-menu>h3{
+     text-align: center;
+     color:#2d4271;
+     cursor: pointer;
+     height: 86px;
+ }
+ .list-menu>a,.list-menu>h3>a{
+     text-decoration: none;  
+     color:#2d4271;
+ }
+ .header-above .search {
+     line-height: 50px;
+     width: 300px;
+     height: 50px;
+     line-height: 50px;
+ }
+ 
+ .logOn {
+     position: absolute;
+     font-size: 30px;
+     bottom: 20px;
+ }
+ 
+ form {
+     display: flex;
+     align-items: center;
+  
+ }
+ 
+ input[type="text"] {
+     padding: 8px;
+     border: 2px solid #ffc107;
+     border-radius: 4px;
+     font-size: 16px;
+ }
+ 
+ button[type="submit"] {
+     background-color: #007bff;
+     color: white;
+     padding: 8px 16px;
+     border: none;
+     border-radius: 4px;
+     margin-left: 8px;
+     font-size: 16px;
+ }
+ 
+ .header-below img {
+     width: 100%;
+     height: 400px;
+ }
+ 
+ #dropdow {
+     width: 100%;
+     height: 500px;
+     background-color: #2d4271;
+ }
+ .content {
+    width: 100%;
+    height: 1500px;
+    background-image: url(/img/M_BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+ }
+ .head1 {
+    width: 70%;
+    height: 20%;
+    /* background-color: #ffc107; */
+    /* display: flex; 
+    justify-content: center;
+    align-items: center; */
+ }
+ .head1 .head1_top {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(6,68,86,1);
+    color: rgba(255,255,239,1);
+    border-radius: 5% 5% 0% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .head1_center {
+    width: 100%;
+    height: 30%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .head1_below {
+    width: 100%;
+    height: 30%;
+    background-color: #ebecee;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+.head1_center_item {
+    width: 20%;
+    height: 100%;
+    /* background-color: #fe2214; */
+    display: flex;
+}
+.head1_center_item_left {
+    /* background-color: #ffc107; */
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.head1_center_item_right {
+    width: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.head1_center_item_right input[type="date"],
+.head1_center_item_right select
+{
+    width: 100%;
+    height: 50%;
+    border-radius: 3%;
+    border: 1px solid black;
+}
+ .head2 {
+    width: 80%;
+    height: 40%;
+   margin-top: 5%;
+ }
+ .head2_top {
+    width: 100%;
+    height: 30%;
+    /* border-radius: 5%; */
+    background-color: #eeeff0;
+    border-radius: 4% 4% 0% 0%;
+ }
+ .head2_top>h1 {
+    height: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .head2_top>p {
+    font-size: 16px;
+    height: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .head2_content {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    border-radius: 0% 0% 4% 4%;
+    background-color: #f3f9fb;
+ }
+ .head2_content_item_left {
+    padding-top: 5%;
+    width: 50%;
+    height: 80%;
+ }
+ .head2_content_item_left >img {
+    width: 80%;
+ }
+ .head2_content_item_right {
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+ }
+ .head2_content_item_right  p {
+    font-size: 16px;
+    line-height: 2;
+ }
+ /* star */
+.head3{
+    margin-top: 5%;
+    width: 80%;
+    height: 20%;
+    background-color: #999;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/**
+ * Để cho đơn giản nhất mình dùng icon star của font awesome.
+ * À mà khoan, ở đây chúng ta chỉ làm tut nhỏ nên thấy import cả 1 library font-awesome có vẻ hơi quá đáng đã vậy còn ngược lại tiêu chí 
+ * "HẠN CHẾ TỐI DÙNG THƯ VIỆN NGOÀI" :D chắc các bạn nghĩ thế nhỉ? Hiện tại chúng ta chỉ implement 1 tut nhỏ thì có vẻ thừa, 
+ * nhưng trong project mình đang code có sẵn font-awesome nên trên thực tế mình đâu có * thêm gì đâu :D
+ */
+ @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+ /*reset css*/
+ div,label{margin:0;padding:0;}
+ body{margin:20px;}
+ h1{font-size:1.5em;margin:10px;}
+ /****** Style Star Rating Widget *****/
+ #rating{border:none;float:left;}
+ #rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+ #rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+ #rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+ #rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+ /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+ #rating>input:checked~label,
+ #rating:not(:checked)>label:hover, 
+ #rating:not(:checked)>label:hover~label{color:#FFD700;}
+ /* Hover vào các sao phía trước ngôi sao đã chọn*/
+ #rating>input:checked+label:hover,
+ #rating>input:checked~label:hover,
+ #rating>label:hover~input:checked~label,
+ #rating>input:checked~label:hover~label{color:#FFED85;}
+/* footer */
+ .In {
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.In li,
+.DongTour li,
+.LienHe li,
+.ThongTin li {
+    list-style-type: none;
+    color: #2d4271;
+}
+
+
+.footer-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.In {
+    width: 25%;
+}
+
+.DongTour {
+    width: 25%;
+
+}
+
+.LienHe {
+    width: 25%;
+
+}
+
+.QR {
+
+    width: 25%;
+}
+
+.ThanhToan img {
+    margin: 10px;
+}
+
+.MXH i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.MXH button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fe2214;
+    background-color: #fe2214;
+}
+
+
+
+
+footer {
+    background-color: rgba(128, 128, 128, 0.05);
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.in-uberator {
+    position: absolute;
+    display: flex;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+
+}
+
+.in-uberators {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude {
+    width: 85%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude>h2 {
+    color: #2d4271;
+    font-size: 30px;
+}
+
+.in-uberator>li {
+    font-size: 20px;
+}
+
+.QR-download {
+    display: flex;
+}
+
+.icon-child {
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+}
+
+.icon-child>i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+/*footer bottom */
+.footer-bottom li,
+.footer-top li {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.itembot {
+    width: 25%;
+}
+
+.uberator-thanhtoan {
+    display: flex;
+
+
+}
+
+.uberator-thanhtoan>li {
+    padding: 1%;
+}
+
+.dm>li {
+    height: 50px;
+}
+
+.metnha {
+    position: absolute;
+    top: 100px;
+}
+
+.dm {
+    display: flex;
+
+}
