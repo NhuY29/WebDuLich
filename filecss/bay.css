@@ -331,7 +331,7 @@ body {
     border: 1px solid black;
 }
  .head2 {
-    width: 80%;
+    width: 70%;
     height: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -374,9 +374,10 @@ body {
     width: 50%;
     height: 80%;
  }
- .head2_content_item_left >img {
+  .head2_content_item_left >img {
     width: 80%;
- }
+    height: 100%;
+ } 
  .head2_content_item_right {
     width: 50%;
     height: 100%;
@@ -404,7 +405,7 @@ body {
  }
  /* star */
 .head3{
-    width: 80%;
+    width: 70%;
     height: 15%;
     margin-left: auto;
     margin-right: auto;
