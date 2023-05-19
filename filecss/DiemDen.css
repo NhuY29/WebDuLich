@@ -23,7 +23,7 @@
    top: 0;
    left: 0;
    overflow: hidden;
-  display: block;
+  display: none;
   background-color: #B0E0E6;
 }
 .loading{
