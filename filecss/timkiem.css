@@ -512,9 +512,17 @@ input[type="date"] {
     color: #007bff; 
     padding: 2%;
 }
+.second {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 .second2 {
     width: 100%;
-    height:100px;
+    height: 100px;
     display: flex;
     text-align: center;
     justify-content: center;
