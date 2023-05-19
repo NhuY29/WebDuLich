@@ -80,3 +80,11 @@ li a {
 .footer-top {
     margin-top: 20%;
 }
+.in-uberator li:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+.uperator-bottom li:hover {
+    color: #007bff;
+    cursor: pointer;
+} 
