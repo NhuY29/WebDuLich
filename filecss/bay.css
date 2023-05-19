@@ -373,10 +373,12 @@ body {
     padding-top: 5%;
     width: 50%;
     height: 80%;
+    position: relative;
  }
   .head2_content_item_left >img {
     width: 80%;
     height: 100%;
+    position: absolute;
  } 
  .head2_content_item_right {
     width: 50%;
