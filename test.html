@@ -6,64 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       .car {
-  position: relative;
-  width: 180px;
-  height: 60px;
-  background-color: #333;
-  border-radius: 5px;
-  animation: drive 3s linear infinite;
-}
+      .image-container {
+      position: relative;
+   }
 
-.wheel {
-  position: absolute;
-  bottom: 0;
-  width: 40px;
-  height: 40px;
-  background-color: #ccc;
-  border-radius: 50%;
-  animation: rotate 1s linear infinite;
-}
+   img {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      animation: animateImg 5s infinite;
+   }
 
-.wheel-left {
-  left: 20px;
-}
-
-.wheel-right {
-  right: 20px;
-}
-
-.body {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  width: 140px;
-  height: 40px;
-  background-color: #fff;
-  border-radius: 5px;
-}
-
-@keyframes drive {
-  0% {
-    transform: translateX(-200%);
-  }
-  100% {
-    transform: translateX(200%);
-  }
-}
-
-@keyframes rotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-</style>
+   @keyframes animateImg {
+      0% {
+         left: 0;
+      }
+      100% {
+         left: -200%;
+      }
+   }
+    </style>
 </head>
 <body>
-    <div class="car">
-        <div class="wheel wheel-left"></div>
-        <div class="wheel wheel-right"></div>
-        <div class="body"></div>
-      </div>
+  <div class="image-container" style="width: 500px; height: 300px;"></div>
+  <div class="image-container" style="width: 500px; height: 300px;">
+    <img src="./img/anh4.png" alt="animated image">
+    <img src="./img/BMWI.png" alt="animated image">
+    <img src="./img/anh4.png" alt="animated image">
+ </div>
 </body>
 </html>
