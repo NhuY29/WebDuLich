@@ -326,14 +326,17 @@ body {
  .head2 {
     width: 80%;
     height: 40%;
-   margin-top: 5%;
  }
  .head2_top {
     width: 100%;
-    height: 30%;
+    height: 15%;
     /* border-radius: 5%; */
     background-color: #eeeff0;
     border-radius: 4% 4% 0% 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
  }
  .head2_top>h1 {
     height: 30%;
@@ -374,12 +377,25 @@ body {
     font-size: 16px;
     line-height: 2;
  }
- /* star */
-.head3{
+ .gioithieu {
     margin-top: 5%;
     width: 80%;
-    height: 20%;
-    background-color: #999;
+    height: 5%;
+    /* background-color: #2d4271; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .gioithieu>h1 {
+    color:#2d4271;
+    font-size: 30px;
+ }
+ /* star */
+.head3{
+    width: 80%;
+    height: 15%;
+    background-color:#ebecee;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -401,7 +417,7 @@ body {
  #rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
  #rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
  #rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
- #rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+ #rating>label{color:#131212;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
  /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
  #rating>input:checked~label,
  #rating:not(:checked)>label:hover, 
