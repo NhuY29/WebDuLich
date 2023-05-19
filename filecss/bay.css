@@ -372,12 +372,14 @@ body {
  .head2_content_item_left {
     padding-top: 5%;
     width: 50%;
-    height: 80%;
+    height: 90%;
     position: relative;
  }
   .head2_content_item_left >img {
     width: 80%;
     height: 100%;
+    top: 5%;
+    left: 10%;
     position: absolute;
  } 
  .head2_content_item_right {
