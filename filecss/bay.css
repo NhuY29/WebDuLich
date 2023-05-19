@@ -248,24 +248,31 @@ body {
  .content {
     width: 100%;
     height: 1500px;
-    background-image: url(/img/M_BG.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
-    /* display: flex; */
     text-align: center;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
+    background-image: url(/img/M_BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
  }
+ /* .content::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+ }  */
  .head1 {
     width: 70%;
     height: 20%;
-    /* background-color: #ffc107; */
-    /* display: flex; 
-    justify-content: center;
-    align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
  }
  .head1 .head1_top {
     width: 100%;
@@ -326,6 +333,8 @@ body {
  .head2 {
     width: 80%;
     height: 40%;
+    margin-left: auto;
+    margin-right: auto;
  }
  .head2_top {
     width: 100%;
@@ -381,6 +390,8 @@ body {
     margin-top: 5%;
     width: 80%;
     height: 5%;
+    margin-left: auto;
+    margin-right: auto;
     /* background-color: #2d4271; */
     display: flex;
     text-align: center;
@@ -395,6 +406,8 @@ body {
 .head3{
     width: 80%;
     height: 15%;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#ebecee;
     display: flex;
     text-align: center;
