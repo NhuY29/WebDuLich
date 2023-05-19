@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./filecss/DiemDen.css">
+    <link rel="stylesheet" href="./filecss/timkiem.css">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
     <link rel="stylesheet" href="./filejava/start.js">
 
-    <title>Du Lịch Đồng Nai</title>
+    <title>Thông Tin Tìm Kiếm</title>
 </head>
 
 <body class="preloading">
@@ -18,23 +18,8 @@
             <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
         </div>
     </div>
-
     <div class="main">
-        <input type="checkbox" name="" id="" class="chekboxxxx">
-        <div class="menu-icons">
-           <div class="menu-line">
 
-           </div>
-        </div>
-        <div class="menu-items">
-         <ul class="uberator-items">
-           <li><a href="">Trang Chủ</a></li>
-           <li><a href="">Bắt Đầu đặt vé</a></li>
-           <li><a href="">Tin Tức</a></li>
-           <li><a href="">Khuyến Mãi</a></li>
-           <li><a href="">Liên Hệ</a></li>
-         </ul>
-        </div>
         <div class="header-above">
             <div class="imglogo-header">
                 <a href="index.html"><img src="./img/logo.png" alt="" class="photo"></a>
@@ -43,21 +28,28 @@
 
             <div class="menu-left-div">
                 <ul class="menu-left ">
-                    <li class="list-menu"><h3 onclick="menudulich()">Du Lịch <i class="fa-solid fa-angle-down"></i> </h3>
+                    <li class="list-menu">
+                        <h3 onclick="menudulich()">Du Lịch <i class="fa-solid fa-angle-down"></i> </h3>
 
                     </li>
                     <!-- <li class="list-menu"><a href=""><b>Liên Hệ</b></a></li> -->
-                    <li class="list-menu"><h3 onclick="menutintuc()">Vận Chuyển <i class="fa-solid fa-angle-down"
+                    <li class="list-menu">
+                        <h3 onclick="menutintuc()">Vận Chuyển <i class="fa-solid fa-angle-down"
                                 onclick="menutintuc()"></i></h3>
                         <ul class="ubertor-news menunone">
                             <li class="list-news"><a href="thuexe.html">Thuê Xe </a></li>
                             <li class="list-news"><a href="">Vé Máy Bay</a></li>
                         </ul>
                     </li>
-                    <li class="list-menu"><h3 onclick="menukhuyenmai()">Khuyến Mãi <i
-                                class="fa-solid fa-angle-down"></i></h3></li>
-                    <li class="list-menu"><a href="LienHe.html"><h3>Liên Hệ</h3></a></li>
-                    <li class="list-menu"><a href=""><h3>VietTravelPlus</h3></a> </li>
+                    <li class="list-menu">
+                        <h3 onclick="menukhuyenmai()">Khuyến Mãi <i class="fa-solid fa-angle-down"></i></h3>
+                    </li>
+                    <li class="list-menu"><a href="LienHe.html">
+                            <h3>Liên Hệ</h3>
+                        </a></li>
+                    <li class="list-menu"><a href="">
+                            <h3>VietTravelPlus</h3>
+                        </a> </li>
                 </ul>
             </div>
             <div class="menu-right-div">
@@ -112,7 +104,8 @@
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="./MienDong.html">TOUR MIỀN ĐÔNG NAM BỘ </a></B></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./MienDong.html">TOUR MIỀN ĐÔNG NAM BỘ </a></B>
+                        </li>
                         <li class="list-dropdown"><a href="./DongNai.html"> Du lịch Đồng Nai</a></li>
                         <li class="list-dropdown"><a href="./VungTau.html"> Du lịch Bà Rịa - Vũng Tàu</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Côn Đảo </a></li>
@@ -139,13 +132,16 @@
             </div>
         </div>
 
+
+
         <div class="content">
-            <div class="left testhu">
+            <div class="left testhu" onclick="closedmenu()">
                 <div>
                     <h2 style="color: #2D4271;">Lọc Kết Quả</h2>
                 </div>
                 <div class="left-text">
-                    <h3>Đồng Nai</h3>
+                    <h3>Hà
+                        Nội</h3>
                 </div>
 
                 <div>
@@ -160,72 +156,28 @@
 
                 <div>
                     <h4 style="color: #2D4271;">Điểm Đi</h4> <br>
-                    <select name="Điểm Đến">
-                        <option value="0">--Chọn điểm đến--</option>
-                        <option value="99">An Giang</option>
-                        <option value="53">Bà Rịa - Vũng Tàu</option>
-                        <option value="130">Bắc Kạn</option>
-                        <option value="206">Bạc Liêu</option>
-                        <option value="33">Bắc Ninh</option>
-                        <option value="188">Bến Tre</option>
-                        <option value="94">Bình Định</option>
-                        <option value="367">Bình Dương</option>
-                        <option value="369">Bình Phước</option>
-                        <option value="194">Bình Thuận</option>
-                        <option value="47">Buôn Ma Thuột</option>
-                        <option value="137">Cà Mau</option>
-                        <option value="56">Cần Thơ</option>
-                        <option value="129">Cao Bằng</option>
-                        <option value="192">Côn Đảo</option>
-                        <option value="45">Đà Lạt</option>
-                        <option value="42">Đà Nẵng</option>
-                        <option value="341">Đắk Nông</option>
-                        <option value="187">Điện Biên</option>
-                        <option selected="" value="52">Đồng Nai</option>
-                        <option value="199">Đồng Tháp</option>
-                        <option value="108">Nghệ An</option>
-                        <option value="135">Hà Giang</option>
-                        <option value="32">Hạ Long</option>
-                        <option value="361">Hà Nam</option>
-                        <option value="29">Hà Nội</option>
-                        <option value="59">HÀ TIÊN</option>
-                        <option value="195">Hà Tĩnh</option>
-                        <option value="30">Hải Phòng</option>
-                        <option value="363">Hòa Bình</option>
-                        <option value="380">HÒN SƠN</option>
-                        <option value="39">Huế</option>
-                        <option value="193">Kiên Giang</option>
-                        <option value="48">Kon Tum</option>
-                        <option value="37">Lạng Sơn</option>
-                        <option value="38">Lào Cai</option>
-                        <option value="214">Long An</option>
-                        <option value="232">Nam Định</option>
-                        <option value="44">Nha Trang</option>
-                        <option value="35">Ninh Bình</option>
-                        <option value="106">Ninh Thuận</option>
-                        <option value="49">Pleiku</option>
-                        <option value="51">Phan Thiết</option>
-                        <option value="54">Phú Quốc</option>
-                        <option value="34">Phú Thọ</option>
-                        <option value="121">Phú Yên</option>
-                        <option value="41">Quảng Bình</option>
-                        <option value="198">Quảng Ngãi</option>
-                        <option value="43">Quảng Nam</option>
-                        <option value="196">Quảng Ninh</option>
-                        <option value="40">Quảng Trị</option>
-                        <option value="141">Quy Nhơn</option>
-                        <option value="58">Sóc Trăng</option>
-                        <option value="134">Sơn La</option>
-                        <option value="203">Tây Ninh</option>
-                        <option value="55">Tiền Giang</option>
-                        <option value="197">TP. Hồ Chí Minh</option>
-                        <option value="213">Trà Vinh</option>
-                        <option value="377">Tuyên Quang</option>
-                        <option value="233">Thái Bình</option>
-                        <option value="133">Thanh Hóa</option>
-                        <option value="57">Vĩnh Long</option>
-                        <option value="202">Vĩnh Phúc</option>
-                        <option value="231">Yên Bái</option>
+                    <select id="" name="Điểm Đến">
+                        <option value="0">--Tất cả--</option>
+                        <option value="7">Bình Dương</option>
+                        <option value="18">Buôn Ma Thuột</option>
+                        <option value="20">Cà Mau</option>
+                        <option value="5">Cần Thơ</option>
+                        <option value="24">Đà Lạt</option>
+                        <option value="4">Đà Nẵng</option>
+                        <option selected="" value="3">Hà Nội</option>
+                        <option value="6">Hải Phòng</option>
+                        <option value="10">Huế</option>
+                        <option value="14">Long Xuyên</option>
+                        <option value="8">Nha Trang</option>
+                        <option value="13">Phú Quốc</option>
+                        <option value="15">Quảng Ngãi</option>
+                        <option value="17">Quảng Ninh</option>
+                        <option value="11">Quy Nhơn</option>
+                        <option value="22">Rạch Giá</option>
+                        <option value="29">Thanh Hóa</option>
+                        <option value="1">TP. Hồ Chí Minh</option>
+                        <option value="19">Vinh</option>
+                        <option value="16">Vũng Tàu</option>
                     </select>
                 </div>
 
@@ -285,37 +237,21 @@
             </div>
 
             <div class="right testhu">
-                <h1 style="color: #2D4271; text-align: center;">Du lịch Đồng Nai</h1>
-                <hr>
-                <p>Đồng Nai là điểm đến picnic ngắn ngày lý tưởng với cụm đá Ba Chồng cao 36 mét kỳ thú, khu Bửu Long
-                    quanh
-                    hồ Long Ẩn, là một Vịnh Hạ Long thu nhỏ. Thác Giang Điền tung bọt trắng xóa, vườn quốc gia Cát Tiên
-                    UNESCO công nhận là khu dự trữ sinh quyển của thế giới và thác Mai đầy hoa lan rừng, hoa mai, thủy
-                    tiên.
-                </p>
-                <p>Đăng ký tour Đồng Nai cùng Vietravel, Quý khách có thể đến khám phá các điểm đến nổi bật sau: Vườn
-                    Quốc
-                    Gia Nam Cát Tiên, Ca Cao Trọng Đức, KDL CÁP TREO NÚI CHỨA CHAN, Làng Bưởi Tân Triều, Thảo Thiện
-                    Garden,
-                    SUỐI MƠ PARK, SUỐI MƠ PARK 1, SUỐI MƠ PARK 2, KDL CÁP TREO NÚI CHỨA CHAN 1, HOÀNG HÔN ĐẢO Ó - ĐÔNG
-                    TRƯỜNG, KDL CAO MINH, ĐẢO Ó - ĐÔNG TRƯỜNG 1</p>
-                <p>Để hiểu hơn về Đồng Nai Mời Quý khách tham khảo Kinh nghiệm du lịch Đồng Nai</p>
-
+               
                 <div class="first">
                     <div class="Tour1">
-                        <img src="./img/DN1.jpg" alt="">
+                        <img src="./img/HN1.jpg" alt="">
                         <div>
                             <div class="Phan1">
                                 <p style="font-size: 12px;">29/6/2023-4N3D-Giờ đi: 07:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Hồ Suối Vọng - Chùa Bạch Liên -
-                                        Chùa
-                                        Bạch Liên (Khách sạn 3 sao)</B></a>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Hà Nội - Bái Đính - Khu Du Lịch
+                                        Tràng An - Bái Đính - Hạ Long - Yên Tử</B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
                                     NDDNG264-002-290423VN</p>
-                                <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">5,990,000₫</b></p>
+                                <p>Nơi Khởi Hành: <b>Đà Nẵng</b></p>
+                                <p><b style="color: #FD5056;">7,990,000₫</b></p>
                             </div>
 
                             <div class="Phan3">
@@ -323,97 +259,21 @@
                                     Ngay</button>
                                 <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
                             </div>
-                            <!-- <p style="text-align: center;">Số chỗ còn nhận: <b style="color: #FD5056;">10</b></p> -->
                         </div>
                     </div>
 
 
                     <div class="Tour2">
-                        <img src="./img/DN2.jpg" alt="">
+                        <img src="./img/HN2.jpg" alt="">
                         <div>
                             <div class="Phan1">
-                                <p style="font-size: 12px;">28/8/2023-2N1D-Giờ đi: 07:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Vườn Quốc gia Nam Cát Tiên - Thác
-                                        Giang Điền - Văn miếu Trấn Biên</B></a>
+                                <p style="font-size: 12px;">28/8/2023-4N3D-Giờ đi: 07:00</p>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Hà Nội - Vịnh Hạ Long - SaPa- Bản
+                                        Cát Cát- FanSiPan</B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN1331-010-290423VF</p>
-                                <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">4,490,000₫</b></p>
-                            </div>
-                            <div class="Phan3">
-                                <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
-                                    Ngay</button>
-                                <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
-                            </div>
-                            <!-- <p style="text-align: center;">Số chỗ còn nhận: <b style="color: #FD5056;">17</b></p> -->
-                        </div>
-                    </div>
-
-
-                    <div class="Tour3">
-                        <img src="./img/DN3.jpg" alt="">
-                        <div>
-                            <div class="Phan1">
-                                <p style="font-size: 12px;">23/7/2023-3N2D-Giờ đi: 05:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Đá ba chồng - thác Đá Hàn - Khám
-                                        phá
-                                        “Vịnh Hạ Long” ở Đồng Nai (Khách sạn 5 sao)</B></a>
-                            </div>
-                            <div class="Phan2">
-                                <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN397-001-090523-V-9</p>
-                                <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">15,990,000₫</b></p>
-                            </div>
-                            <div class="Phan3">
-                                <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
-                                    Ngay</button>
-                                <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
-                            </div>
-                            <!-- <p style="text-align: center;">Số chỗ còn nhận: <b style="color: #FD5056;">12</b></p> -->
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="second">
-                    <div class="Tour4">
-                        <img src="./img/DN4.webp" alt="" width="100%">
-                        <div>
-                            <div class="Phan1">
-                                <p style="font-size: 12px;">12/6/2023-3N2D-Giờ đi: 17:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Núi Chứa Chan - Khu vui chơi Bò
-                                        Cạp
-                                        Vàng - Khu du lịch Bửu Long</B></a>
-                            </div>
-                            <div class="Phan2">
-                                <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDCTH1061-021-170623VN-1</p>
-                                <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">9,990,000₫</b></p>
-                            </div>
-                            <div class="Phan3">
-                                <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
-                                    Ngay</button>
-                                <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Tour5">
-                        <img src="./img/DN5.jpg" alt="" width="100%">
-                        <div>
-                            <div class="Phan1">
-                                <p style="font-size: 12px;">28/5/2023-3N2D-Giờ đi: 17:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Khu du lịch Tre Việt - Làng Bưởi
-                                        Tân
-                                        Triều - Vườn trái cây Long Khánh - Văn miếu Trấn Biên</B></a>
-                            </div>
-                            <div class="Phan2">
-                                <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN103-050-170823VN-D</p>
+                                    NDSGN1331-010-290423VU</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
                                 <p><b style="color: #FD5056;">9,490,000₫</b></p>
                             </div>
@@ -426,20 +286,19 @@
                     </div>
 
 
-                    <div class="Tour6">
-                        <img src="./img/DN6.jpg" alt="" width="100%">
+                    <div class="Tour3">
+                        <img src="./img/HN3.jpg" alt="">
                         <div>
                             <div class="Phan1">
-                                <p style="font-size: 12px;">1/6/2023-3N2D-Giờ đi: 15:00</p>
-                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Khu du lịch Bửu Long - Khu du
-                                        lịch
-                                        Vườn Xoài - Thiền viện Thường Chiếu - Công viên Suối Mơ</B></a>
+                                <p style="font-size: 12px;">23/7/2023-2N1D-Giờ đi: 05:00</p>
+                                <a href="" style="font-size: 16px; color: #2D4271;"><B>Liên Tuyến Trung Bắc: Đà Nẵng-
+                                        Động Phong Nha & Thiên Đường - Hà Nội </B></a>
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDCTH122-024-270623VN-V</p>
-                                <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
-                                <p><b style="color: #FD5056;">10,100,000₫</b></p>
+                                    NDSGN397-001-090523-V-7</p>
+                                <p>Nơi Khởi Hành: <b>Đà Nẵng</b></p>
+                                <p><b style="color: #FD5056;">6,990,000₫</b></p>
                             </div>
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
@@ -450,13 +309,44 @@
                     </div>
                 </div>
 
+                <div class="GT"><b>Các Tour Đang Tìm Kiếm Phổ Biến</b> </div>
+                <div class="second2">
+                    <div class="Tour_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="chuthich"><b><a href="./HaiPhong.html">Hải Phòng</a></b></div>
+                    </div>
+                    <div class="Tour_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="chuthich"><b><a href="./HaNoi.html">Hà Nội</a></b></div>
+                    </div>
+                    <div class="Tour_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="chuthich"><b><a href="./VungTau.html">Vũng Tàu</a></b></div>
+                    </div>
+                    <div class="Tour_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="chuthich"><b><a href="./PhuQuoc.html">Phú Quốc</a></b></div>
+                    </div>
 
+                </div>
+
+                <div class="GT"><b>Các Điểm Đến Ưa Chuộng</b></div>
+                <div class="second">
+                    <div class="Tour">
+                        <a href="./HaiPhong.html"><img src="./img/HP1.jpg" alt="" width="100%"></a> 
+                        <div class="chuthich"><b><a href="./HaiPhong.html">Hải Phòng</a></b></div>
+                    </div>
+
+                    <div class="Tour">
+                       <a href="./PhuQuoc.html"><img src="./img/PQ3.jpg" alt="" width="100%"></a> 
+                        <div class="chuthich"><b><a href="./PhuQuoc.html">Phú Quốc</a></b></div>
+                    </div>
+                    <div class="Tour">
+                        <a href=""><img src="./img/hue3.jpg" alt="" width="100%"></a>
+                        <div class="chuthich"><b><a href="./Hue.html">Huế</a></b></div>
+                    </div>
+                </div>
             </div>
-
-
-
-
-
         </div>
     </div>
     <footer>
@@ -648,9 +538,9 @@
 
     </footer>
     <script src="./filejava/start.js"></script>
-    <!-- them duoi nay -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"
-        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous">
+        </script>
     <script>
         $(document).ready(function () {
             $(window).scroll(function () {

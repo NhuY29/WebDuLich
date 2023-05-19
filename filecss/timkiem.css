@@ -481,7 +481,77 @@ input[type="date"] {
     line-height: 1.5;
     /* Tạo khoảng cách giữa các dòng */
 }
-
+/* timkiem */
+.Tour {
+    width: 30%;
+    height: 250px;
+    border-radius: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease-out;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.Tour>img {
+    width: 100;
+    height: 100%;
+    border-radius: 5%;
+}
+.Tour .chuthich {
+    font-size: 20px;
+    color: #007bff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.GT {
+    margin-top: 5%;
+    width: 100%;
+    height: 15%;
+    font-size: 20px; 
+    color: #007bff; 
+    padding: 2%;
+}
+.second2 {
+    width: 100%;
+    height:100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #305477; */
+}
+.Tour_search {
+    display: flex;
+    width: 15%;
+    height: 50%;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    border: 1px solid #ccc;
+    margin: 5%;
+}
+.Tour_search:hover,
+.Tour_search:hover a,
+.Tour_search:hover i{
+    cursor: pointer;
+    background-color:#4D4AEF;
+    color: #fff;
+}
+.Tour_search>i {
+    color:#4D4AEF ;
+}
+.Tour_search>i,
+.Tour_search .chuthich {
+    font-size: 16px;
+}
+.chuthich a {
+    text-decoration: none;
+    color: #4D4AEF;
+}
+/* ... */
 .first,
 .second {
     display: flex;
@@ -489,10 +559,7 @@ input[type="date"] {
 
 .Tour1,
 .Tour2,
-.Tour3,
-.Tour4,
-.Tour5,
-.Tour6 {
+.Tour3{
     width: 30%;
     height: 600px;
     /* background-color: yellow; */
@@ -507,10 +574,7 @@ input[type="date"] {
 
 .Tour1 img,
 .Tour2 img,
-.Tour3 img,
-.Tour4 img,
-.Tour5 img,
-.Tour6 img {
+.Tour3 img{
     width: 100%;
     height: 250px;
 }
@@ -518,28 +582,19 @@ input[type="date"] {
 
 .Tour1:hover,
 .Tour2:hover,
-.Tour3:hover,
-.Tour4:hover,
-.Tour5:hover,
-.Tour6:hover {
+.Tour3:hover {
     transform: translateY(-10px);
 }
 
 .Tour1 a:hover b,
 .Tour2 a:hover b,
-.Tour3 a:hover b,
-.Tour4 a:hover b,
-.Tour5 a:hover b,
-.Tour6 a:hover b {
+.Tour3 a:hover b{
     color: #007bff;
 }
 
 .Tour1 a,
 .Tour2 a,
-.Tour3 a,
-.Tour4 a,
-.Tour5 a,
-.Tour6 a {
+.Tour3 a {
     text-decoration: none;
 }
 
@@ -576,10 +631,7 @@ input[type="date"] {
 
 .Tour1 div,
 .Tour2 div,
-.Tour3 div,
-.Tour4 div,
-.Tour5 div,
-.Tour6 div {
+.Tour3 div{
     padding: 6px 6px;
 }
 
