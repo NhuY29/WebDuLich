@@ -224,13 +224,13 @@ line-height: 100px;
     height: 4px;
     width: 100%;
   position: relative;
-    background-color: rgb(230, 230, 240);
+    background-color:#2d4271;
 }
 .menu-line::before{
     content: "";
     display: block;
     position: absolute;
-    background-color:  rgb(230, 230, 240);
+    background-color:  #2d4271;
     height: 4px;
     width: 100%;
     top: -14px;
@@ -239,7 +239,7 @@ line-height: 100px;
     content: "";
     display: block;
     position: absolute;
-    background-color:  rgb(230, 230, 240);
+    background-color:  #2d4271;
     height: 4px;
     width: 100%;
     top: 14px;
