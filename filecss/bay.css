@@ -88,6 +88,11 @@ body {
  .upberator-dropdown,.uperator-dropdown2{
       list-style-type: none;
  }
+ .list-dropdown a:hover,
+.list-dropdown2 a:hover {
+  color: #007bff;
+  cursor: pointer;
+}
  .list-dropdown{
      padding: 20px;
  }
@@ -117,7 +122,9 @@ body {
  .menunone{
      display: none;
  }
- 
+ .list-news a:hover {
+    cursor: pointer;
+ }
  .list-news{
      text-align: left;
  height: 80px;
@@ -128,6 +135,7 @@ body {
  .list-news>a{
      color: #2d4271;
     line-height: 20px;
+    text-decoration: none;
  }
  .list-news:hover{
      background-color: #999;
@@ -604,3 +612,12 @@ footer {
     display: flex;
 
 }
+.in-uberator li:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+.uperator-bottom li:hover {
+    color: #007bff;
+    cursor: pointer;
+} 
+
