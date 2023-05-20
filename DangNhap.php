@@ -30,13 +30,13 @@
 
                     </li>
                     <!-- <li class="list-menu"><a href=""><b>Liên Hệ</b></a></li> -->
-                    <li class="list-menu"><b onclick="menutintuc()">Vận Chuyển <i class="fa-solid fa-angle-down"
+                    <!-- <li class="list-menu"><b onclick="menutintuc()">Vận Chuyển <i class="fa-solid fa-angle-down"
                                 onclick="menutintuc()"></i></b>
                         <ul class="ubertor-news menunone">
                             <li class="list-news"><a href="thuexe.html">Thuê Xe </a></li>
                             <li class="list-news"><a href="">Vé Máy Bay</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li class="list-menu"><b onclick="menukhuyenmai()">Khuyến Mãi <i
                                 class="fa-solid fa-angle-down"></i></b></li>
                     <li class="list-menu"><a href="LienHe.html"><b>Liên Hệ</b></a></li>
