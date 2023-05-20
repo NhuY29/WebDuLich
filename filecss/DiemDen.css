@@ -10,7 +10,7 @@
 }
 #switch-mode{
     position: fixed;
-    z-index: 10000000000000000000;
+    z-index: 1000;
     bottom: 10px;
     right: 5px;
     width: 30px;
@@ -19,15 +19,25 @@
 body.dark{
     background: #000;
     color: #fff;
-    z-index: 1000000000000000;
+    z-index: 1000;
+ }
+ body.dark .header-above .menu-left-div>ul>li>h3,
+ body.dark .header-above .menu-left-div>ul>li>a
+ {
+     color: #fff;
  }
  body.dark .header-above{
     background: #3f3e3e;
-    z-index: 10000000000000000;
+   
+    z-index: 1000;
+ }
+ body.dark .left{
+    background-color: #000;
+    z-index: 10000;
  }
  body.dark .header-above #switch-mode{
     color: #fff;
-    z-index: 100000000000000;
+    z-index: 10000;
  }
 
 .main {
@@ -325,7 +335,7 @@ padding-right: 20px;
 .header-above .list-menu {
     width: 125px;
     height: 50px;
-    line-height: 80px;
+    line-height: 90px;
     text-align: center;
 display: inline-block;
 margin-left: 5px;
