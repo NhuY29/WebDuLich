@@ -400,7 +400,10 @@ button[type="submit"] {
     padding-top: 0;
 
 }
-
+.left h3,
+.left h4 {
+    line-height: 3;
+}
 .left-text {
     background-color: #4D4AEF;
     color: #FFF;
@@ -478,7 +481,7 @@ input[type="date"] {
 .right p {
     color: #2d4271;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 3;
     /* Tạo khoảng cách giữa các dòng */
 }
 
