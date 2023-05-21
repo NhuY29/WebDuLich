@@ -21,6 +21,13 @@ body.dark{
     color: #fff;
     z-index: 1000;
  }
+ body.dark .right>p{
+    color:  #fff;
+ }
+ body.dark .right>h1{
+     color:  #fff !important ;
+
+ }
  body.dark .header-above .menu-left-div>ul>li>h3,
  body.dark .header-above .menu-left-div>ul>li>a
  {
@@ -29,17 +36,47 @@ body.dark{
  body.dark .header-above{
     background: #3f3e3e;
    
-    z-index: 1000;
+   
+ }
+ .darkh1{
+    color: #2D4271;
+     text-align: center;
  }
  body.dark .left{
     background-color: #000;
-    z-index: 10000;
+    
  }
  body.dark .header-above #switch-mode{
     color: #fff;
-    z-index: 10000;
- }
 
+ }
+ body.dark .first .Phan1>p{
+    color:  #fff;
+ }
+ body.dark .first .Phan1>a>B{
+    color:  #fff;
+ }
+ body.dark .first .Phan2>p{
+    color:  #fff;
+ }
+ body.dark .second .Phan1>p{
+    color:  #fff;
+ }
+ body.dark .second .Phan1>a>B{
+    color:  #fff;
+ }
+ body.dark .second .Phan2>p{
+    color:  #fff;
+ }
+ body.dark .right>p{
+    color:  #fff;
+ }
+ body.dark .left>div>h2,
+ body.dark .left>div>h4
+ {
+     color:  #fff !important ;
+
+ }
 .main {
     padding: 0;
     margin: 0;
@@ -547,6 +584,7 @@ input[type="date"] {
 .Tour6 img {
     width: 100%;
     height: 250px;
+    border-radius: 10px;
 }
 
 
@@ -804,3 +842,9 @@ footer {
 
 }
 
+body.dark>footer .tieude>h2,
+body.dark>footer .uberator>li,
+body.dark>footer .chung>li
+{
+    color: #fff;
+}
