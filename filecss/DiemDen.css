@@ -77,12 +77,14 @@ body.dark{
      color:  #fff !important ;
 
  }
- body.dark>footer .tieude>h2,
- body.dark>footer .uberator>li,
- body.dark>footer .chung>li
+ body.dark h2 ,
+ body.dark li ,
+ body.dark a ,
+ body.dark b>a
  {
-     color: #fff;
+    color:  #fff;
  }
+ 
 .main {
     padding: 0;
     margin: 0;
@@ -880,4 +882,6 @@ width: 100%;
     display: flex;
 
 }
-
+.uberator{
+    width: 50%;
+}
