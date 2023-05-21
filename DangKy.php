@@ -39,7 +39,9 @@
             <img src="./img/gifsea.webp" alt="">
         </div>
     </div>
-
+    <button id="switch-mode">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
     <div class="main">
     <div class="header-above">
             <div class="imglogo-header">
