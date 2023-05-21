@@ -708,21 +708,25 @@ input[type="date"] {
 
 .In {
     width: 25%;
+    position: relative;
 }
 
 .DongTour {
     width: 25%;
+    position: relative;
 
 }
 
 .LienHe {
     width: 25%;
+    position: relative;
 
 }
 
 .QR {
 
     width: 25%;
+    position: relative;
 }
 
 .ThanhToan img {
@@ -753,15 +757,29 @@ footer {
 }
 
 .in-uberator {
-    position: absolute;
+   position: absolute;
     display: flex;
     height: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     bottom: 0;
+    /* width: 100%; */
+    width: 100%;
+    justify-content: center;
 
 }
 
+.chanfoot{
+    display: block;
+}
+.chage-footer1{
+   width: 100%;
+}
+.chage-footer-child{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .in-uberators {
     margin-left: auto;
     margin-right: auto;
@@ -773,6 +791,7 @@ footer {
     height: 20%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 
 }
 
@@ -786,6 +805,7 @@ footer {
 }
 
 .QR-download {
+    position: relative;
     display: flex;
 }
 
@@ -816,6 +836,7 @@ footer {
 
 .itembot {
     width: 25%;
+    position: relative;
 }
 
 .uberator-thanhtoan {
@@ -823,7 +844,19 @@ footer {
 
 
 }
+.footer-chagebottom{
+width: 100%;
 
+
+}
+.phaaiii{
+    margin-left: 25%;
+}
+.footerrr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .uberator-thanhtoan>li {
     padding: 1%;
 }
