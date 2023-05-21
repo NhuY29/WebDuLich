@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script&family=Libre+Franklin:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Libre+Franklin:ital,wght@1,100&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#switch-mode{
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+}
+body.dark{
+    background: #000;
+    color: #fff;
+    z-index: 1000;
+ }
+ body.dark .right>p{
+    color:  #fff;
+ }
+ body.dark .right>h1{
+     color:  #fff !important ;
 
+ }
+ body.dark .header-above .menu-left-div>ul>li>h3,
+ body.dark .header-above .menu-left-div>ul>li>a
+ {
+     color: #fff;
+ }
+ body.dark .header-above{
+    background: #3f3e3e;
+   
+   
+ }
+ .darkh1{
+    color: #2D4271;
+     text-align: center;
+ }
+ body.dark .left{
+    background-color: #000;
+    
+ }
+ body.dark .header-above #switch-mode{
+    color: #fff;
+
+ }
+ body.dark .first .Phan1>p{
+    color:  #fff;
+ }
+ body.dark .first .Phan1>a>B{
+    color:  #fff;
+ }
+ body.dark .first .Phan2>p{
+    color:  #fff;
+ }
+ body.dark .second .Phan1>p{
+    color:  #fff;
+ }
+ body.dark .second .Phan1>a>B{
+    color:  #fff;
+ }
+ body.dark .second .Phan2>p{
+    color:  #fff;
+ }
+ body.dark .right>p{
+    color:  #fff;
+ }
+ body.dark .left>div>h2,
+ body.dark .left>div>h4
+ {
+     color:  #fff !important ;
+
+ }
+ body.dark>footer .tieude>h2,
+ body.dark>footer .uberator>li,
+ body.dark>footer .chung>li
+ {
+     color: #fff;
+ }
 .KM {
     width: 100%;
     height: 1500px;
@@ -88,3 +172,161 @@ li a {
     color: #007bff;
     cursor: pointer;
 } 
+.In {
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.In li,
+.DongTour li,
+.LienHe li,
+.ThongTin li {
+    list-style-type: none;
+    color: #2d4271;
+}
+
+
+.footer-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.In {
+    width: 25%;
+}
+
+.DongTour {
+    width: 25%;
+
+}
+
+.LienHe {
+    width: 25%;
+
+}
+
+.QR {
+
+    width: 25%;
+}
+
+.ThanhToan img {
+    margin: 10px;
+}
+
+.MXH i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.MXH button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fe2214;
+    background-color: #fe2214;
+}
+
+
+
+
+footer {
+    background-color: rgba(128, 128, 128, 0.05);
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.in-uberator {
+    position: absolute;
+    display: flex;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+
+}
+
+.in-uberators {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude {
+    width: 85%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude>h2 {
+    color: #2d4271;
+    font-size: 30px;
+}
+
+.in-uberator>li {
+    font-size: 20px;
+}
+
+.QR-download {
+    display: flex;
+}
+
+.icon-child {
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+}
+
+.icon-child>i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+/*footer bottom */
+.footer-bottom li,
+.footer-top li {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.itembot {
+    width: 25%;
+}
+
+.uberator-thanhtoan {
+    display: flex;
+
+
+}
+
+.uberator-thanhtoan>li {
+    padding: 1%;
+}
+
+.dm>li {
+    height: 50px;
+}
+
+.metnha {
+    position: absolute;
+    top: 100px;
+}
+
+.dm {
+    display: flex;
+
+}

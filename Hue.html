@@ -18,6 +18,9 @@
             <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
         </div>
     </div>
+    <button id="switch-mode">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
     <div class="main">
         <input type="checkbox" name="" id="" class="chekboxxxx">
         <div class="menu-icons">
@@ -324,7 +327,7 @@
                         <img src="./img/Hue1.jpg" alt="">
                         <div>
                             <div class="Phan1">
-                                <p style="font-size: 12px;">05/09/2023 - 3N2Đ - Giờ đi: 05:45/p>
+                                <p style="font-size: 12px;">05/09/2023 - 3N2Đ - Giờ đi: 05:45</p>
                                     <a href="" style="font-size: 16px; color: #2D4271;"><B>Đà Nẵng - Hội An - Bà Nà -
                                             Cầu Vàng - Huế - Trải nghiệm đi thuyền dạo Sông Hoài & Tặng show Ký Ức Hội
                                             An</B></a>
@@ -657,6 +660,23 @@
         $(window).on('load', function (event) {
             $('body').removeClass(".preloading")
             $('.loadi').delay(3000).fadeOut('fast');
+        });
+    </script>
+    <script>
+        const body = document.body;
+        const switch_mode = document.querySelector('#switch-mode i');
+        // Load mode 
+        let mode = localStorage.getItem('darkmode');
+        if (mode == 'true') {
+            body.classList.add('dark');
+            switch_mode.className = "bi bi-brightness-high-fill";
+        }
+        switch_mode.addEventListener('click', () => {
+            switch_mode.classList.toggle('bi-moon-stars-fill');
+            switch_mode.classList.toggle('bi-brightness-high-fill');
+            let mode = body.classList.toggle('dark');
+            // save mode 
+            localStorage.setItem('darkmode', mode);
         });
     </script>
 </body>

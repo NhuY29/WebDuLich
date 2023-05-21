@@ -77,6 +77,12 @@ body.dark{
      color:  #fff !important ;
 
  }
+ body.dark>footer .tieude>h2,
+ body.dark>footer .uberator>li,
+ body.dark>footer .chung>li
+ {
+     color: #fff;
+ }
 .main {
     padding: 0;
     margin: 0;
@@ -875,9 +881,3 @@ width: 100%;
 
 }
 
-body.dark>footer .tieude>h2,
-body.dark>footer .uberator>li,
-body.dark>footer .chung>li
-{
-    color: #fff;
-}

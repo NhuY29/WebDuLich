@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./filecss/DiemDen.css">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
     <link rel="stylesheet" href="./filejava/start.js">
-   
+
 
     <title>Du Lịch Hà Nội</title>
 </head>
@@ -19,25 +19,25 @@
             <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
         </div>
     </div>
-     <button id="switch-mode">
-            <i class="bi bi-moon-stars-fill"></i>
-         </button>
+    <button id="switch-mode">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
     <div class="main">
-       
+
         <input type="checkbox" name="" id="" class="chekboxxxx">
         <div class="menu-icons">
-           <div class="menu-line">
+            <div class="menu-line">
 
-           </div>
+            </div>
         </div>
         <div class="menu-items">
-         <ul class="uberator-items">
-            <li><a href="./index.html">Trang Chủ</a></li>
-           <li><a href="./TinTuc.html">Tin Tức</a></li>
-           <li><a href="./thue.html">Thuê Xe</a></li>
-           <li><a href="./bay.html">Vé Máy Bay</a></li>
-           <li><a href="">Đăng Xuất</a></li>
-         </ul>
+            <ul class="uberator-items">
+                <li><a href="./index.html">Trang Chủ</a></li>
+                <li><a href="./TinTuc.html">Tin Tức</a></li>
+                <li><a href="./thue.html">Thuê Xe</a></li>
+                <li><a href="./bay.html">Vé Máy Bay</a></li>
+                <li><a href="">Đăng Xuất</a></li>
+            </ul>
         </div>
 
         <div class="header-above">
@@ -48,7 +48,8 @@
 
             <div class="menu-left-div">
                 <ul class="menu-left ">
-                    <li class="list-menu"><h3 onclick="menudulich()">Du Lịch <i class="fa-solid fa-angle-down"></i> </h3>
+                    <li class="list-menu">
+                        <h3 onclick="menudulich()">Du Lịch <i class="fa-solid fa-angle-down"></i> </h3>
 
                     </li>
                     <!-- <li class="list-menu"><a href=""><b>Liên Hệ</b></a></li> -->
@@ -59,10 +60,15 @@
                             <li class="list-news"><a href="">Vé Máy Bay</a></li>
                         </ul>
                     </li> -->
-                    <li class="list-menu"><h3 onclick="menukhuyenmai()">Khuyến Mãi <i
-                                class="fa-solid fa-angle-down"></i></h3></li>
-                    <li class="list-menu"><a href="LienHe.html"><h3>Liên Hệ</h3></a></li>
-                    <li class="list-menu"><a href=""><h3>VietTravelPlus</h3></a> </li>
+                    <li class="list-menu">
+                        <h3 onclick="menukhuyenmai()">Khuyến Mãi <i class="fa-solid fa-angle-down"></i></h3>
+                    </li>
+                    <li class="list-menu"><a href="LienHe.html">
+                            <h3>Liên Hệ</h3>
+                        </a></li>
+                    <li class="list-menu"><a href="">
+                            <h3>VietTravelPlus</h3>
+                        </a> </li>
                 </ul>
             </div>
             <div class="menu-right-div">
@@ -117,7 +123,8 @@
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="./MienDong.html">TOUR MIỀN ĐÔNG NAM BỘ </a></B></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./MienDong.html">TOUR MIỀN ĐÔNG NAM BỘ </a></B>
+                        </li>
                         <li class="list-dropdown"><a href="./DongNai.html"> Du lịch Đồng Nai</a></li>
                         <li class="list-dropdown"><a href="./VungTau.html"> Du lịch Bà Rịa - Vũng Tàu</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Côn Đảo </a></li>
@@ -249,7 +256,7 @@
             </div>
 
             <div class="right testhu">
-                <h1 class="darkh1" >Du lịch Hà Nội</h1>
+                <h1 class="darkh1">Du lịch Hà Nội</h1>
                 <hr>
                 <p>Hà Nội là thủ đô ngàn năm văn hiến, còn lưu dấu nhiều di tích như Hồ Gươm, Cầu Thê Húc, Chùa Quán Sứ,
                     Hồ Tây, 36 phố phường. Hà Nội có bốn mùa, luôn mang đến nhiều hoài niệm khó phai, mỗi mùa một vẻ,
@@ -630,18 +637,18 @@
         const switch_mode = document.querySelector('#switch-mode i');
         // Load mode 
         let mode = localStorage.getItem('darkmode');
-        if(mode=='true'){
-           body.classList.add('dark');
-           switch_mode.className = "bi bi-brightness-high-fill";
+        if (mode == 'true') {
+            body.classList.add('dark');
+            switch_mode.className = "bi bi-brightness-high-fill";
         }
-        switch_mode.addEventListener('click', () =>{
-           switch_mode.classList.toggle('bi-moon-stars-fill');
-           switch_mode.classList.toggle('bi-brightness-high-fill');
-           let mode = body.classList.toggle('dark');
-           // save mode 
-           localStorage.setItem('darkmode', mode);
+        switch_mode.addEventListener('click', () => {
+            switch_mode.classList.toggle('bi-moon-stars-fill');
+            switch_mode.classList.toggle('bi-brightness-high-fill');
+            let mode = body.classList.toggle('dark');
+            // save mode 
+            localStorage.setItem('darkmode', mode);
         });
-     </script>
+    </script>
 </body>
 
 </html>

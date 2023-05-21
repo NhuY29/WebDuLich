@@ -15,6 +15,9 @@
             <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
         </div>
     </div>
+    <button id="switch-mode">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
     <div class="main">
         <input type="checkbox" name="" id="" class="chekboxxxx">
         <div class="menu-icons">
@@ -477,6 +480,23 @@ setInterval(changeimg,3000);
             $(window).on('load', function (event) {
                 $('body').removeClass(".preloading")
                 $('.loadi').delay(3000).fadeOut('fast');
+            });
+        </script>
+         <script>
+            const body = document.body;
+            const switch_mode = document.querySelector('#switch-mode i');
+            // Load mode 
+            let mode = localStorage.getItem('darkmode');
+            if (mode == 'true') {
+                body.classList.add('dark');
+                switch_mode.className = "bi bi-brightness-high-fill";
+            }
+            switch_mode.addEventListener('click', () => {
+                switch_mode.classList.toggle('bi-moon-stars-fill');
+                switch_mode.classList.toggle('bi-brightness-high-fill');
+                let mode = body.classList.toggle('dark');
+                // save mode 
+                localStorage.setItem('darkmode', mode);
             });
         </script>
         

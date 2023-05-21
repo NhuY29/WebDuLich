@@ -11,7 +11,15 @@
     <title>Thuê Xe Cùng YB</title>
 </head>
 
-<body>
+<body class="preloading">
+    <div class="loadi">
+        <div class="loading">
+            <img src="./img/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" alt="">
+        </div>
+    </div>
+    <button id="switch-mode">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
     <div class="main">
         <input type="checkbox" name="" id="" class="chekboxxxx">
         <div class="menu-icons">
@@ -318,24 +326,24 @@
         </div>
         <div class="MatXeHoi">
             <div class="xe">
-                <img src="./img/xehoi1.jpg" alt="">
+                <img src="./img/xehoi5.png" alt="">
                 <p>Yamaha Janus 2020</p>
-                <p>Giá thuê: 1,000,000₫</p>
+                <p>Giá thuê: 800,000₫</p>
             </div>
             <div class="xe">
                 <img src="./img/xehoi3.png" alt="">
-                <p>Sirius Fi</p>
+                <p>Luscombe</p>
                 <p>Giá thuê: 300,000₫</p>
             </div>
             <div class="xe">
-                <img src="./img/xehoi2.jpg" alt="">
-                <p>SH mode</p>
-                <p>Giá thuê: 1,200,000₫</p>
+                <img src="./img/xehoi6.webp" alt="">
+                <p>Hampshire</p>
+                <p>Giá thuê: 1,000,000₫</p>
             </div>
             <div class="xe">
-                <img src="./img/xehoi4.jpg" alt="">
-                <p>Future Fl</p>
-                <p>Giá thuê: 320,000₫</p>
+                <img src="./img/xehoi7.webp" alt="">
+                <p>Surrey</p>
+                <p>Giá thuê: 520,000₫</p>
             </div>
         </div>
         <div class="footer">
@@ -369,6 +377,23 @@
         $(window).on('load', function (event) {
             $('body').removeClass(".preloading")
             $('.loadi').delay(3000).fadeOut('fast');
+        });
+    </script>
+     <script>
+        const body = document.body;
+        const switch_mode = document.querySelector('#switch-mode i');
+        // Load mode 
+        let mode = localStorage.getItem('darkmode');
+        if (mode == 'true') {
+            body.classList.add('dark');
+            switch_mode.className = "bi bi-brightness-high-fill";
+        }
+        switch_mode.addEventListener('click', () => {
+            switch_mode.classList.toggle('bi-moon-stars-fill');
+            switch_mode.classList.toggle('bi-brightness-high-fill');
+            let mode = body.classList.toggle('dark');
+            // save mode 
+            localStorage.setItem('darkmode', mode);
         });
     </script>
 </html>
