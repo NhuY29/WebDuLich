@@ -84,7 +84,9 @@ body.dark{
  {
     color:  #fff;
  }
- 
+  body.dark .header-above .list-menu h3:hover{
+    color: #000;
+  }
 .main {
     padding: 0;
     margin: 0;
