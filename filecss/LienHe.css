@@ -77,21 +77,37 @@ body.dark{
      color:  #fff !important ;
 
  }
- body.dark>footer .tieude>h2,
- body.dark>footer .uberator>li,
- body.dark>footer .chung>li
+ body.dark h2 ,
+ body.dark li ,
+ body.dark a ,
+ body.dark b>a
  {
-     color: #fff;
+    color:  #fff;
  }
+  body.dark .header-above .list-menu h3:hover{
+    color: #000;
+  }
 .main {
     padding: 0;
     margin: 0;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+    position: relative;
+}
+.maps {
+    display: flex;
+    width: 100%;
+} 
+.toalac {
+    width: 40%;
+    padding-left: 2%;
+}
+.maps-img {
+    padding-right: 2%;
+    width: 60%;
+}
+.maps-img iframe{
     width: 100%;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -562,47 +578,28 @@ line-height: 100px;
     position: relative;
 
 }
-.maps {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-.toalac {
-    width: 30%;
-    color: #2d4271;
-    font-size: 20px;
-}
-.maps-img  {
-    width: 65%;
-}
-.maps-img iframe {
-    width: 100%;
-    padding-left: 5%;
-}
-.toalac {
-    width: 30%;
-}
+
 .In {
     width: 25%;
+    position: relative;
 }
 
 .DongTour {
     width: 25%;
+    position: relative;
 
 }
 
 .LienHe {
     width: 25%;
+    position: relative;
 
 }
 
 .QR {
 
     width: 25%;
+    position: relative;
 }
 
 .ThanhToan img {
@@ -633,15 +630,29 @@ footer {
 }
 
 .in-uberator {
-    position: absolute;
+   position: absolute;
     display: flex;
     height: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     bottom: 0;
+    /* width: 100%; */
+    width: 100%;
+    justify-content: center;
 
 }
 
+.chanfoot{
+    display: block;
+}
+.chage-footer1{
+   width: 100%;
+}
+.chage-footer-child{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .in-uberators {
     margin-left: auto;
     margin-right: auto;
@@ -653,6 +664,7 @@ footer {
     height: 20%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 
 }
 
@@ -666,6 +678,7 @@ footer {
 }
 
 .QR-download {
+    position: relative;
     display: flex;
 }
 
@@ -696,6 +709,7 @@ footer {
 
 .itembot {
     width: 25%;
+    position: relative;
 }
 
 .uberator-thanhtoan {
@@ -703,7 +717,19 @@ footer {
 
 
 }
+.footer-chagebottom{
+width: 100%;
 
+
+}
+.phaaiii{
+    margin-left: 25%;
+}
+.footerrr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .uberator-thanhtoan>li {
     padding: 1%;
 }
@@ -720,4 +746,7 @@ footer {
 .dm {
     display: flex;
 
+}
+.uberator{
+    width: 50%;
 }

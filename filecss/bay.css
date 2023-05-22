@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script&family=Libre+Franklin:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Libre+Franklin:ital,wght@1,100&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +8,85 @@
     font-family: 'Castoro Titling', cursive;
     font-family: 'Libre Franklin', sans-serif;
 }
+#switch-mode{
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+}
+body.dark{
+    background: #000;
+    color: #fff;
+    z-index: 1000;
+ }
+ body.dark .right>p{
+    color:  #fff;
+ }
+ body.dark .right>h1{
+     color:  #fff !important ;
 
+ }
+ body.dark .header-above .menu-left-div>ul>li>h3,
+ body.dark .header-above .menu-left-div>ul>li>a
+ {
+     color: #fff;
+ }
+ body.dark .header-above{
+    background: #3f3e3e;
+   
+   
+ }
+ .darkh1{
+    color: #2D4271;
+     text-align: center;
+ }
+ body.dark .left{
+    background-color: #000;
+    
+ }
+ body.dark .header-above #switch-mode{
+    color: #fff;
+
+ }
+ body.dark .first .Phan1>p{
+    color:  #fff;
+ }
+ body.dark .first .Phan1>a>B{
+    color:  #fff;
+ }
+ body.dark .first .Phan2>p{
+    color:  #fff;
+ }
+ body.dark .second .Phan1>p{
+    color:  #fff;
+ }
+ body.dark .second .Phan1>a>B{
+    color:  #fff;
+ }
+ body.dark .second .Phan2>p{
+    color:  #fff;
+ }
+ body.dark .right>p{
+    color:  #fff;
+ }
+ body.dark .left>div>h2,
+ body.dark .left>div>h4
+ {
+     color:  #fff !important ;
+
+ }
+ body.dark h2 ,
+ body.dark li ,
+ body.dark a ,
+ body.dark b>a
+ {
+    color:  #fff;
+ }
+  body.dark .header-above .list-menu h3:hover{
+    color: #000;
+  }
 .main {
     padding: 0;
     margin: 0;
@@ -570,7 +649,7 @@ line-height: 100px;
  #rating>label:hover~input:checked~label,
  #rating>input:checked~label:hover~label{color:#FFED85;}
 /* footer */
- .In {
+.In {
     display: flex;
     left: 0;
     top: 0;
@@ -595,21 +674,25 @@ line-height: 100px;
 
 .In {
     width: 25%;
+    position: relative;
 }
 
 .DongTour {
     width: 25%;
+    position: relative;
 
 }
 
 .LienHe {
     width: 25%;
+    position: relative;
 
 }
 
 .QR {
 
     width: 25%;
+    position: relative;
 }
 
 .ThanhToan img {
@@ -640,15 +723,29 @@ footer {
 }
 
 .in-uberator {
-    position: absolute;
+   position: absolute;
     display: flex;
     height: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     bottom: 0;
+    /* width: 100%; */
+    width: 100%;
+    justify-content: center;
 
 }
 
+.chanfoot{
+    display: block;
+}
+.chage-footer1{
+   width: 100%;
+}
+.chage-footer-child{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .in-uberators {
     margin-left: auto;
     margin-right: auto;
@@ -660,6 +757,7 @@ footer {
     height: 20%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 
 }
 
@@ -673,6 +771,7 @@ footer {
 }
 
 .QR-download {
+    position: relative;
     display: flex;
 }
 
@@ -703,6 +802,7 @@ footer {
 
 .itembot {
     width: 25%;
+    position: relative;
 }
 
 .uberator-thanhtoan {
@@ -710,7 +810,19 @@ footer {
 
 
 }
+.footer-chagebottom{
+width: 100%;
 
+
+}
+.phaaiii{
+    margin-left: 25%;
+}
+.footerrr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .uberator-thanhtoan>li {
     padding: 1%;
 }
@@ -728,12 +840,7 @@ footer {
     display: flex;
 
 }
-.in-uberator li:hover {
-    color: #007bff;
-    cursor: pointer;
+.uberator{
+    width: 50%;
 }
-.uperator-bottom li:hover {
-    color: #007bff;
-    cursor: pointer;
-} 
 
