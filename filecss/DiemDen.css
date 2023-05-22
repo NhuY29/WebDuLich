@@ -38,6 +38,9 @@ body.dark{
    
    
  }
+ body.dark .main-dropdown>li{
+    color: #000;
+ }
  .darkh1{
     color: #2D4271;
      text-align: center;
@@ -194,6 +197,13 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}
+.iconclosed{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    font-size: 50px;
+    color: gray;
 }
 .menu-line{
 
@@ -886,4 +896,5 @@ width: 100%;
 }
 .uberator{
     width: 50%;
+    text-align: center;
 }

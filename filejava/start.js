@@ -87,7 +87,7 @@ function menukhuyenmai() {
 
 
 };
-function closedmenu() {
+function closeddmenu() {
   var event = document.querySelector(".main-dropdown");
   event.style.display = "none";
   var event2 = document.querySelector(".ubertor-news");

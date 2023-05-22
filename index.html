@@ -86,7 +86,7 @@
                                     <li class="list-news"><a href="">Kinh Nghiệm du lịch</a></li>
                                 </ul>
                             </li>
-                            <li class="list-menu"><b >Liên Hệ <i
+                            <li class="list-menu" onclick="menukhuyenmai()"><b >Liên Hệ <i
                                         class="fa-solid fa-angle-down"></i></b></li>
                             <li class="list-menu"><b>VietTravelPlus</b> </li>
                         </ul>
@@ -156,6 +156,7 @@
 
                     </ul>
                 </div>
+                <i class="fa-solid fa-xmark iconclosed" onclick="closeddmenu()"></i>
             </div>
         </div>
         <div class="main-dropdown2">
@@ -170,10 +171,11 @@
                     <li class="list-dropdown2"> <a href=""> Vietravel & Sacombank: Quẹt thẻ liền tay - Giảm ngay 1 triệu
                             đồng</a></li>
                 </ul>
+                <i class="fa-solid fa-xmark iconclosed" onclick="closeddmenu()"></i>
             </div>
         </div>
         <!-- toi day -->
-        <div class="content">
+        <div class="content"  onclick="closeddmenu()">
             <div class="content-img">
                 <img src="./img/sl_230410_kvhe2023_1920-570px.jpg" alt="">
             </div>
@@ -220,6 +222,7 @@
                             <hr width="95%">
                         </div>
                     </nav>
+                    <form action="">
                     <div class="footer-tour">
                         <div class="tour-box1">
                             <div class="tour-box-item tb1">
@@ -227,8 +230,8 @@
                                     <i class="fa-solid fa-location-dot"></i>
                                 </div>
                                 <div class="tour-box-text">
-                               <p>Điểm đến</p>
-                               <h4 id="hienthinoiden" onclick="batcroll()">Nơi Khởi Hành</h4>
+                               <p>Điểm Đi</p>
+                               <h5 id="hienthinoiden" onclick="batcroll()" > Nơi Khởi Hành</h5>
                                <div class="tour-croll">
                                <ul class="uberator-tour-txt">
 
@@ -278,7 +281,7 @@
                             </div>
                             <div class="tour-box-text">
                            <p>Điểm đến</p>
-                           <h4 id="hienthinoiden1" onclick="batcroll2()">Nơi Khởi Hành</h4>
+                           <h5 id="hienthinoiden1" onclick="batcroll2()">Nơi Khởi Hành</h5>
                            <div class="tour-croll bacroll">
                            <ul class="uberator-tour-txt">
 
@@ -328,7 +331,7 @@
                                   <i class="fa-regular fa-calendar-days"></i>
                                 </div>
                                 <div class="tour-box-text">
-                               <p>Điểm đến</p>
+                               <p>Ngày Đi</p>
                                <div id="datepicker" 
                                class="input-group date" 
                                data-date-format="mm-dd-yyyy">
@@ -341,8 +344,8 @@
                                     <i class="fa-regular fa-calendar-days"></i>
                                   </div>
                                   <div class="tour-box-text">
-                                 <p>Điểm đến</p>
-                                 <h4 id="hienthinoiden2" onclick="batcroll3()" style="margin-top: 5%;">Tất Cả</h4>
+                                 <p>Số Ngày</p>
+                                 <h5 id="hienthinoiden2" onclick="batcroll3()" style="margin-top: 5%;">Tất Cả</h5>
                                  <div class="tour-croll bacroll1">
                                     <ul class="uberator-tour-txt">
                                     <li class="b1" onclick="crollclick7()">
@@ -378,7 +381,7 @@
                             <div class="tour-box-item kt3"><i class="fa-solid fa-magnifying-glass"></i></div>
                         </div>
                     </div>
-
+                </form>
                 </div>
 
             </div>
@@ -642,7 +645,7 @@
                 </div>
                 <div class="content-item-block4">
                     <div class="content-items-child">
-                        <h2>Điêm Đến Yêu Thích</h2>
+                        <h2 class="tler">Điêm Đến Yêu Thích</h2>
                         <div class="list-content-child-tour">
                             <div class="list-img-tour limg1">
                                 <i class="fa-solid fa-ship icon-tour"></i>
@@ -691,6 +694,211 @@
             </div>
 
         </div>
+        <footer>
+            <div class="footer-top">
+    
+    
+                <div class="In">
+                    <div class="tieude">
+                        <h2><b>Du lịch trong nước</b></h2>
+                    </div>
+    
+                    <div class="in-uberator" >
+                        <ul class="uberator phaaiii" style="width: 50%; " >
+                            <li>Hà Nội</li>
+                            <li>Hải Phòng</li>
+                            <li>Hạ Long</li>
+                            <li>Huế</li>
+                            <li>Quảng Bình</li>
+                            <li>Đà Nẵng</li>
+                            <li>Quảng Nam</li>
+                            <li>Nha Trang</li>
+                        </ul>
+                        <ul class="uberator" style=" width: 50%;">
+                            <li>Đà Lạt</li>
+                            <li>Phan Thiết</li>
+                            <li>Bà Rịa-Vũng Tàu</li>
+                            <li>Phú Quốc</li>
+                            <li>Cần Thơ</li>
+                            <li>Hà Tiên</li>
+                            <li>Bắc Kạn</li>
+                            <li>Hà Giang</li>
+                        </ul>
+    
+    
+                    </div>
+    
+                </div>
+                <div class="DongTour">
+                    <div class="tieude">
+                        <h2><b>Dòng Tour</b></h2>
+                    </div>
+                    <div class="in-uberator">
+                        <ul class="uberator">
+    
+                            <li>Cao Cấp</li>
+                            <li>Tiêu Chuẩn</li>
+                            <li>Tiết Kiệm</li>
+                            <li>Giá Tốt</li>
+                        </ul>
+                    </div>
+    
+    
+                </div>
+                <div class="LienHe">
+                    <div class="tieude">
+                        <h2><b>Liên Hệ</b></h2>
+                    </div>
+                    <div class="in-uberator">
+                        <ul class="uberator">
+                            <li>Xã Nhị Bình, Huyện Châu Thành, TG</li>
+                            <li>0393928815</li>
+                            <li>y021101022@tgu.edu.vn</li>
+                            <li>Từ 8.00-22.00 hằng ngày</li>
+                        </ul>
+                    </div>
+    
+    
+                </div>
+                <div class="QR">
+                    <div class="tieude">
+                        <h2><b>Ứng Dụng Di Động</b></h2>
+                    </div>
+    
+    
+    
+                    <div class="in-uberator chanfoot" style="display: block;">
+                        <div class="chage-footer1">
+                            <div class="chage-footer-child " style="width: 45%;">
+    
+                                <ul class="QR-download" style="list-style-type: none;">
+                            <li> <a href=""><img src="./img/play.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/ios.png" alt=""></a></li>
+                        </ul>
+                            </div>
+                             
+                        </div>
+                       
+                        <div class="chage-footer1">
+                            <div class="chage-footer-child">
+                              <ul class="QR-download" style="list-style-type: none; ">
+                            <li>
+                                <img src="./img/QR1.png" alt="">
+                            </li>
+                            <li><img src="./img/QR2.png" alt=""></li>
+                            </div>
+                       
+    
+    
+                        </ul>
+    
+    </div>
+    
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+    
+    
+    
+    
+            <div class="footer-bottom">
+                <div class="ChungNhan itembot">
+                    <div class="tieude">
+                        <h2><b>Chứng Nhận</b></h2>
+                    </div>
+                    <div class="in-uberator testthu">
+                        <ul class="uberator-bottom" style="list-style-type: none;">
+                            <li><img src="./img/chungnhan1.png" alt=""></li>
+                            <li> <img src="./img/chungnhan2.png" alt=""></li>
+                        </ul>
+    
+                    </div>
+    
+    
+                </div>
+                <div class="ThanhToan itembot">
+                    <div class="tieude">
+                        <h2><b>Chấp Nhận Thanh Toán</b></h2>
+    
+                    </div>
+    <div class="footer-chagebottom">
+    <div class="footerrr">
+    
+    <ul class="uberator-thanhtoan chung" style="list-style-type: none;">
+                        <li><img src="./img/anh1.png" alt=""> </li>
+                        <li> <img src="./img/anh2.png" alt=""></li>
+                        <li><img src="./img/anh3.png" alt=""> </li>
+                    </ul>
+                    <ul class="uberator-thanhtoan chung" style="list-style-type: none;">
+                        <li><img src="./img/anh4.png" alt=""></li>
+                        <li> <img src="./img/anh5.png" alt=""></li>
+                        <li> <img src="./img/anh6.png" alt=""></li>
+                    </ul>
+                    <ul class="uberator-thanhtoan chung" style="list-style-type: none;">
+                        <li> <img src="./img/anh7.png" alt=""></li>
+                        <li><i class="ti-money"></i></li>
+                        <li> <img src="./img/anh8.png" alt=""></li>
+    
+                    </ul>
+    </div>
+     
+    </div>
+                   
+    
+    
+    
+    
+    
+    
+                </div>
+    
+                <div class="ThongTin itembot">
+                    <div class="tieude">
+                        <h2><b>Thông Tin</b></h2>
+                    </div>
+                    <div class="in-uberator">
+                    <ul class="uperator-bottom chung">
+                        <li>Tạp Chí Du Lịch</li>
+                        <li>Cẩm Nang Du Lịch</li>
+                        <li>Tin Tức</li>
+                        <li>SiteMap</li>
+                        <li>FAQs</li>
+                        <li>Chính Sách Riêng Tư</li>
+                        <li>Thỏa Thuận Sử Dụng</li>
+                    </ul>
+    </div>
+    
+    
+                </div>
+    
+                <div class="MXH itembot">
+                    <div class="tieude">
+                        <h2><b>Mạng Xã Hội</b></h2>
+                    </div>
+                    <div class="in-uberator">
+                        <ul class=" dm chung" style="list-style-type: none;">
+                            <li> <i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-square-instagram"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                            <li> <i class="fa-brands fa-tiktok"></i></li>
+                            <li class="metnha"> <button> <i class="fa-solid fa-phone-volume "></i> 1900 1000</button>
+                            </li>
+                        </ul>
+    
+    
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+    
+    
+        </footer>
     </div>
   
     <script src=
