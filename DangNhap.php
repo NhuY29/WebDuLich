@@ -161,8 +161,8 @@
                     <h2><b>Du lịch trong nước</b></h2>
                 </div>
 
-                <div class="in-uberator">
-                    <ul class="uberator">
+                <div class="in-uberator" >
+                    <ul class="uberator phaaiii" style="width: 50%; " >
                         <li>Hà Nội</li>
                         <li>Hải Phòng</li>
                         <li>Hạ Long</li>
@@ -172,7 +172,7 @@
                         <li>Quảng Nam</li>
                         <li>Nha Trang</li>
                     </ul>
-                    <ul class="uberator">
+                    <ul class="uberator" style=" width: 50%;">
                         <li>Đà Lạt</li>
                         <li>Phan Thiết</li>
                         <li>Bà Rịa-Vũng Tàu</li>
@@ -225,22 +225,32 @@
 
 
 
-                <div class="in-uberators">
-                    <ul class="QR-download" style="list-style-type: none;">
+                <div class="in-uberator chanfoot" style="display: block;">
+                    <div class="chage-footer1">
+                        <div class="chage-footer-child " style="width: 45%;">
+
+                            <ul class="QR-download" style="list-style-type: none;">
                         <li> <a href=""><img src="./img/play.png" alt=""></a></li>
                         <li><a href=""><img src="./img/ios.png" alt=""></a></li>
                     </ul>
-
-                    <ul class="QR-download" style="list-style-type: none;">
+                        </div>
+                         
+                    </div>
+                   
+                    <div class="chage-footer1">
+                        <div class="chage-footer-child">
+                          <ul class="QR-download" style="list-style-type: none; ">
                         <li>
                             <img src="./img/QR1.png" alt="">
                         </li>
                         <li><img src="./img/QR2.png" alt=""></li>
+                        </div>
+                   
 
 
                     </ul>
 
-
+</div>
 
                 </div>
 
@@ -272,8 +282,10 @@
                     <h2><b>Chấp Nhận Thanh Toán</b></h2>
 
                 </div>
+<div class="footer-chagebottom">
+<div class="footerrr">
 
-                <ul class="uberator-thanhtoan chung" style="list-style-type: none;">
+<ul class="uberator-thanhtoan chung" style="list-style-type: none;">
                     <li><img src="./img/anh1.png" alt=""> </li>
                     <li> <img src="./img/anh2.png" alt=""></li>
                     <li><img src="./img/anh3.png" alt=""> </li>
@@ -289,6 +301,10 @@
                     <li> <img src="./img/anh8.png" alt=""></li>
 
                 </ul>
+</div>
+ 
+</div>
+               
 
 
 
@@ -301,8 +317,8 @@
                 <div class="tieude">
                     <h2><b>Thông Tin</b></h2>
                 </div>
-
-                <ul class="uperator-bott0m chung">
+                <div class="in-uberator">
+                <ul class="uperator-bottom chung">
                     <li>Tạp Chí Du Lịch</li>
                     <li>Cẩm Nang Du Lịch</li>
                     <li>Tin Tức</li>
@@ -311,7 +327,7 @@
                     <li>Chính Sách Riêng Tư</li>
                     <li>Thỏa Thuận Sử Dụng</li>
                 </ul>
-
+</div>
 
 
             </div>
@@ -326,7 +342,8 @@
                         <li><i class="fa-brands fa-square-instagram"></i></li>
                         <li><i class="fa-brands fa-youtube"></i></li>
                         <li> <i class="fa-brands fa-tiktok"></i></li>
-                        <li class="metnha"> <button> <i class="fa-solid fa-phone-volume "></i> 1900 1000</button></li>
+                        <li class="metnha"> <button> <i class="fa-solid fa-phone-volume "></i> 1900 1000</button>
+                        </li>
                     </ul>
 
 
