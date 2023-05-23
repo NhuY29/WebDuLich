@@ -56,6 +56,13 @@ body {
 }
 
 /* menu*/
+.iconclosed{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    font-size: 50px;
+    color: gray;
+}
 .main-dropdown,.main-dropdown2{
     
    display: none;

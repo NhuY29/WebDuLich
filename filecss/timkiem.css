@@ -83,6 +83,13 @@ body.dark{
  {
      color: #fff;
  }
+ .iconclosed{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    font-size: 50px;
+    color: gray;
+}
 .main {
     padding: 0;
     margin: 0;
