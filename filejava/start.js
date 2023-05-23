@@ -60,38 +60,37 @@
 function menudulich() {
   var event = document.querySelector(".main-dropdown");
   event.style.display = "block";
-  var event2 = document.querySelector(".ubertor-news");
-  event2.style.display = "none";
+  // var event2 = document.querySelector(".ubertor-news");
+  // event2.style.display = "none";
   var event3 = document.querySelector(".main-dropdown2");
   event3.style.display = "none";
 
 
 };
-function menutintuc() {
+// function menutintuc() {
 
-  var event2 = document.querySelector(".ubertor-news");
-  event2.style.display = "block";
-  var event3 = document.querySelector(".main-dropdown2");
-  event3.style.display = "none";
-  var event = document.querySelector(".main-dropdown");
-  event.style.display = "none";
+//   var event2 = document.querySelector(".ubertor-news");
+//   event2.style.display = "block";
+//   var event3 = document.querySelector(".main-dropdown2");
+//   event3.style.display = "none";
+//   var event = document.querySelector(".main-dropdown");
+//   event.style.display = "none";
 
-};
+// };
 function menukhuyenmai() {
   var event3 = document.querySelector(".main-dropdown2");
   event3.style.display = "block";
   var event = document.querySelector(".main-dropdown");
   event.style.display = "none";
-  var event2 = document.querySelector(".ubertor-news");
-  event2.style.display = "none";
+  
 
 
 };
 function closeddmenu() {
   var event = document.querySelector(".main-dropdown");
   event.style.display = "none";
-  var event2 = document.querySelector(".ubertor-news");
-  event2.style.display = "none";
+  // var event2 = document.querySelector(".ubertor-news");
+  // event2.style.display = "none";
   var event3 = document.querySelector(".main-dropdown2");
   event3.style.display = "none";
 };
