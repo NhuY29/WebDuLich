@@ -87,6 +87,13 @@ body.dark{
   body.dark .header-above .list-menu h3:hover{
     color: #000;
   }
+  .iconclosed{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    font-size: 50px;
+    color: gray;
+}
 .main {
     padding: 0;
     margin: 0;
