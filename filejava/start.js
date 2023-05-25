@@ -145,7 +145,7 @@ for (var i = 0; i < btns.length; i++) {
 // ----------------sự kiện nút đặt hàng-------------------
   function checkLogin() {
     if (!isLoggedIn()) {
-    alert('Bạn cần đăng nhập trước khi mua hàng');
+    confirm("Bạn chắc chắn muốn đặt vé");
   // Chuyển hướng đến trang đăng nhập
   window.location.href = "/DangNhap.html";
     } else {
