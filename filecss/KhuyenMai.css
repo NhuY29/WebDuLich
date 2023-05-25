@@ -77,6 +77,19 @@ body.dark{
      color:  #fff !important ;
 
  }
+ body.dark .main-dropdown .list-dropdown>a{
+    color: #000;
+  }
+  
+  body.dark .main-dropdown .list-dropdown>B>a{
+    color: #7c87ec;
+  }
+  body.dark .main-dropdown .lisdp>B>a{
+    color: #000;
+  }
+  body.dark .main-dropdown2 .list-dropdown2>a{
+    color: #000;
+  }
  body.dark>footer .tieude>h2,
  body.dark>footer .uberator>li,
  body.dark>footer .chung>li
