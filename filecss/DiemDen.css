@@ -164,14 +164,14 @@ body {
 }
 
 /* menu*/
-.main::before{
+/* .main::before{
     position: absolute;
     width: 100%;
     height: 100%;
     content: "";
     display: block;
 
-}
+} */
 .main>input{
     width: 50px;
     height: 50px;

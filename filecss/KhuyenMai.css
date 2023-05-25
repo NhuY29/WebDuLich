@@ -156,6 +156,10 @@ li a {
     text-align: center;
     border-radius: 10px;
 }
+.TinMoi .ul-TinMoi>li>a
+{
+    cursor: pointer;
+}
 .TinMoi a:hover {
     color: #1d9bf0;
 }
