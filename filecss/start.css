@@ -103,14 +103,24 @@ span{
     font-size: 60px;
     line-height: 90px;
 }
-.text>button{
+.logon-login{
+    display: flex;
+}
+.logon-login>button{
     background-color: rgb(147, 165, 159);
     color: rgb(13, 13, 14);
-    padding: 20px 40px;
+    padding: 30px 80px;
     border-radius: 20px;
-    cursor:auto;
     animation: animetionsdatve 4s infinite;
     transition: 0.3s;
+    cursor: pointer;
+    margin-left: 30%;
+    border: 5px solid #333;
+}
+.logon-login>button:hover{
+    background-color: transparent;
+    border: 5px solid #333;
+    color: #00CED1;
 }
 .social{
 width: 100px;
