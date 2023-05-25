@@ -107,7 +107,7 @@ span{
     display: flex;
 }
 .logon-login>button{
-    background-color: rgb(147, 165, 159);
+    background-color: rgb(119, 233, 195);
     color: rgb(13, 13, 14);
     padding: 30px 80px;
     border-radius: 20px;
@@ -116,11 +116,16 @@ span{
     cursor: pointer;
     margin-left: 30%;
     border: 5px solid #333;
+    
 }
 .logon-login>button:hover{
     background-color: transparent;
-    border: 5px solid #333;
-    color: #00CED1;
+    border: 5px solid #04ebfc;
+    color: #ebf0df;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.logon-login>button>p{
+    font-size: 20px;
 }
 .social{
 width: 100px;
