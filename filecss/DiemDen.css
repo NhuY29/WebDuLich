@@ -652,7 +652,22 @@ input[type="date"] {
 .Tour6 a {
     text-decoration: none;
 }
+.slider-dots {
+    
+    z-index: 10;
 
+}
+
+.slider-dots li {
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #999;
+    cursor: pointer;
+    transition: background-color 0.25s linear;
+
+}
 .Gia {
     margin-left: 2%;
     background-color: #FD5056;
@@ -683,7 +698,9 @@ input[type="date"] {
 .ChiTiet:hover a {
     color: #fff;
 }
-
+.NgayDi .active{
+background-color: #007bff;
+}
 .Tour1 div,
 .Tour2 div,
 .Tour3 div,
