@@ -103,6 +103,10 @@ body.dark{
   body.dark .main-dropdown2 .list-dropdown2>a{
     color: #000;
   }
+  body.dark  .first .Phan3 .ChiTiet >a,
+  body.dark  .second .Phan3 .ChiTiet >a {
+    color: #000;
+  }
 .main {
     padding: 0;
     margin: 0;
@@ -160,14 +164,14 @@ body {
 }
 
 /* menu*/
-.main::before{
+/* .main::before{
     position: absolute;
     width: 100%;
     height: 100%;
     content: "";
     display: block;
 
-}
+} */
 .main>input{
     width: 50px;
     height: 50px;
@@ -416,9 +420,9 @@ margin-left: 5px;
 .header-above .list-menu h3:hover{
     background-color: #fdfafa;
 }
-.list-menu>h3 {
+.list-menu>h3{
     text-align: center;
-    color: #2d4271;
+    color:#2d4271;
     cursor: pointer;
     height: 90px;
 }
@@ -472,382 +476,161 @@ button[type="submit"] {
     height: 500px;
     background-color: #2d4271;
 }
- .content {
+.content {
+    background-color: #f9f9f9;
     width: 100%;
-    height: 1500px;
-    background-position: center;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5%;
-    background-image: url(/img/M_BG.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-   
- }
- /* .content::before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: "";
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5);
- }  */
- .head1 {
-    width: 70%;
-    height: 20%;
-    margin-left: auto;
-    margin-right: auto;
- }
- .head1 .head1_top {
-    width: 100%;
-    height: 20%;
-    background-color: rgba(6,68,86,1);
-    color: rgba(255,255,239,1);
-    border-radius: 5% 5% 0% 0%;
+    height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .head1_center {
-    width: 100%;
-    height: 60%;
-    background-color: #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .head1_below {
-    width: 100%;
-    height: 30%;
-    background-color: #ebecee;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
- }
-.plan {
-    list-style-type: none;
 }
-.plan li a {
+.content .left {
+    width: 50%;
+    height: 50%;
+    /* background-color: #999; */
+}
+.left .MaTour,
+.left .TieuDeDi {
+    height: 30%;
+    /* background-color: #2D4271; */
+    font-size: 25px;
+    padding: 3%;
+}
+.left div {
+    display: flex;
+}
+.left div .HaiLong {
+    padding: 3%;
     font-size: 20px;
 }
-.plan li {
-    padding-top: 1%;
+.content .right {
+    width: 50%;
+    height: 50%;
+    /* background-color:#B0E0E6; */
 }
-.plan li a:hover {
+.right .DatNgay {
+    height: 50%;
+    /* background-color: #7c87ec; */
+    position: relative;
+    display: flex;
+    font-size: 25px;
+    justify-items: center;
+    align-items: center;
+}
+.right .LienHeTV {
+    height: 50%;
+    /* background-color:red; */
+    display: flex;
+    font-size: 25px;
+    justify-items: center;
+    align-items: center;
+}
+.right button {
+    width: 200px;
+    height: 60px;
+    border-radius: 3%;
+    right: 0;
+    position: absolute;
+    right: 0;
+}
+.right p {
+    position: absolute;
+    left: 20%;
+}
+.right button:hover {
     cursor: pointer;
 }
- .head2 {
-    width: 70%;
-    height: 40%;
-    margin-left: auto;
-    margin-right: auto;
- }
- .head2_top {
+.DatNgay button {
+    background: linear-gradient(64.4deg,#fd5056 21.33%,#fe2214 67.61%);
+    color: #fff;
+}
+.anhGT {
     width: 100%;
-    height: 15%;
-    /* border-radius: 5%; */
-    background-color: #eeeff0;
-    border-radius: 4% 4% 0% 0%;
+    height:500px;
+    /* background-color: #007bff; */
     display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
- }
- .head2_top>h1 {
-    height: 30%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
- }
- .head2_top>p {
-    font-size: 16px;
-    height: 30%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
- }
- .head2_content {
-    display: flex;
+}
+.anhGT_left {
+    /* background-color:red; */
+    width: 50%;
+}
+.anhGT_left img {
     width: 100%;
-    height: 70%;
-    border-radius: 0% 0% 4% 4%;
-    background-color: #f3f9fb;
- }
- .head2_content_item_left {
-    padding-top: 5%;
-    width: 50%;
-    height: 90%;
-    position: relative;
- }
-  .head2_content_item_left >img {
-    width: 80%;
     height: 100%;
-    top: 5%;
-    left: 10%;
-    position: absolute;
- } 
- .head2_content_item_right {
+}
+.anhGT_right {
+    /* background-color:rebeccapurple; */
     width: 50%;
-    height: 100%;
-    padding-top: 5%;
- }
- .head2_content_item_right  p {
-    font-size: 16px;
-    line-height: 2;
- }
- .gioithieu {
-    margin-top: 5%;
-    width: 80%;
-    height: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: #2d4271; */
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
- }
- .gioithieu>h1 {
-    color:#2d4271;
-    font-size: 30px;
- }
- /* star */
-.head3{
-    width: 70%;
-    height: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:#ebecee;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
-/**
- * Để cho đơn giản nhất mình dùng icon star của font awesome.
- * À mà khoan, ở đây chúng ta chỉ làm tut nhỏ nên thấy import cả 1 library font-awesome có vẻ hơi quá đáng đã vậy còn ngược lại tiêu chí 
- * "HẠN CHẾ TỐI DÙNG THƯ VIỆN NGOÀI" :D chắc các bạn nghĩ thế nhỉ? Hiện tại chúng ta chỉ implement 1 tut nhỏ thì có vẻ thừa, 
- * nhưng trong project mình đang code có sẵn font-awesome nên trên thực tế mình đâu có * thêm gì đâu :D
- */
- @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
- /*reset css*/
- div,label{margin:0;padding:0;}
- body{margin:20px;}
- h1{font-size:1.5em;margin:10px;}
- /****** Style Star Rating Widget *****/
- #rating{border:none;float:left;}
- #rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
- #rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
- #rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
- #rating>label{color:#131212;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
- /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
- #rating>input:checked~label,
- #rating:not(:checked)>label:hover, 
- #rating:not(:checked)>label:hover~label{color:#FFD700;}
- /* Hover vào các sao phía trước ngôi sao đã chọn*/
- #rating>input:checked+label:hover,
- #rating>input:checked~label:hover,
- #rating>label:hover~input:checked~label,
- #rating>input:checked~label:hover~label{color:#FFED85;}
-/* footer */
-.In {
-    display: flex;
-    left: 0;
-    top: 0;
-}
-
-.In li,
-.DongTour li,
-.LienHe li,
-.ThongTin li {
-    list-style-type: none;
-    color: #2d4271;
-}
-
-
-.footer-top {
+.anhGT_top
+{
+    width: 100%;
     height: 50%;
-    width: 100%;
+    /* background-color: #2D4271; */
     display: flex;
-    position: relative;
-
+    
 }
-
-.In {
-    width: 25%;
-    position: relative;
-}
-
-.DongTour {
-    width: 25%;
-    position: relative;
-
-}
-
-.LienHe {
-    width: 25%;
-    position: relative;
-
-}
-
-.QR {
-
-    width: 25%;
-    position: relative;
-}
-
-.ThanhToan img {
-    margin: 10px;
-}
-
-.MXH i {
-    font-size: 30px;
-    margin: 10px;
-}
-
-.MXH button {
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-    border: 1px solid #fe2214;
-    background-color: #fe2214;
-}
-
-
-
-
-footer {
-    background-color: rgba(128, 128, 128, 0.05);
+.anhGT_below
+{
     width: 100%;
-    height: 600px;
-    margin-top: 50px;
+    height: 50%;
+    /* background-color: red;    */
 }
-
-.in-uberator {
-   position: absolute;
+.anhGT_below img {
+    width: 100%;
+    height: 100%;
+}
+.anhGT img {
+    padding: 2%;
+    border-radius: 30px;
+}
+.LuaChon {
+    width: 100%;
+    height:500px;
+    /* background-color: #007bff; */
+}
+.LuaChon_top 
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: #999; */
     display: flex;
-    height: 80%;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    bottom: 0;
-    /* width: 100%; */
-    width: 100%;
     justify-content: center;
-
+    align-items: center;
+    position: relative;
 }
-
-.chanfoot{
-    display: block;
+.LuaChon_below
+{
+    width: 100%;
+    height: 50%;
+    /* background-color:rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-.chage-footer1{
-   width: 100%;
+.chon {
+    width: 25%;
+    height: 100%;
+    padding: 5%;
 }
-.chage-footer-child{
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.in-uberators {
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.tieude {
-    width: 85%;
-    height: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
-}
-
-.tieude>h2 {
-    color: #2d4271;
-    font-size: 30px;
-}
-
-.in-uberator>li {
+.chon p {
     font-size: 20px;
 }
-
-.QR-download {
-    position: relative;
-    display: flex;
-}
-
-.icon-child {
-    width: 100%;
-    height: 50px;
-    margin-top: 50%;
-}
-
-.icon-child>i {
-    font-size: 50px;
-    margin-left: 20px;
-}
-
-/*footer bottom */
-.footer-bottom li,
-.footer-top li {
-    line-height: 1.5;
-    font-size: 16px;
-}
-
-.footer-bottom {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    position: relative;
-}
-
-.itembot {
+.chon img {
     width: 25%;
-    position: relative;
+    height: 40%;
 }
-
-.uberator-thanhtoan {
+.LichTrinh{
+    width: 100%;
+    height: 800px;
     display: flex;
-
-
 }
-.footer-chagebottom{
-width: 100%;
-
-
+.LichTrinh_left {
+    width: 40%;
+    height: 100%;
+    background-color:rebeccapurple;
 }
-.phaaiii{
-    margin-left: 25%;
-}
-.footerrr{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.uberator-thanhtoan>li {
-    padding: 1%;
-}
-
-.dm>li {
-    height: 50px;
-}
-
-.metnha {
-    position: absolute;
-    top: 100px;
-}
-
-.dm {
-    display: flex;
-
-}
-.uberator{
-    width: 50%;
-    text-align: center;
+.LichTrinh_right {
+    width: 60%;
+    height: 100%;
+    background-color: #fd5056;
 }

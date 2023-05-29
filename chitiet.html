@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./filecss/chitiet.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./filejava/start.js">
+    <title>Chi Tiết Chuyến Đi </title>
+</head>
+<body>
+    <button id="switch-mode">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
+    <div class="main">
+        <input type="checkbox" name="" id="" class="chekboxxxx">
+        <div class="menu-icons">
+            <div class="menu-line">
+
+            </div>
+        </div>
+        <div class="menu-items">
+            <ul class="uberator-items">
+                <li><a href="./index.htm">Trang Chủ</a></li>
+                <li><a href="./TinTuc.html">Tin Tức</a></li>
+                <li><a href="./thue.html">Thuê Xe</a></li>
+                <li><a href="./bay.html">Vé Máy Bay</a></li>
+                <li><a href="">Đăng Xuất</a></li>
+            </ul>
+        </div>
+
+        <div class="header-above">
+            <div class="imglogo-header">
+                <a href="index.html"><img src="./img/logo.png" alt="" class="photo"></a>
+            </div>
+
+
+            <div class="menu-left-div">
+                <ul class="menu-left ">
+                    <li class="list-menu">
+                        <h3 onclick="menudulich()">Du Lịch <i class="fa-solid fa-angle-down"></i> </h3>
+
+                    </li>
+                    <!-- <li class="list-menu"><a href=""><b>Liên Hệ</b></a></li> -->
+                    <!-- <li class="list-menu"><h3 onclick="menutintuc()">Vận Chuyển <i class="fa-solid fa-angle-down"
+                                onclick="menutintuc()"></i></h3>
+                        <ul class="ubertor-news menunone">
+                            <li class="list-news"><a href="thuexe.html">Thuê Xe </a></li>
+                            <li class="list-news"><a href="">Vé Máy Bay</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="list-menu">
+                        <h3 onclick="menukhuyenmai()">Khuyến Mãi <i class="fa-solid fa-angle-down"></i></h3>
+                    </li>
+                    <li class="list-menu"><a href="LienHe.html">
+                            <h3>Liên Hệ</h3>
+                        </a></li>
+                    <li class="list-menu"><a href="">
+                            <h3>VietTravelPlus</h3>
+                        </a> </li>
+                </ul>
+            </div>
+            <div class="menu-right-div">
+                <ul class="menu-right">
+                    <li class="search list-menu">
+                        <form action="/search" method="get">
+                            <input type="text" placeholder="Bắt đầu tìm kiếm..." name="">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </li>
+                    <!-- <li class="logOn list-menu"><a href="./DangNhap.html" target="_parent"><i
+                                class="fa-regular fa-user"></i></a></li> -->
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="main-dropdown">
+            <div class="menu-dropdown goout">
+                <div class="menu-dropdown-item">
+                    <ul class="upberator-dropdown">
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Bac.html">TOUR MIỀN BẮC</a></B></li>
+                        <li class="list-dropdown"><a href="./Ha Noi.html">Du lịch Hà Nội</a></li>
+                        <li class="list-dropdown"><a href="./Hai Phong.html">Du lịch Hải Phòng</a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Hạ Long</a></li>
+                        <li class="list-dropdown"><a href="">Du lịch Bắc Ninh</a></li>
+                        <li class="list-dropdown"><a href="">Du lịch Phú Thọ</a></li>
+                        <li class="list-dropdown"><B><a href="./Mien Bac.html"> Xem tất cả</a></B> </li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-item">
+                    <ul class="upberator-dropdown">
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Trung.html">TOUR MIỀN TRUNG </a></B></li>
+                        <li class="list-dropdown"><a href="./Hue.html">Du lịch Huế</a></li>
+                        <li class="list-dropdown"><a href="./QuangTri.php">Du lịch Quảng Trị</a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Quảng Bình </a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Đà Nẵng </a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Quảng Nam</a></li>
+                        <li class="list-dropdown"><B><a href="./Mien Trung.html.html"> Xem tất cả</a></B> </li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-item">
+                    <ul class="upberator-dropdown">
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Tay.html.html">TOUR MIỀN TÂY NAM BỘ </a></B></li>
+                        <li class="list-dropdown"><a href="./Phu Quoc.html.html"> Du lịch Phú Quốc </a></li>
+                        <li class="list-dropdown"><a href="./Tien Giang.html.html"> Du lịch Tiền Giang</a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Cần Thơ </a></li>
+                        <li class="list-dropdown"><a href="">Du lịch Vĩnh Long</a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Sóc Trăng</a></li>
+                        <li class="list-dropdown"><B><a href="/Mien Tay.html.html"> Xem tất cả</a></B> </li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-item">
+                    <ul class="upberator-dropdown">
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Dong.html.html">TOUR MIỀN ĐÔNG NAM BỘ </a></B>
+                        </li>
+                        <li class="list-dropdown"><a href="./Dong Nai.html.html"> Du lịch Đồng Nai</a></li>
+                        <li class="list-dropdown"><a href="./Vung Tau.html.html"> Du lịch Bà Rịa - Vũng Tàu</a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Côn Đảo </a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch TP. Hồ Chí Minh</a></li>
+                        <li class="list-dropdown"><a href=""> Du lịch Tây Ninh</a></li>
+                        <li class="list-dropdown"><B><a href="./Mien Dong.html"> Xem tất cả</a></B> </li>
+
+                    </ul>
+                </div>
+                <i class="fa-solid fa-xmark iconclosed" onclick="closeddmenu()"></i>
+            </div>
+        </div>
+        <div class="main-dropdown2">
+            <div class="menu-dropdown2">
+                <ul class="uperator-dropdown2">
+                    <li class="list-dropdown2"> <a href="./KhuyenMai1.html">Vietravel & Sacombank tung ưu đãi “Tiền về đầy ví - Du hí thả
+                            ga” </a> </li>
+                    <li class="list-dropdown2"> <a href="./KhuyenMai2.html"> Vietravel & JCB tung ưu đãi “Thanh toán liền tay - Nhận ngay
+                            deal xịn”</a></li>
+                    <li class="list-dropdown2"> <a href="./KhuyenMai3.html"> Vietravel triển khai chương trình ưu đãi cùng VNPAY “Trúng
+                            deal to – Du lịch chẳng lo”</a></li>
+                    <li class="list-dropdown2"> <a href="./KhuyenMai4.html"> Vietravel & Sacombank: Quẹt thẻ liền tay - Giảm ngay 1 triệu
+                            đồng</a></li>
+                </ul>
+                <i class="fa-solid fa-xmark iconclosed" onclick="closeddmenu()"></i>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <p class="MaTour"> <i class="fa-solid fa-ticket" style="font-size: 16px;"></i> Mã Tour</p>
+                <p class="TieuDeDi">Địa Điểm Của Tour</p>
+               <div>
+                <p class="HaiLong">
+                    <i class="fa-regular fa-message"></i>Tuyệt Vời <br> 358 Quan Tâm
+                </p>
+                <p class="HaiLong">
+                    <i class="fa-regular fa-heart"></i> 247
+                </p>
+               </div>
+            </div>
+            <div class="right">
+                <div class="DatNgay">
+                    <p style="color: #fe2214 ;">Giá Tiền / khách</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Đặt Ngay</button>
+                </div>
+                <div class="LienHeTV">
+                    <button>Liên Hệ Tư Vấn</button>
+                </div>
+            </div>
+        </div>
+        <div class="anhGT">
+            <div class="anhGT_left">
+                <img src="./img/chitet1.jpg" alt="">
+            </div>
+              <div class="anhGT_right">
+                <div class="anhGT_top">
+                    <img src="./img/MT5.jpg" alt="">
+                    <img src="./img/TG3.jpg" alt="">
+                </div>
+                <div class="anhGT_below">
+                  <img src="./img/PQ6.webp" alt="">
+                </div>
+              </div> 
+        </div>
+        <div class="LuaChon">
+            <div class="LuaChon_top">
+                <div class="chon">
+                    <img src="./img/luachon1.png" alt="">
+                    <p><b>Thời Gian</b></p>
+                    <p>4 ngày 3 đêm</p>
+                </div>
+                <div class="chon">
+                    <img src="./img/luachon2.png" alt="">
+                    <p><b>Phương tiện di chuyển</b></p>
+                    <p>Máy bay, xe du lịch</p>
+                </div>
+                <div class="chon">
+                    <img src="./img/luachon3.png" alt="">
+                    <p><b>Điểm tham quan</b></p>
+                    <p>Hà Nội, Hạ Long, Hải Phòng</p>
+                </div>
+                <div class="chon">
+                    <img src="./img/luachon4.png" alt="">
+                    <p><b>Ẩm thực</b></p>
+                    <p>Buffet sáng, Bữa sáng theo thực đơn, Hải sản, Đặc sản địa phương</p>
+                </div>
+            </div>
+            <div class="LuaChon_below">
+                <div class="chon">
+                    <img src="./img/luachon5.png" alt="">
+                    <p><b>Khách Sạn</b></p>
+                    <p>Khách sạn 4 sao</p>
+                </div>
+                <div class="chon">
+                    <img src="./img/luachon6.png" alt="">
+                    <p><b>Thời Gian Lý Tưởng</b></p>
+                    <p>Tháng 5-6</p>
+                </div>
+                <div class="chon">
+                    <img src="./img/luachon7.png" alt="">
+                    <p><b>Đối Tượng Thích Hợp</b></p>
+                    <p>Gia đình nhiều thế hệ, Thanh niên</p>
+                </div>
+                <div class="chon">
+                    <img src="./img/luachon8.png" alt="">
+                    <p><b>Ưu Đãi</b></p>
+                    <p>Đã bao gồm trong giá tour</p>
+                </div>
+            </div>
+        </div>
+        <div class="LichTrinh">
+            <div class="LichTrinh_left">
+            </div>
+            <div class="LichTrinh_right">
+                <b>Ngày 1 - SB NỘI BÀI – HÀ NỘI 00 bữa ăn: (tự túc ăn ngày đầu tiên)</b>
+                <p>Quý khách tập trung tại sân bay Tân Sơn Nhất (Ga nội địa), hướng dẫn viên hỗ trợ khách làm thủ tục đáp chuyến bay đi Hà Nội. Đến sân bay Nội Bài, xe và HDV Vietravel đón Quý khách đi Hà Nội nhận phòng khách sạn nghỉ ngơi hoặc tự do đi tham quan phố cổ Hà Nội.</p>
+                <b>Ngày 2 - HÀ NỘI – YÊN TỬ - HẠ LONG 03 Bữa ăn: (Sáng, Trưa, Chiều)</b>
+                <p>Quý khách ăn sáng và trả phòng khách sạn.  Xe khởi hành đưa Quý khách đi tham quan:
+                    - Lăng Hồ Chủ Tịch (không viếng vào thứ 2, thứ 6 hàng tuần và giai đoạn bảo trì định kỳ hàng năm 15/6 – 15/8) tham quan và tìm hiểu cuộc đời và sự nghiệp của vị cha già dân tộc tại Nhà Sàn Bác Hồ, Bảo Tàng Hồ Chí Minh, Chùa Một Cột.
+                    - Một vòng Hồ Hoàn Kiếm ngắm bên ngoài Tháp Rùa, Đền Ngọc Sơn, Cầu Thê Húc.</p>
+                <p>Tiếp tục hành trình, xe khởi hành đưa Quý khách đến thành phố biển Hạ Long theo quốc lộ 18, trên đường dừng ăn trưa và tham quan vùng đất thiêng Yên Tử:</p>
+                <p>- Quý khách lên cáp treo du ngoạn thắng cảnh thiên nhiên Đông Yên Tử (chi phí cáp treo tự túc), nơi còn lưu giữ nhiều di tích lịch sử mệnh danh “Đất tổ Phật giáo Việt Nam”, chiêm bái chùa Một Mái, chùa Hoa Yên – nơi tu hành của phật hoàng Trần Nhân Tông khai sinh ra dòng mới Thiền Phái Trúc Lâm, nằm trên lưng chừng núi ở độ cao 516m. Theo dấu chân Phật Hoàng viếng Chùa Đồng có tên Thiên Trúc Tự (chùa Cõi Phật), tọa lạc ở đỉnh cao nhất dãy Yên Tử (1.068m) – ngôi chùa bằng đồng lớn nhất Việt Nam.</p>
+                <b>Ngày 3 - VỊNH HẠ LONG – NINH BÌNH 03 bữa ăn: (Sáng, Trưa, Chiều)</b>
+                <p>- Chụp hình bên ngoài Bảo tàng Quảng Ninh, Cung Cá Heo - Cung Quy Hoạch, Hội Chợ, Triển Lãm Và Văn Hóa Quảng Ninh,</p>
+                <p>
+                    Quý khách ăn sáng và trả phòng khách sạn. Xe khởi hành đưa Quý khách tham quan: 
+                    - Chụp hình bên ngoài Bảo tàng Quảng Ninh, Cung Cá Heo - Cung Quy Hoạch, Hội Chợ, Triển Lãm Và Văn Hóa Quảng Ninh,
+                    - Xuống thuyền đi du ngoạn Vịnh Hạ Long - Thắng cảnh thiên nhiên tuyệt đẹp và vô cùng sống động, được UNESCO công nhận là di sản thiên nhiên Thế giới năm 1994.</p>
+                <p>- Tham quan Động Thiên Cung là một trong những động đẹp nhất ở Hạ Long. Vẻ đẹp nguy nga và lộng lẫy bởi những lớp thạch nhũ và những luồng ánh sáng lung linh. Từ trên tàu ngắm nhìn các hòn đảo lớn nhỏ trong Vịnh Hạ Long: Hòn Gà Chọi, Hòn Lư Hương.
+                    - Tham quan mua sắm </p>
+                <p>Buổi tối quý khách tự do khám phá Phố cổ Hoa Lư, một không gian check-in cổ, đẹp, trầm mặc đẹp trở nên lung linh, huyền ảo hơn với sắc màu của những chiếc đèn lồng và Bảo Tháp trên Hồ Kỳ Lân; trải nghiệm nhiều hoạt động trò chơi dân gian và nhiều loại hình văn hóa nghệ thuật từ dân tộc như múa rối nước, nhảy múa Tắc Xình, hát xẩm, ... đến những buổi trình diễn acoustic sẽ được diễn ra vào các buổi tối ngày cuối tuần.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
