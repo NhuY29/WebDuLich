@@ -585,6 +585,7 @@ button[type="submit"] {
 .LuaChon {
     width: 100%;
     height:500px;
+    position: relative;
     /* background-color: #007bff; */
 }
 .LuaChon_top 
@@ -611,6 +612,7 @@ button[type="submit"] {
     width: 25%;
     height: 100%;
     padding: 5%;
+    position: relative;
 }
 .chon p {
     font-size: 20px;
@@ -618,6 +620,20 @@ button[type="submit"] {
 .chon img {
     width: 25%;
     height: 40%;
+}
+.text-chon{
+
+    height: 70%;
+    width: 100%;
+    margin-top: 3% ;
+}
+.img-chon{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/luachon1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .LichTrinh{
     width: 100%;
