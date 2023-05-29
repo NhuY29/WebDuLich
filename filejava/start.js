@@ -309,3 +309,128 @@ function dongcroll(){
       document.querySelector(".bacroll").style.display = "none" ;
       document.querySelector(".bacroll1").style.display = "block" ;
       }
+
+
+      function clikthongbao(){
+        document.querySelector(".btn_ngaydi2").style.background = '#fff';
+        document.querySelector(".btn_ngaydi2").style.color = '#2d4271';
+        document.querySelector(".btn_ngaydi3").style.background = '#fff';
+        document.querySelector(".btn_ngaydi3").style.color = '#2d4271';
+       document.querySelector(".btn_ngaydi1").style.background = '#4D4AEF';
+      document.querySelector(".btn_ngaydi1").style.color = '#fff';
+      document.querySelector(".btn_ngaydi4").style.background = '#fff';
+      document.querySelector(".btn_ngaydi4").style.color = '#2d4271';
+      }
+      function clikthongbao1(){
+        document.querySelector(".btn_ngaydi1").style.background = '#fff';
+        document.querySelector(".btn_ngaydi1").style.color = '#2d4271';
+        document.querySelector(".btn_ngaydi3").style.background = '#fff';
+        document.querySelector(".btn_ngaydi3").style.color = '#2d4271';
+        document.querySelector(".btn_ngaydi2").style.background = '#4D4AEF';
+        document.querySelector(".btn_ngaydi2").style.color = '#fff';
+        document.querySelector(".btn_ngaydi4").style.background = '#fff';
+        document.querySelector(".btn_ngaydi4").style.color = '#2d4271';
+        }
+        function clikthongbao2(){
+          document.querySelector(".btn_ngaydi2").style.background = '#fff';
+          document.querySelector(".btn_ngaydi2").style.color = '#2d4271';
+          document.querySelector(".btn_ngaydi1").style.background = '#fff';
+          document.querySelector(".btn_ngaydi1").style.color = '#2d4271';
+          document.querySelector(".btn_ngaydi3").style.background = '#4D4AEF';
+          document.querySelector(".btn_ngaydi3").style.color = '#fff';
+          document.querySelector(".btn_ngaydi4").style.background = '#fff';
+          document.querySelector(".btn_ngaydi4").style.color = '#2d4271';
+          }
+          function clikthongbao3(){
+            document.querySelector(".btn_ngaydi2").style.background = '#fff';
+            document.querySelector(".btn_ngaydi2").style.color = '#2d4271';
+            document.querySelector(".btn_ngaydi1").style.background = '#fff';
+            document.querySelector(".btn_ngaydi1").style.color = '#2d4271';
+            document.querySelector(".btn_ngaydi3").style.background = '#fff';
+            document.querySelector(".btn_ngaydi3").style.color = '#2d4271';
+            document.querySelector(".btn_ngaydi4").style.background = '#4D4AEF';
+            document.querySelector(".btn_ngaydi4").style.color = '#fff';
+            }
+
+            function clikthongbao5(){
+              document.querySelector(".btn_ngaydi5").style.background = '#fff';
+              document.querySelector(".btn_ngaydi5").style.color= '#2d4271';
+              document.querySelector(".btn_ngaydi6").style.background = '#fff';
+              document.querySelector(".btn_ngaydi6").style.color = '#2d4271';
+              document.querySelector(".btn_ngaydi7").style.background = '#4D4AEF';
+              document.querySelector(".btn_ngaydi7").style.color = '#fff';
+              document.querySelector(".btn_ngaydi8").style.background = '#fff';
+              document.querySelector(".btn_ngaydi8").style.color = '#2d4271';
+              }
+              function clikthongbao4(){
+                document.querySelector(".btn_ngaydi7").style.background = '#fff';
+                document.querySelector(".btn_ngaydi7").style.color= '#2d4271';
+                document.querySelector(".btn_ngaydi6").style.background = '#fff';
+                document.querySelector(".btn_ngaydi6").style.color = '#2d4271';
+                document.querySelector(".btn_ngaydi5").style.background = '#4D4AEF';
+                document.querySelector(".btn_ngaydi5").style.color = '#fff';
+                document.querySelector(".btn_ngaydi8").style.background = '#fff';
+                document.querySelector(".btn_ngaydi8").style.color = '#2d4271';
+                }
+                function clikthongbao6(){
+                  document.querySelector(".btn_ngaydi5").style.background = '#fff';
+                  document.querySelector(".btn_ngaydi5").style.color= '#2d4271';
+                  document.querySelector(".btn_ngaydi7").style.background = '#fff';
+                  document.querySelector(".btn_ngaydi7").style.color = '#2d4271';
+                  document.querySelector(".btn_ngaydi6").style.background = '#4D4AEF';
+                  document.querySelector(".btn_ngaydi6").style.color = '#fff';
+                  document.querySelector(".btn_ngaydi8").style.background = '#fff';
+                  document.querySelector(".btn_ngaydi8").style.color = '#2d4271';
+                  }
+                  function clikthongbao7(){
+                    document.querySelector(".btn_ngaydi5").style.background = '#fff';
+                    document.querySelector(".btn_ngaydi5").style.color= '#2d4271';
+                    document.querySelector(".btn_ngaydi6").style.background = '#fff';
+                    document.querySelector(".btn_ngaydi6").style.color = '#2d4271';
+                    document.querySelector(".btn_ngaydi8").style.background = '#4D4AEF';
+                    document.querySelector(".btn_ngaydi8").style.color = '#fff';
+                    document.querySelector(".btn_ngaydi7").style.background = '#fff';
+                    document.querySelector(".btn_ngaydi7").style.color = '#2d4271';
+                    }
+                    function clikthongbao8(){
+                      document.querySelector(".btn_ngaydi10").style.background = '#fff';
+                      document.querySelector(".btn_ngaydi10").style.color= '#2d4271';
+                      document.querySelector(".btn_ngaydi11").style.background = '#fff';
+                      document.querySelector(".btn_ngaydi11").style.color = '#2d4271';
+                      document.querySelector(".btn_ngaydi9").style.background = '#4D4AEF';
+                      document.querySelector(".btn_ngaydi9").style.color = '#fff';
+                      document.querySelector(".btn_ngaydi12").style.background = '#fff';
+                      document.querySelector(".btn_ngaydi12").style.color = '#2d4271';
+                      }
+                      function clikthongbao9(){
+                        document.querySelector(".btn_ngaydi9").style.background = '#fff';
+                        document.querySelector(".btn_ngaydi9").style.color= '#2d4271';
+                        document.querySelector(".btn_ngaydi11").style.background = '#fff';
+                        document.querySelector(".btn_ngaydi11").style.color = '#2d4271';
+                        document.querySelector(".btn_ngaydi10").style.background = '#4D4AEF';
+                        document.querySelector(".btn_ngaydi10").style.color = '#fff';
+                        document.querySelector(".btn_ngaydi12").style.background = '#fff';
+                        document.querySelector(".btn_ngaydi12").style.color = '#2d4271';
+                        }
+                        function clikthongbao10(){
+                          document.querySelector(".btn_ngaydi10").style.background = '#fff';
+                          document.querySelector(".btn_ngaydi10").style.color= '#2d4271';
+                          document.querySelector(".btn_ngaydi9").style.background = '#fff';
+                          document.querySelector(".btn_ngaydi9").style.color = '#2d4271';
+                          document.querySelector(".btn_ngaydi11").style.background = '#4D4AEF';
+                          document.querySelector(".btn_ngaydi11").style.color = '#fff';
+                          document.querySelector(".btn_ngaydi12").style.background = '#fff';
+                          document.querySelector(".btn_ngaydi12").style.color = '#2d4271';
+                          }
+                          function clikthongbao11(){
+                            document.querySelector(".btn_ngaydi10").style.background = '#fff';
+                            document.querySelector(".btn_ngaydi10").style.color= '#2d4271';
+                            document.querySelector(".btn_ngaydi11").style.background = '#fff';
+                            document.querySelector(".btn_ngaydi11").style.color = '#2d4271';
+                            document.querySelector(".btn_ngaydi12").style.background = '#4D4AEF';
+                            document.querySelector(".btn_ngaydi12").style.color = '#fff';
+                            document.querySelector(".btn_ngaydi9").style.background = '#fff';
+                            document.querySelector(".btn_ngaydi9").style.color = '#2d4271';
+                            }
+        
+  
