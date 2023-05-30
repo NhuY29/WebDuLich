@@ -318,10 +318,11 @@ li a {
 
 
 footer {
-    background-color: rgba(128, 128, 128, 0.05);
+    background-color: rgba(253, 249, 249, 0.05);
     width: 100%;
     height: 600px;
-    margin-top: 50px;
+    margin-top: 2%;
+    position: relative;
 }
 
 .in-uberator {
@@ -375,6 +376,7 @@ footer {
 .QR-download {
     position: relative;
     display: flex;
+    padding: 0;
 }
 
 .icon-child {
@@ -400,6 +402,7 @@ footer {
     width: 100%;
     display: flex;
     position: relative;
+    
 }
 
 .itembot {
@@ -409,110 +412,7 @@ footer {
 
 .uberator-thanhtoan {
     display: flex;
-
-
-}
-.footer-chagebottom{
-width: 100%;
-
-
-}
-.phaaiii{
-    margin-left: 25%;
-}
-footer {
-    background-color: rgba(128, 128, 128, 0.05);
-    width: 100%;
-    height: 600px;
-    margin-top: 50px;
-}
-
-.in-uberator {
-   position: absolute;
-    display: flex;
-    height: 80%;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    bottom: 0;
-    /* width: 100%; */
-    width: 100%;
-    justify-content: center;
-
-}
-
-.chanfoot{
-    display: block;
-}
-.chage-footer1{
-   width: 100%;
-}
-.chage-footer-child{
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.in-uberators {
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.tieude {
-    width: 85%;
-    height: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
-}
-
-.tieude>h2 {
-    color: #2d4271;
-    font-size: 30px;
-}
-
-.in-uberator>li {
-    font-size: 20px;
-}
-
-.QR-download {
-    position: relative;
-    display: flex;
-}
-
-.icon-child {
-    width: 100%;
-    height: 50px;
-    margin-top: 50%;
-}
-
-.icon-child>i {
-    font-size: 50px;
-    margin-left: 20px;
-}
-
-/*footer bottom */
-.footer-bottom li,
-.footer-top li {
-    line-height: 1.5;
-    font-size: 16px;
-}
-
-.footer-bottom {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    position: relative;
-}
-
-.itembot {
-    width: 25%;
-    position: relative;
-}
-
-.uberator-thanhtoan {
-    display: flex;
-
+    padding: 0;
 
 }
 .footer-chagebottom{
@@ -521,7 +421,7 @@ width: 100%;
 
 }
 .phaaiii{
-    margin-left: 25%;
+   
 }
 .footerrr{
     margin-left: auto;
@@ -543,6 +443,16 @@ width: 100%;
 
 .dm {
     display: flex;
-
+    padding: 0;
 }
-
+.uberator{
+    width: 50%;
+    text-align: center;
+    padding: 0;
+}
+footer>ul{
+    padding: 0;
+}
+.uberator-bottom{
+    padding: 0;
+}
