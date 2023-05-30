@@ -1077,3 +1077,10 @@ footer>ul{
 .uberator-bottom{
     padding: 0;
 }
+.MXH button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fe2214;
+    background-color: #fe2214;
+}

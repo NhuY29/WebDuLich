@@ -23,7 +23,7 @@
         <i class="bi bi-moon-stars-fill"></i>
     </button>
     <div class="main">
-        <input type="checkbox" name="" id="" class="chekboxxxx">
+    <input type="checkbox" name="" id="" class="chekboxxxx">
         <div class="menu-icons">
             <div class="menu-line">
 
@@ -31,17 +31,17 @@
         </div>
         <div class="menu-items">
             <ul class="uberator-items">
-                <li><a href="./index.htm">Trang Chủ</a></li>
-                <li><a href="./TinTuc.html">Tin Tức</a></li>
-                <li><a href="./thue.html">Thuê Xe</a></li>
-                <li><a href="./bay.html">Vé Máy Bay</a></li>
+                <li><a href="./index.php">Trang Chủ</a></li>
+                <li><a href="./TinTuc.php">Tin Tức</a></li>
+                <li><a href="./thue.php">Thuê Xe</a></li>
+                <li><a href="./bay.php">Vé Máy Bay</a></li>
                 <li><a href="">Đăng Xuất</a></li>
             </ul>
         </div>
 
         <div class="header-above">
             <div class="imglogo-header">
-                <a href="index.html"><img src="./img/logo.png" alt="" class="photo"></a>
+                <a href="./index.php"><img src="./img/logo.png" alt="" class="photo"></a>
             </div>
 
 
@@ -62,10 +62,10 @@
                     <li class="list-menu">
                         <h3 onclick="menukhuyenmai()">Khuyến Mãi <i class="fa-solid fa-angle-down"></i></h3>
                     </li>
-                    <li class="list-menu"><a href="LienHe.html">
+                    <li class="list-menu"><a href="./LienHe.php">
                             <h3>Liên Hệ</h3>
                         </a></li>
-                    <li class="list-menu"><a href="">
+                    <li class="list-menu"><a href="./TravelPlus.php">
                             <h3>VietTravelPlus</h3>
                         </a> </li>
                 </ul>
@@ -73,8 +73,8 @@
             <div class="menu-right-div">
                 <ul class="menu-right">
                     <li class="search list-menu">
-                        <form action="/search" method="get">
-                            <input type="text" placeholder="Bắt đầu tìm kiếm..." name="">
+                        <form action="xulydulieutimkiem.php" method="post">
+                            <input type="text" placeholder="Bắt đầu tìm kiếm..." name="noiden">
                             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
                     </li>
@@ -89,47 +89,47 @@
             <div class="menu-dropdown goout">
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="./Mien Bac.html">TOUR MIỀN BẮC</a></B></li>
-                        <li class="list-dropdown"><a href="./Ha Noi.html">Du lịch Hà Nội</a></li>
-                        <li class="list-dropdown"><a href="./Hai Phong.html">Du lịch Hải Phòng</a></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Bac.php">TOUR MIỀN BẮC</a></B></li>
+                        <li class="list-dropdown"><a href="./Ha Noi.php">Du lịch Hà Nội</a></li>
+                        <li class="list-dropdown"><a href="./Hai Phong.php">Du lịch Hải Phòng</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Hạ Long</a></li>
                         <li class="list-dropdown"><a href="">Du lịch Bắc Ninh</a></li>
                         <li class="list-dropdown"><a href="">Du lịch Phú Thọ</a></li>
-                        <li class="list-dropdown"><B><a href="./Mien Bac.html"> Xem tất cả</a></B> </li>
+                        <li class="list-dropdown"><B><a href="./Mien Bac.php"> Xem tất cả</a></B> </li>
                     </ul>
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="./Mien Trung.html">TOUR MIỀN TRUNG </a></B></li>
-                        <li class="list-dropdown"><a href="./Hue.html">Du lịch Huế</a></li>
-                        <li class="list-dropdown"><a href="./QuangTri.php">Du lịch Quảng Trị</a></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Trung.php">TOUR MIỀN TRUNG </a></B></li>
+                        <li class="list-dropdown"><a href="./Hue.php">Du lịch Huế</a></li>
+                        <li class="list-dropdown"><a href="./Quang Tri.php">Du lịch Quảng Trị</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Quảng Bình </a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Đà Nẵng </a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Quảng Nam</a></li>
-                        <li class="list-dropdown"><B><a href="./Mien Trung.html.html"> Xem tất cả</a></B> </li>
+                        <li class="list-dropdown"><B><a href="./Mien Trung.php"> Xem tất cả</a></B> </li>
                     </ul>
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="./Mien Tay.html.html">TOUR MIỀN TÂY NAM BỘ </a></B></li>
-                        <li class="list-dropdown"><a href="./Phu Quoc.html.html"> Du lịch Phú Quốc </a></li>
-                        <li class="list-dropdown"><a href="./Tien Giang.html.html"> Du lịch Tiền Giang</a></li>
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Tay.php">TOUR MIỀN TÂY NAM BỘ </a></B></li>
+                        <li class="list-dropdown"><a href="./Phu Quoc.php"> Du lịch Phú Quốc </a></li>
+                        <li class="list-dropdown"><a href="./Tien Giang.php"> Du lịch Tiền Giang</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Cần Thơ </a></li>
                         <li class="list-dropdown"><a href="">Du lịch Vĩnh Long</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Sóc Trăng</a></li>
-                        <li class="list-dropdown"><B><a href="/Mien Tay.html.html"> Xem tất cả</a></B> </li>
+                        <li class="list-dropdown"><B><a href="/Mien Tay.php"> Xem tất cả</a></B> </li>
                     </ul>
                 </div>
                 <div class="menu-dropdown-item">
                     <ul class="upberator-dropdown">
-                        <li class="list-dropdown lisdp"> <B><a href="./Mien Dong.html.html">TOUR MIỀN ĐÔNG NAM BỘ </a></B>
+                        <li class="list-dropdown lisdp"> <B><a href="./Mien Dong.php">TOUR MIỀN ĐÔNG NAM BỘ </a></B>
                         </li>
-                        <li class="list-dropdown"><a href="./Dong Nai.html.html"> Du lịch Đồng Nai</a></li>
-                        <li class="list-dropdown"><a href="./Vung Tau.html.html"> Du lịch Bà Rịa - Vũng Tàu</a></li>
+                        <li class="list-dropdown"><a href="./Dong Nai.php"> Du lịch Đồng Nai</a></li>
+                        <li class="list-dropdown"><a href="./Vung Tau.php"> Du lịch Bà Rịa - Vũng Tàu</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Côn Đảo </a></li>
                         <li class="list-dropdown"><a href=""> Du lịch TP. Hồ Chí Minh</a></li>
                         <li class="list-dropdown"><a href=""> Du lịch Tây Ninh</a></li>
-                        <li class="list-dropdown"><B><a href="./Mien Dong.html"> Xem tất cả</a></B> </li>
+                        <li class="list-dropdown"><B><a href="./Mien Dong.php"> Xem tất cả</a></B> </li>
 
                     </ul>
                 </div>
@@ -139,18 +139,19 @@
         <div class="main-dropdown2">
             <div class="menu-dropdown2">
                 <ul class="uperator-dropdown2">
-                    <li class="list-dropdown2"> <a href="./KhuyenMai1.html">Vietravel & Sacombank tung ưu đãi “Tiền về đầy ví - Du hí thả
+                    <li class="list-dropdown2"> <a href="./KhuyenMai1.php">Vietravel & Sacombank tung ưu đãi “Tiền về đầy ví - Du hí thả
                             ga” </a> </li>
-                    <li class="list-dropdown2"> <a href="./KhuyenMai2.html"> Vietravel & JCB tung ưu đãi “Thanh toán liền tay - Nhận ngay
+                    <li class="list-dropdown2"> <a href="./KhuyenMai2.php"> Vietravel & JCB tung ưu đãi “Thanh toán liền tay - Nhận ngay
                             deal xịn”</a></li>
-                    <li class="list-dropdown2"> <a href="./KhuyenMai3.html"> Vietravel triển khai chương trình ưu đãi cùng VNPAY “Trúng
+                    <li class="list-dropdown2"> <a href="./KhuyenMai3.php"> Vietravel triển khai chương trình ưu đãi cùng VNPAY “Trúng
                             deal to – Du lịch chẳng lo”</a></li>
-                    <li class="list-dropdown2"> <a href="./KhuyenMai4.html"> Vietravel & Sacombank: Quẹt thẻ liền tay - Giảm ngay 1 triệu
+                    <li class="list-dropdown2"> <a href="./KhuyenMai4.php"> Vietravel & Sacombank: Quẹt thẻ liền tay - Giảm ngay 1 triệu
                             đồng</a></li>
                 </ul>
                 <i class="fa-solid fa-xmark iconclosed" onclick="closeddmenu()"></i>
             </div>
         </div>
+
         <div class="KM">
             <div class="KM-left">
                 <p><b class="head">Vietravel & Sacombank tung ưu đãi "Tiền về đầy ví - Du hí thả ga"</b></p>
