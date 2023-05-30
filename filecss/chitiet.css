@@ -643,6 +643,56 @@ button[type="submit"] {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.img-chon3{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/luachon3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-chon4{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/luachon4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-chon5{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/luachon5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-chon6{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/luachon6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-chon7{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/luachon7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-chon8{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/luachon8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .LichTrinh{
     width: 100%;
     height: 800px;
