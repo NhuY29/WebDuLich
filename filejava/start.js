@@ -152,17 +152,6 @@ for (var i = 0; i < btns.length; i++) {
       location.reload();
     }
 }
-// window.location.href = "/DangNhap.html";
-  function isLoggedIn() {
-    // Hàm kiểm tra xem người dùng đã đăng nhập chưa
-    return false;
-}
-
-  function buyItem() {
-    // Hàm thực hiện các thao tác mua hàng
-    alert('Bạn đã mua hàng thành công');
-}
-
 function crollclick(){
   var noiden =["Nơi Khởi Hành","TP Hồ Chí Minh","Hà Nội","Cần Thơ","Trà Vinh","Mỹ Tho","Đà Nẵng"];
   var hienthi = document.getElementById("hienthinoiden");

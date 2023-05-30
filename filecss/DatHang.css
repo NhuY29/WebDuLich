@@ -840,3 +840,217 @@ form input[type="email"],
     height: 100%;
     border-radius: 2%;
 }
+.nutDK {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nutDK input[type="submit"]{
+    width: 20%;
+    height: 80%;
+    background-color: #df7b7e;
+    border-radius: 2%;
+    border: 1px solid #df7b7e ;
+    color: #fff;
+}
+.nutDK input[type="submit"]:hover {
+    cursor: pointer;
+}
+/* footer */
+.In {
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.In li,
+.DongTour li,
+.LienHe li,
+.ThongTin li {
+    list-style-type: none;
+    color: #2d4271;
+}
+
+
+.footer-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.In {
+    width: 25%;
+    position: relative;
+}
+
+.DongTour {
+    width: 25%;
+    position: relative;
+
+}
+
+.LienHe {
+    width: 25%;
+    position: relative;
+
+}
+
+.QR {
+
+    width: 25%;
+    position: relative;
+}
+
+.ThanhToan img {
+    margin: 10px;
+}
+
+.MXH i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.MXH button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fe2214;
+    background-color: #fe2214;
+}
+
+
+
+
+footer {
+    background-color: rgba(128, 128, 128, 0.05);
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.in-uberator {
+   position: absolute;
+    display: flex;
+    height: 80%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    bottom: 0;
+    /* width: 100%; */
+    width: 100%;
+    justify-content: center;
+
+}
+
+.chanfoot{
+    display: block;
+}
+.chage-footer1{
+   width: 100%;
+}
+.chage-footer-child{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.in-uberators {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude {
+    width: 85%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.tieude>h2 {
+    color: #2d4271;
+    font-size: 30px;
+}
+
+.in-uberator>li {
+    font-size: 20px;
+}
+
+.QR-download {
+    position: relative;
+    display: flex;
+}
+
+.icon-child {
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+}
+
+.icon-child>i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+/*footer bottom */
+.footer-bottom li,
+.footer-top li {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.itembot {
+    width: 25%;
+    position: relative;
+}
+
+.uberator-thanhtoan {
+    display: flex;
+
+
+}
+.footer-chagebottom{
+width: 100%;
+
+
+}
+.phaaiii{
+    margin-left: 25%;
+}
+.footerrr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.uberator-thanhtoan>li {
+    padding: 1%;
+}
+
+.dm>li {
+    height: 50px;
+}
+
+.metnha {
+    position: absolute;
+    top: 100px;
+}
+
+.dm {
+    display: flex;
+
+}
+.uberator{
+    width: 50%;
+    text-align: center;
+}
