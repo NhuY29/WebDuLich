@@ -486,10 +486,11 @@ button[type="submit"] {
     width: 50%;
     height: 50%;
     /* background-color: #999; */
+    color: #2D4271;
 }
 .left .MaTour,
 .left .TieuDeDi {
-    height: 30%;
+    height: 50%;
     /* background-color: #2D4271; */
     font-size: 25px;
     padding: 3%;
@@ -500,6 +501,7 @@ button[type="submit"] {
 .left div .HaiLong {
     padding: 3%;
     font-size: 20px;
+    padding-top: 5%;
 }
 .content .right {
     width: 50%;
@@ -567,6 +569,13 @@ button[type="submit"] {
     /* background-color: #2D4271; */
     display: flex;
     
+}
+.anhGT_top div {
+    width: 50%;
+}
+.anhGT_top img {
+    width: 100%;
+    height: 100%;
 }
 .anhGT_below
 {
@@ -695,16 +704,246 @@ button[type="submit"] {
 
 .LichTrinh{
     width: 100%;
-    height: 800px;
+    height: 1100px;
     display: flex;
+    padding-top: 5%;
 }
 .LichTrinh_left {
     width: 40%;
     height: 100%;
-    background-color:rebeccapurple;
+    background-color:#f9f9f9;
+}
+.LichTrinh_left1 {
+    width: 60%;
+    /* background-color: #7c87ec; */
+    padding: 5%;
+}
+.Gia {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding: 5%;
+}
+.Gia p {
+    font-size: 20px;
+    color: #2D4271;
+}
+.Gia1 {
+    width: 60%;
+}
+.Gia2 p {
+    color: #fd5056;
 }
 .LichTrinh_right {
     width: 60%;
     height: 100%;
-    background-color: #fd5056;
+    background-color: #ffffff;
+    padding: 3%;
+    color: #2d4271;
+
+}
+.LichTrinh_right>b{
+    font-size: 20px;
+}
+.LichTrinh_right div p {
+    font-size: 16px;
+}
+.LichTrinh_right div {
+    border-left: 1px dashed #007bff;
+    padding: 2%;
+}
+.In {
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.In li,
+.DongTour li,
+.LienHe li,
+.ThongTin li {
+    list-style-type: none;
+    color: #2d4271;
+}
+
+
+.footer-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.In {
+    width: 25%;
+    position: relative;
+}
+
+.DongTour {
+    width: 25%;
+    position: relative;
+
+}
+
+.LienHe {
+    width: 25%;
+    position: relative;
+
+}
+
+.QR {
+
+    width: 25%;
+    position: relative;
+}
+
+.ThanhToan img {
+    margin: 10px;
+}
+
+.MXH i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.MXH button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fe2214;
+    background-color: #fe2214;
+}
+
+
+
+
+footer {
+    background-color: rgba(128, 128, 128, 0.05);
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.in-uberator {
+   position: absolute;
+    display: flex;
+    height: 80%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    bottom: 0;
+    /* width: 100%; */
+    width: 100%;
+    justify-content: center;
+
+}
+
+.chanfoot{
+    display: block;
+}
+.chage-footer1{
+   width: 100%;
+}
+.chage-footer-child{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.in-uberators {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tieude {
+    width: 85%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.tieude>h2 {
+    color: #2d4271;
+    font-size: 30px;
+}
+
+.in-uberator>li {
+    font-size: 20px;
+}
+
+.QR-download {
+    position: relative;
+    display: flex;
+}
+
+.icon-child {
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+}
+
+.icon-child>i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+/*footer bottom */
+.footer-bottom li,
+.footer-top li {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.itembot {
+    width: 25%;
+    position: relative;
+}
+
+.uberator-thanhtoan {
+    display: flex;
+
+
+}
+.footer-chagebottom{
+width: 100%;
+
+
+}
+.phaaiii{
+    margin-left: 25%;
+}
+.footerrr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.uberator-thanhtoan>li {
+    padding: 1%;
+}
+
+.dm>li {
+    height: 50px;
+}
+
+.metnha {
+    position: absolute;
+    top: 100px;
+}
+
+.dm {
+    display: flex;
+
+}
+.uberator{
+    width: 50%;
+    text-align: center;
 }
