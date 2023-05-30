@@ -34,10 +34,10 @@ $row = mysqli_fetch_array($result);
  $oke =  $row['noiden'] ;
 $cach = " ";
 if($result1['noiden']){
-     header("location: $oke.html"); 
+     header("location: $oke.php"); 
 }
 else{
-    header("location: timkiem.html");
+    header("location: timkiem.php");
 }
 
    

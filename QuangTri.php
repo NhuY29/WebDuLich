@@ -73,8 +73,8 @@
             <div class="menu-right-div">
                 <ul class="menu-right">
                     <li class="search list-menu">
-                        <form action="/search" method="get">
-                            <input type="text" placeholder="Bắt đầu tìm kiếm..." name="">
+                        <form action="xulydulieutimkiem.php" method="post">
+                            <input type="text" placeholder="Bắt đầu tìm kiếm..." name="noiden">
                             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
                     </li>

@@ -12,6 +12,7 @@ function send() {
     var check6 = arr[11].checked;
     var check7 = arr[12].checked;
     var favorite = "";
+    var result = confirm("Bạn Chắc Chắn Đặt Vé Này!!!") ;
     if (regExp.test(email) == false) {
         alert("email khong hop le !");
         return false;
@@ -31,10 +32,10 @@ function send() {
             favorite = favorite + arr[i].value + " ";
         }
     }
-    if (confirm("Bạn Chắc Chắn Đặt Vé Này!!!")) {
+    if (result == true) {
         // Thực hiện hành động nếu người dùng chọn OK
         alert("Bạn đã đặt vé thành công");
-        window.location.href="index.html";
+        window.location.href = "Dong Nai.php";
     } else {
         // Không thực hiện hành động nếu người dùng chọn Cancel
         alert("Bạn đã hủy thao tác đăng ký");
