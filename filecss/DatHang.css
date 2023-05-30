@@ -755,14 +755,26 @@ height: 250px;
 .Form_mua
 {
     width: 100%;
-    height: 500px;
+    height: 600px;
     padding-top: 5%;
+    display: flex;
+}
+.chude {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chude p {
+    font-size: 20px;
+    color: #df7b7e;
 }
 form{
     width: 40%;
-    height: 500px;
+    height: 100%;
     background-color:#f9f9f9;
-    border-radius: 2%;
+    border-radius: 1%;
     padding: 2%;
 }
 form label {
@@ -796,3 +808,35 @@ form input[type="email"],
     font-size: 18px;
     color: red;
   }
+.BenTraiForm {
+    width: 60%;
+    height: 100%;
+   
+}
+.BenTraiForm div {
+    padding: 4%;
+    font-size: 25px;
+}
+.BenTraiForm input[type="checkbox"]  {
+    width: 25px;
+    height: 25px;
+}
+.BenTraiForm_top {
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.BenTraiForm_below {
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.GhiChuThem {
+    width: 100%;
+    height: 40%;
+}
+.GhiChuThem textarea {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
