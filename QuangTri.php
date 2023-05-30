@@ -336,7 +336,7 @@
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3398-061-050523VU-F-1</p>
+                                    NDSGN3398-061-050523VU-F</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
                                 <p><b style="color: #FD5056;">4,490,000₫</b></p>
                             </div>
@@ -358,7 +358,7 @@
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3318-013-060523VJ-VE</p>
+                                    NDSGN3318-013-060523VJ</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
                                 <p><b style="color: #FD5056;">7,590,000₫</b></p>
                             </div>
@@ -382,7 +382,7 @@
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3399-013-130523VN-D</p>
+                                    NDSGN3399-013-130523VN</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minhg</b></p>
                                 <p><b style="color: #FD5056;">9,400,000₫</b></p>
                             </div>
@@ -423,7 +423,7 @@
                             </div>
                             <div class="Phan2">
                                 <p>Mã Tour: <i class="fa-solid fa-ticket" style="font-size: 16px;"></i>
-                                    NDSGN3398-064-110523VU-D-1</p>
+                                    NDSGN3398-064-110523VU</p>
                                 <p>Nơi Khởi Hành: <b>TP. Hồ Chí Minh</b></p>
                                 <p><b style="color: #FD5056;">15,000,000₫</b></p>
                             </div>
