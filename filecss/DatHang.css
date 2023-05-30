@@ -468,7 +468,8 @@ button[type="submit"] {
 .content-items-block3{
    position: relative;
     height: 400px;
-width: 100%;
+    width: 100%;
+    padding-top: 5%;
 /* background-color:#df7b7e */
 }
 .tieude-uudai{
@@ -751,3 +752,47 @@ height: 250px;
     border: 1px solid #ccc;
     border-radius: 20px;
 }
+.Form_mua
+{
+    width: 100%;
+    height: 500px;
+    padding-top: 5%;
+}
+form{
+    width: 40%;
+    height: 500px;
+    background-color:#f9f9f9;
+    border-radius: 2%;
+    padding: 2%;
+}
+form label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+form input[type="text1"].dai {
+  width: 100%;
+} 
+form input[type="text1"],
+form input[type="email"],
+.didong
+ {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #2d4271;
+}
+.Do {
+    font-size: 18px;
+    color: red;
+  }
