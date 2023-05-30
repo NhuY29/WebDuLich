@@ -144,16 +144,15 @@ for (var i = 0; i < btns.length; i++) {
 }
 // ----------------sự kiện nút đặt hàng-------------------
   function checkLogin() {
-    if (!isLoggedIn()) {
-    confirm("Bạn chắc chắn muốn đặt vé");
-  // Chuyển hướng đến trang đăng nhập
-  window.location.href = "/DangNhap.html";
+    if (confirm("Bạn có muốn đặt vé này không?")) {
+      // Thực hiện hành động nếu người dùng chọn OK
+      window.location.href = "/DatHang.html";
     } else {
-    // Thực hiện các thao tác mua hàng
-    buyItem();
+      // Không thực hiện hành động nếu người dùng chọn Cancel
+      location.reload();
     }
 }
-
+// window.location.href = "/DangNhap.html";
   function isLoggedIn() {
     // Hàm kiểm tra xem người dùng đã đăng nhập chưa
     return false;
