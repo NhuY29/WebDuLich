@@ -17,19 +17,36 @@
             confirmPasswordInput.value = "";
         }
 
+function send1(){
+    var arr = document.getElementsByTagName('input');
+    var matkhau= arr[11].value;
+    var matkhau2= arr[12].value;
+    if(matkhau != matkhau2){
+        alert("Vui Long Nhap Dung Mat Khau !");
+        return false;
+    }
+
+
+    window.location.href="DangKy.php";
+}
+
         function checkPasswords() {
+            
             var passwordInput = document.getElementById("password");
             var confirmPasswordInput = document.getElementById("confirm-password");
             var passwordMatchMessage = document.getElementById("password-match-message");
-            if (passwordInput.value !== confirmPasswordInput.value) {
+            if (passwordInput.value != confirmPasswordInput.value) {
                 passwordMatchMessage.innerHTML = "Mật khẩu không trùng khớp.";
                 passwordMatchMessage.style.color = "red";
+                confirmPasswordInput.value = "";
                 return false;
             } else {
                 passwordMatchMessage.innerHTML = " ";
                 return true;
             }
+          
         }
+
     </script>
 
 </head>
@@ -47,7 +64,7 @@
             <p>Để hoàn tất đăng ký Hội viên VietravelPlus, quý khách vui lòng điền đầy đủ thông tin vào mẫu dưới đây và
                 nhấn
                 vào nút đăng ký. Xin chân thành cảm ơn quý khách hàng.</p>
-            <form action="xulidki.php" method = "post">
+            <form action="xulidki.php" method = "post" >
                 <label for="HoTen">Họ Tên <span class="HoTen">(*)</span>:</label>
                 <input type="text1" minlength="1" maxlength="30" required name="hoten">
 

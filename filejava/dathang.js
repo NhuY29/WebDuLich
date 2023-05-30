@@ -34,7 +34,7 @@ function send() {
     if (confirm("Bạn Chắc Chắn Đặt Vé Này!!!")) {
         // Thực hiện hành động nếu người dùng chọn OK
         alert("Bạn đã đặt vé thành công");
-        location.reload();
+        window.location.href="index.html";
     } else {
         // Không thực hiện hành động nếu người dùng chọn Cancel
         alert("Bạn đã hủy thao tác đăng ký");
