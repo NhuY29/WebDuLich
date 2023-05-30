@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./filecss/DatHang.css">
     <link rel="stylesheet" href="./filejava/start.js">
     <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./filejava/dathang.js">
     <title>Đặt Hàng</title>
 </head>
 
@@ -214,8 +215,10 @@
             <p><b>Quý khách có ghi chú lưu ý gì, hãy nói với chúng tôi !</b></p>
         </div>
         <div class="Form_mua">
-            <form action="" method = "post">
-                <label for="HoTen">Họ Tên <span class="Do">(*)</span>:</label>
+             <div class="class-from"></div>
+            <form action="" class="from2" onsubmit="return send()">
+               
+                     <label for="HoTen">Họ Tên <span class="Do">(*)</span>:</label>
                 <input type="text1" minlength="1" maxlength="30" required name="hoten">
                 <label for="SDT">Di Động <span class="Do">(*)</span></label>
                 <input type="tel" pattern="[0-9]{10}" required name="didong" class="didong">
@@ -223,7 +226,9 @@
                 <input type="text1" class="dai" name="diachi">
                 <label for="Email">Email<span class="Do">(*)</span></label>
                 <input type="email" name="email">
-            </form>
+                </div>
+               
+           
             <div class="BenTraiForm">
                 <div class="BenTraiForm_top">
                     <div>
@@ -268,9 +273,13 @@
                 <div class="GhiChuThem">  <textarea name="" id="" cols="20" rows="20" placeholder="Thêm ghi chú cho chúng tôi..."></textarea></div>
             </div>
         </div>
+
         <div class="nutDK">
            <input type="submit">
         </div>
+        </form>
+    </div>
+    
         <footer>
             <div class="footer-top">
     
@@ -477,6 +486,7 @@
     
         </footer>
         <script src="./filejava/start.js"></script>
+        <script src="./filejava/dathang.js"></script>
         <!-- them duoi nay -->
         <script src="https://code.jquery.com/jquery-3.6.4.js"
             integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>

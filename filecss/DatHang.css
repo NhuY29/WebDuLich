@@ -467,7 +467,7 @@ button[type="submit"] {
 }
 .content-items-block3{
    position: relative;
-    height: 400px;
+    height: 500px;
     width: 100%;
     padding-top: 5%;
 /* background-color:#df7b7e */
@@ -746,7 +746,7 @@ height: 250px;
 .ChiTiet:hover a {
     color: #fff;
 }
-.Phan3 button {
+.Phan3>button {
     width: 25%;
     height: 50px;
     border: 1px solid #ccc;
@@ -782,7 +782,7 @@ form label {
     margin-right: 10px;
 }
 
-form {
+.from2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -914,7 +914,7 @@ form input[type="email"],
     margin: 10px;
 }
 
-.MXH button {
+.MXH>button {
     width: 200px;
     height: 50px;
     border-radius: 5px;
