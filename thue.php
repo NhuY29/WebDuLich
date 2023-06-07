@@ -29,18 +29,19 @@
         </div>
         <div class="menu-items">
             <ul class="uberator-items">
-                <li><a href="./index.php">Trang Chủ</a></li>
+                <li><a href="./star.php">Trang Chủ</a></li>
                 <li><a href="./TinTuc.php">Tin Tức</a></li>
                 <li><a href="./thue.php">Thuê Xe</a></li>
                 <li><a href="./bay.php">Vé Máy Bay</a></li>
-                <li><a href="">Đăng Xuất</a></li>
+                <li><a href="./index.php">Đăng Xuất</a></li>
             </ul>
         </div>
 
         <div class="header-above">
             <div class="imglogo-header">
-                <a href="./index.php"><img src="./img/logo.png" alt="" class="photo"></a>
+                <a href="./star.php"><img src="./img/logo.png" alt="" class="photo"></a>
             </div>
+
 
 
             <div class="menu-left-div">
@@ -285,7 +286,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="btn"> <button onclick="window.location.href ='thuexe.html'"><i class="fa-solid fa-magnifying-glass"></i>TÌM XE NGAY</button></div>
+                    <div class="btn"> <button onclick="window.location.href ='thuexe.php'"><i class="fa-solid fa-magnifying-glass"></i>TÌM XE NGAY</button></div>
                 </div>
             </div>
         </div>

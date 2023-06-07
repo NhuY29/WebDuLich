@@ -68,14 +68,14 @@ function send1(){
                 <label for="HoTen">Họ Tên <span class="HoTen">(*)</span>:</label>
                 <input type="text1" minlength="1" maxlength="30" required name="hoten">
 
-                <label for="SDT">Di Động <span class="HoTen">(*)</span></label>
+                <label for="SDT">Di Động <span class="HoTen">(*)</span>:</label>
                 <input type="tel" pattern="[0-9]{10}" required name="didong">
 
 
-                <label for="NgaySinh">Ngày Sinh:</label>
+                <label for="NgaySinh">Ngày Sinh :</label>
                 <input type="date" class="date" name="ngaysinh">
 
-                <label for="GioiTinh">Giới Tính</label>
+                <label for="GioiTinh">Giới Tính :</label>
                 <select name="gioitinh">
                     <option value="Nam">Nam</option>
                     <option value="Nữ">Nữ</option>
@@ -83,29 +83,29 @@ function send1(){
                 </select>
 
 
-                <label for="CMND">CMND</label>
+                <label for="CMND">CMND :</label>
                 <input type="text1" name="CMND">
 
-                <label for="NgayCap">Ngày Cấp</label>
+                <label for="NgayCap">Ngày Cấp :</label>
                 <input type="date" name="ngaycap">
 
 
-                <label for="Passport">Passport</label>
+                <label for="Passport">Passport :</label>
                 <input type="text1" name="passport">
-                <label for="Email">Email</label>
-                <input type="email" name="email">
+                <label for="Email">Email <span class="HoTen">(*)</span>:</label>
+                <input type="email" name="email" required>
 
 
-                <label for="NgayCapPassport">Ngày Cấp</label>
+                <label for="NgayCapPassport">Ngày Cấp :</label>
                 <input type="date" name="ngaycap2">
-                <label for="NgayHetHan">Ngày Hết Hạn</label>
+                <label for="NgayHetHan">Ngày Hết Hạn :</label>
                 <input type="date" name="ngayhethan">
 
 
-                <label for="DiaChi">Địa Chỉ</label>
+                <label for="DiaChi">Địa Chỉ :</label>
                 <input type="text1" class="dai" name="diachi">
 
-                <label for="DiaChi">Mã Giới Thiệu</label>
+                <label for="DiaChi">Mã Giới Thiệu :</label>
                 <input type="text1" class="dai" name="magioithieu">
 
 

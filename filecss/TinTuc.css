@@ -509,9 +509,7 @@ line-height: 100px;
     color:#2d4271;
     font-weight: bold;
 }
-.bda1{
-    padding-top: 0;
-}
+
 .Child a:hover {
     color: #007bff;
 } 
@@ -531,7 +529,7 @@ line-height: 100px;
 }
 .TinTuc-right{
     width: 48%;
-    height: 400px;
+    height: 550px;
     position: relative;
 }
 

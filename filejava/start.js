@@ -146,7 +146,7 @@ for (var i = 0; i < btns.length; i++) {
   function checkLogin() {
     if (confirm("Bạn có muốn đặt vé này không?")) {
       // Thực hiện hành động nếu người dùng chọn OK
-      window.location.href = "/DatHang.html";
+      window.location.href = "/DatHang.php";
     } else {
       // Không thực hiện hành động nếu người dùng chọn Cancel
       location.reload();

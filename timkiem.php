@@ -30,17 +30,17 @@
         </div>
         <div class="menu-items">
             <ul class="uberator-items">
-                <li><a href="./index.php">Trang Chủ</a></li>
+                <li><a href="./star.php">Trang Chủ</a></li>
                 <li><a href="./TinTuc.php">Tin Tức</a></li>
                 <li><a href="./thue.php">Thuê Xe</a></li>
                 <li><a href="./bay.php">Vé Máy Bay</a></li>
-                <li><a href="">Đăng Xuất</a></li>
+                <li><a href="./index.php">Đăng Xuất</a></li>
             </ul>
         </div>
 
         <div class="header-above">
             <div class="imglogo-header">
-                <a href="./index.php"><img src="./img/logo.png" alt="" class="photo"></a>
+                <a href="./star.php"><img src="./img/logo.png" alt="" class="photo"></a>
             </div>
 
 
@@ -274,7 +274,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                         </div>
                     </div>
@@ -318,7 +318,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                         </div>
                     </div>
@@ -328,19 +328,19 @@
                 <div class="second2">
                     <div class="Tour_search">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <div class="chuthich"><b><a href="./HaiPhong.html">Hải Phòng</a></b></div>
+                        <div class="chuthich"><b><a href="./Hai Phong.php">Hải Phòng</a></b></div>
                     </div>
                     <div class="Tour_search">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <div class="chuthich"><b><a href="./HaNoi.html">Hà Nội</a></b></div>
+                        <div class="chuthich"><b><a href="./Ha Noi.php">Hà Nội</a></b></div>
                     </div>
                     <div class="Tour_search">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <div class="chuthich"><b><a href="./VungTau.html">Vũng Tàu</a></b></div>
+                        <div class="chuthich"><b><a href="./Vung Tau.php">Vũng Tàu</a></b></div>
                     </div>
                     <div class="Tour_search">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <div class="chuthich"><b><a href="./PhuQuoc.html">Phú Quốc</a></b></div>
+                        <div class="chuthich"><b><a href="./Phu Quoc.php">Phú Quốc</a></b></div>
                     </div>
 
                 </div>
@@ -348,17 +348,17 @@
                 <div class="GT"><b>Các Điểm Đến Ưa Chuộng</b></div>
                 <div class="second">
                     <div class="Tour">
-                        <a href="/HaiPhong.html"><img src="./img/HP1.jpg" alt="" width="100%"></a> 
-                        <div class="chuthich"><b><a href="./Hai Phong.html">Hải Phòng</a></b></div>
+                        <a href="./Hai Phong.php"><img src="./img/HP1.jpg" alt="" width="100%"></a> 
+                        <div class="chuthich"><b><a href="./Hai Phong.php">Hải Phòng</a></b></div>
                     </div>
 
                     <div class="Tour">
-                       <a href="./PhuQuoc.html"><img src="./img/PQ3.jpg" alt="" width="100%"></a> 
-                        <div class="chuthich"><b><a href="./PhuQuoc.html">Phú Quốc</a></b></div>
+                       <a href="./Phu Quoc.php"><img src="./img/PQ3.jpg" alt="" width="100%"></a> 
+                        <div class="chuthich"><b><a href="./Phu Quoc.php">Phú Quốc</a></b></div>
                     </div>
                     <div class="Tour">
-                        <a href=""><img src="./img/hue3.jpg" alt="" width="100%"></a>
-                        <div class="chuthich"><b><a href="./Hue.html">Huế</a></b></div>
+                        <a href="./Hue.php"><img src="./img/hue3.jpg" alt="" width="100%"></a>
+                        <div class="chuthich"><b><a href="./Hue.php">Huế</a></b></div>
                     </div>
                 </div>
             </div>

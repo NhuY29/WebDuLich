@@ -33,18 +33,19 @@
         </div>
         <div class="menu-items">
             <ul class="uberator-items">
-                <li><a href="./index.php">Trang Chủ</a></li>
+                <li><a href="./star.php">Trang Chủ</a></li>
                 <li><a href="./TinTuc.php">Tin Tức</a></li>
                 <li><a href="./thue.php">Thuê Xe</a></li>
                 <li><a href="./bay.php">Vé Máy Bay</a></li>
-                <li><a href="">Đăng Xuất</a></li>
+                <li><a href="./index.php">Đăng Xuất</a></li>
             </ul>
         </div>
 
         <div class="header-above">
             <div class="imglogo-header">
-                <a href="./index.php"><img src="./img/logo.png" alt="" class="photo"></a>
+                <a href="./star.php"><img src="./img/logo.png" alt="" class="photo"></a>
             </div>
+
 
 
             <div class="menu-left-div">
@@ -338,7 +339,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="./chitiet.html">Xem chi tiết</a></button>
+                                <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                             <!-- <p style="text-align: center;">Số chỗ còn nhận: <b style="color: #FD5056;">10</b></p> -->
                         </div>
@@ -362,7 +363,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="./chitiet.html">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                             <!-- <p style="text-align: center;">Số chỗ còn nhận: <b style="color: #FD5056;">17</b></p> -->
                         </div>
@@ -387,7 +388,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="./chitiet.html">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                             <!-- <p style="text-align: center;">Số chỗ còn nhận: <b style="color: #FD5056;">12</b></p> -->
                         </div>
@@ -414,7 +415,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="./chitiet.html">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                         </div>
                     </div>
@@ -437,7 +438,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="./chitiet.html">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                         </div>
                     </div>
@@ -461,7 +462,7 @@
                             <div class="Phan3">
                                 <button onclick="checkLogin()" class="Gia"><i class="fa-solid fa-cart-shopping"></i> Đặt
                                     Ngay</button>
-                                <button class="ChiTiet"><a href="./chitiet.html">Xem chi tiết</a></button>
+                                    <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,7 @@
 <?php
 require 'conects.php';
+
+$conn = new mysqli($host,$username,$password,$dbname);
 if(isset($_POST['btn-submit'])){
     $hoten = $_POST['hoten'];
     $didong = $_POST['didong'];

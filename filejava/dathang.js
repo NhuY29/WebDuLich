@@ -35,7 +35,7 @@ function send() {
     if (result == true) {
         // Thực hiện hành động nếu người dùng chọn OK
         alert("Bạn đã đặt vé thành công");
-        window.location.href = "Dong Nai.php";
+        window.location.href = "star.php";
     } else {
         // Không thực hiện hành động nếu người dùng chọn Cancel
         alert("Bạn đã hủy thao tác đăng ký");

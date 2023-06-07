@@ -23,18 +23,19 @@
         </div>
         <div class="menu-items">
             <ul class="uberator-items">
-                <li><a href="./index.php">Trang Chủ</a></li>
+                <li><a href="./star.php">Trang Chủ</a></li>
                 <li><a href="./TinTuc.php">Tin Tức</a></li>
                 <li><a href="./thue.php">Thuê Xe</a></li>
                 <li><a href="./bay.php">Vé Máy Bay</a></li>
-                <li><a href="">Đăng Xuất</a></li>
+                <li><a href="./index.php">Đăng Xuất</a></li>
             </ul>
         </div>
 
         <div class="header-above">
             <div class="imglogo-header">
-                <a href="./index.php"><img src="./img/logo.png" alt="" class="photo"></a>
+                <a href="./star.php"><img src="./img/logo.png" alt="" class="photo"></a>
             </div>
+
 
 
             <div class="menu-left-div">
@@ -195,9 +196,9 @@
                                 <p style="color: #2D4271;">Ngày đi 21/05/2023</p>
                             </div>
                             <div class="Phan3 sss">
-                                <button class="Gia"><a href=""><i class="fa-solid fa-cart-shopping"></i>Đặt
+                                <button class="Gia"><a href="./DatHang.php"><i class="fa-solid fa-cart-shopping"></i>Đặt
                                         Ngay</a></button>
-                                <button class="ChiTiet"><a href="">Xem chi tiết</a></button>
+                                <button class="ChiTiet"><a href="./chitiet.php">Xem chi tiết</a></button>
                             </div>
                             <p class="phan-footer">Khám phá Vinpearl Safari + Trải nghiệm VinWonders không giới
                                 hạn</p>

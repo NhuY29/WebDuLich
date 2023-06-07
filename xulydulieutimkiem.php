@@ -1,9 +1,6 @@
 <?php
 $noiden = $_POST['noiden'];
-$host = "localhost";
-$username = "root";
-$password = "";
-$dbname = "severdoan";
+require 'conects.php';
 $conn = new mysqli($host,$username,$password,$dbname);
 $sql = "SELECT * FROM tiemkiemnoiden WHERE noiden like '%$noiden%'";
 $result1 = $conn->query($sql)->fetch_assoc();

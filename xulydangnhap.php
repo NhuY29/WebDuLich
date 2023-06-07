@@ -1,16 +1,13 @@
 <?php
 $email = $_POST['email'];
 $matkhau = $_POST['matkhau'];
-$host = "localhost";
-$username = "root";
-$password = "";
-$dbname = "severdoan";
+require 'conects.php';
 
 $conn = new mysqli($host,$username,$password,$dbname);
 $sql = "SELECT * FROM user WHERE email = '$email'";
 $result = $conn->query($sql)->fetch_assoc();
 if($result['matkhau'] == $matkhau ){
-    header("location: index.html");
+    header("location: star.php");
 }else{
     echo "sai dang nhap roi";
 

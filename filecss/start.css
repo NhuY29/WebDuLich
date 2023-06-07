@@ -8,14 +8,14 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 .main{
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     background-image: url(/img/ccs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0,0,0, 0.9);
-    
+    position: relative;
 }
 html,
 *{
@@ -89,8 +89,8 @@ span{
 }
 .text{
     position: absolute;
-    top: 50%;
-    left: 5%;
+    bottom: 10%;
+    left: 20%;
     z-index: 1;
 }
 .text>p{
@@ -109,7 +109,7 @@ span{
 .logon-login>button{
     background-color: rgb(119, 233, 195);
     color: rgb(13, 13, 14);
-    padding: 30px 80px;
+    padding: 20px 100px;
     border-radius: 20px;
     animation: animetionsdatve 4s infinite;
     transition: 0.3s;
