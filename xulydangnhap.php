@@ -9,8 +9,8 @@ $result = $conn->query($sql)->fetch_assoc();
 if($result['matkhau'] == $matkhau ){
     header("location: star.php");
 }else{
-    echo "sai dang nhap roi";
-
+    
+    header("location: DangNhap.php");
 }
 
 ?>
