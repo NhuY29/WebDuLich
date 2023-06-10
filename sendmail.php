@@ -8,7 +8,6 @@ include "mail/PHPMailer/src/SMTP.php";
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer(true);
-print_r($mail);
 try {
     //Server settings
     $mail->SMTPDebug = 0;                                 // Enable verbose debug output
@@ -16,14 +15,14 @@ try {
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'ble07983@gmail.com';                 // SMTP username
-    $mail->Password = 'secret';                           // SMTP password
+    $mail->Password = 'zbrmtpwkyfxzfdnp';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
  
     //Recipients
-    $mail->setFrom('ble07983@gmail.com', 'Mailer');
-    $mail->addAddress('Ny22167@gmail.com', 'NHU HEO');     // Add a recipient
-    // $mail->addAddress('ellen@example.com');               // Name is optional
+    $mail->setFrom('ble07983@gmail.com','Mailer');
+    $mail->addAddress('Ny22167@gmail.com','Như Y');     // Add a recipient
+    $mail->addAddress('baobuiii2003@gmail.com','Bao bui');               // Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
@@ -34,8 +33,8 @@ try {
  
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'ANH IU EM';
-    $mail->Body    = 'AI LOP DU BAC BAC';
+    $mail->Subject = 'Test Mail';
+    $mail->Body    = 'New content test mail';
     // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
  
     $mail->send();
