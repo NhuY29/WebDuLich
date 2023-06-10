@@ -59,7 +59,7 @@ function GuiMail(){
         $mail->Host = 'smtp.gmail.com';  //SMTP servers
         $mail->SMTPAuth = true; // Enable authentication
         $mail->Username = 'ble07983@gmail.com'; // SMTP username
-        $mail->Password = 'lequangbao';   // SMTP password
+        $mail->Password = 'zbrmtpwkyfxzfdnp';   // SMTP password
         $mail->SMTPSecure = 'ssl';  // encryption TLS/SSL 
         $mail->Port = 465;  // port to connect to                
         $mail->setFrom('ble07983@gmail.com', 'LE QUANG BAO' ); 
