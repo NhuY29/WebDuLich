@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="./filecss/DiemDen.css"> -->
     <link rel="stylesheet" href="./filecss/LienHe.css">
+    <link rel="stylesheet" href="./filejava/mail.js">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
     <link rel="stylesheet" href="./filejava/start.js">
 
@@ -74,7 +75,7 @@
             <div class="menu-right-div">
                 <ul class="menu-right">
                     <li class="search list-menu">
-                        <form action="xulydulieutimkiem.php" method="post">
+                        <form action="xulydulieutimkiem.php" method="post" class="fromdangnhap">
                             <input type="text" placeholder="Bắt đầu tìm kiếm..." name="noiden">
                             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
@@ -152,15 +153,16 @@
                 <i class="fa-solid fa-xmark iconclosed" onclick="closeddmenu()"></i>
             </div>
         </div>
-
+ <form action="" onsubmit="return lienhe() ">
         <div class="LienHeForm">
+           
             <div class="LienHe-left ">
                 <b>Gửi Thông Tin </b>
                 <div class="Dongthu1">
                     <div>
                         <div class=" cach">
                             <label for="LoaiThongTin">Loại Thông Tin<span class="LoạiTT">(*)</span>:</label> <br>
-                            <select name="Type" class="form-select" aria-label="Default select example">
+                            <select name="Type" class="form-select" aria-label="Default select example" id="combo">
                                 <option value="1">Du lịch</option>
                                 <option value="2">Chăm sóc khách hàng</option>
                                 <option value="3">Liên hệ thông tin khác</option>
@@ -207,6 +209,7 @@
                 </div>
                 <button type="submit" class="btn-submit-LH">Gửi Đi <i class="fa-solid fa-paper-plane"></i></button>
             </div>
+      
             <div class="LienHe-right">
                 <p style="color: #FD5056; font-size: 20px;"><b>Mạng Lưới Chi Nhánh</b></p>
                 <div class="thanhtruot">
@@ -338,6 +341,7 @@
             </div>
 
         </div>
+        </form>
         <div class="maps">
 
             <div class="toalac">
@@ -567,6 +571,7 @@
     
         </footer>
         <script src="./filejava/start.js"></script>
+        <script src="./filejava/mail.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.js"
             integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous">
             </script>
