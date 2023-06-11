@@ -95,3 +95,4 @@ $noidungthu = str_replace(
         echo 'Mail không gửi được. Lỗi: ', $mail->ErrorInfo;
     }
  }//function GuiMail
+?>

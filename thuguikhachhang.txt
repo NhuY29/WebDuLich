@@ -1,0 +1,15 @@
+<h3>Thư liên hệ từ khách hàng</h3>
+<hr>
+<p> Chào anh/chị {hoten}, Email {email}</p>
+<p> 
+
+Cảm ơn anh/chị đã tin tưởng và sử dụng dịch vụ của công ty chúng tôi. Sự hài lòng của khách hàng là động lực để chúng tôi không ngừng cải tiến và nâng cao chất lượng dịch vụ.
+
+Với kinh nghiệm lâu năm trong lĩnh vực du lịch, chúng tôi cam kết mang đến cho khách hàng những trải nghiệm đáng nhớ và chuyến đi tuyệt vời nhất. Chúng tôi luôn nỗ lực cung cấp dịch vụ tốt nhất, giá cả hợp lý và đảm bảo tính an toàn cho khách hàng.
+
+Một lần nữa, chúng tôi xin chân thành cảm ơn anh/chị đã tin tưởng và chọn công ty chúng tôi là đối tác trong chuyến đi của mình. Chúng tôi hy vọng sẽ có thêm cơ hội được phục vụ anh/chị trong tương lai.
+
+Trân trọng,
+
+ </p>
+<p> Công Ty TravelPlus trân trọng kính chào </p>

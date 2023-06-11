@@ -213,7 +213,7 @@
         <div class="chia">
             <div class="Form_mua">
                 <div class="class-from"></div>
-                <form action="" class="from2" onsubmit="return send()">
+                <form action="NEXTMAIL.PHP" class="from2" onsubmit="return send()" method="post">
 
                     <label for="HoTen">Họ Tên <span class="Do">(*)</span>:</label>
                     <input type="text1" minlength="1" maxlength="30" required name="hoten">
@@ -281,7 +281,7 @@
     </div>
 
     <div class="nutDK">
-        <input type="submit">
+        <input type="submit" name="btns">
     </div>
     </form>
     </div>
