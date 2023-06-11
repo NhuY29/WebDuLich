@@ -107,6 +107,9 @@ body.dark{
   body.dark  .second .Phan3 .ChiTiet >a {
     color: #000;
   }
+  body.dark .first .second2 .Tour_search .chuthich>a {
+    color: #007bff;
+  }
 .main {
     padding: 0;
     margin: 0;
