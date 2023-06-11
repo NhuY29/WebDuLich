@@ -256,7 +256,7 @@
                     </div>
                     <div>
                         <label class="checker">
-                            Có người khuyết tật
+                            Người khuyết tật
                             <input type="checkbox" class="note-more" value="có người khuyết tật">
                         </label>
                     </div>
