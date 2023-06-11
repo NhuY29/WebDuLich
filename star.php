@@ -46,13 +46,13 @@
                     </div>
                     <div class="menu-left-div">
                         <ul class="menu-left ">
-                            <li class="list-menu"><b onclick="menudulich()">Du Lịch <i
+                            <li class="list-menu"><b onclick="menudulich()" style="cursor: pointer;">Du Lịch <i
                                         class="fa-solid fa-angle-down"></i> </b>
 
                             </li>
                             <!-- <li class="list-menu"><b onclick="menukhuyenmai()">Vận Chuyển <i
                                             class="fa-solid fa-angle-down"></i></b></li> -->
-                            <li class="list-menu"><b  onclick="menukhuyenmai()"> Khuyến Mãi <i class="fa-solid fa-angle-down"
+                            <li class="list-menu"><b  onclick="menukhuyenmai()" style="cursor: pointer;"> Khuyến Mãi <i class="fa-solid fa-angle-down"
                                 onclick="menukhuyenmai()"></i></b>
                                 <ul class="ubertor-news menunone">
                                     <li class="list-news"><a href="">Tin mới </a></li>
