@@ -201,12 +201,12 @@
                 <div class="NgayDi">
                     <h4 style="color: #2D4271;">Số Ngày</h4>
                     <div>
-                        <button>1-3 Ngày</button>
-                        <button>4-7 Ngày</button>
+                        <button class="btn_ngaydi1 daaaa" onclick="clikthongbao()">1-3 Ngày</button>
+                        <button class="btn_ngaydi2 daaaa" onclick="clikthongbao1()">4-7 Ngày</button>
                     </div>
                     <div>
-                        <button>8-14 Ngày</button>
-                        <button>Trên 14 ngày</button>
+                        <button class="btn_ngaydi3 daaaa" onclick="clikthongbao2()">8-14 Ngày</button>
+                        <button class="btn_ngaydi4 daaaa" onclick="clikthongbao3()">Trên 14 ngày</button>
                     </div>
                 </div>
 
@@ -226,14 +226,14 @@
                 </div>
 
                 <div class="SoNguoi">
-                    <h4 style="color: #2D4271;">Số Người</h4>
+                    <h4 style="color: #2D4271;">Loại Phòng</h4>
                     <div>
-                        <button>1 Người</button>
-                        <button>2 Người</button>
+                        <button class="btn_ngaydi5 daaaa" onclick="clikthongbao4()">1-2 Sao</button>
+                        <button class="btn_ngaydi6 daaaa" onclick="clikthongbao6()">3 Sao</button>
                     </div>
                     <div>
-                        <button>3-5 Người</button>
-                        <button>5+ Người</button>
+                        <button class="btn_ngaydi7 daaaa" onclick="clikthongbao5()">4 Sao</button>
+                        <button class="btn_ngaydi8 daaaa" onclick="clikthongbao7()">5 Sao</button>
                     </div>
                 </div>
 
@@ -241,12 +241,12 @@
                 <div class="LoaiTour">
                     <h4 style="color: #2D4271;">Dòng Tour</h4>
                     <div>
-                        <button>Cao Cấp</button>
-                        <button>Tiêu Chuẩn</button>
+                        <button class="btn_ngaydi9 daaaa" onclick="clikthongbao8()">Cao Cấp</button>
+                        <button class="btn_ngaydi10 daaaa" onclick="clikthongbao9()">Tiêu Chuẩn</button>
                     </div>
                     <div>
-                        <button>Tiết Kiệm</button>
-                        <button>Giá Tốt</button>
+                        <button class="btn_ngaydi11 daaaa" onclick="clikthongbao10()">Tiết Kiệm</button>
+                        <button class="btn_ngaydi12 daaaa" onclick="clikthongbao11()">Giá Tốt</button>
                     </div>
                 </div>
 
