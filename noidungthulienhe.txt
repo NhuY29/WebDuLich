@@ -1,0 +1,6 @@
+<h3>Thư liên hệ từ khách hàng</h3>
+<hr>
+<p> Email khách hàng: <br>{email} </p>
+<p> Nội dung liên hệ: <br>{noidung} </p>
+<p> Số điện thoại của khách hàng: <br>{DT} </p>
+<p> Họ tên khách hàng: <br>{hoten} </p>
