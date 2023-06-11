@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
     <link rel="stylesheet" href="./filecss/DatHang.css">
     <link rel="stylesheet" href="./filejava/start.js">
-    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./filejava/dathang.js">
     <title>Đặt Hàng</title>
 </head>

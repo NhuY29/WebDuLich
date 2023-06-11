@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css">
-    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./filecss/start.css">
     <link rel="stylesheet" href="./filejava/loading.js">
     
