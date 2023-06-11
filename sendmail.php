@@ -42,7 +42,13 @@
 //} catch (Exception $e) {
   //  echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 //}
+if(isset($_POST['btns']) == true){
+GuiMail();
+}
 function GuiMail(){   
+
+
+
     require "PHPMailer-master/src/PHPMailer.php"; 
     require "PHPMailer-master/src/SMTP.php"; 
     require 'PHPMailer-master/src/Exception.php'; 
@@ -59,15 +65,23 @@ function GuiMail(){
         $mail->Host = 'smtp.gmail.com';  //SMTP servers
         $mail->SMTPAuth = true; // Enable authentication
         $mail->Username = 'ble07983@gmail.com'; // SMTP username
-        $mail->Password = 'zbrmtpwkyfxzfdnp';   // SMTP password
+        $mail->Password = 'fectutuexnkcfqsa';   // SMTP password
         $mail->SMTPSecure = 'ssl';  // encryption TLS/SSL 
         $mail->Port = 465;  // port to connect to                
-        $mail->setFrom('ble07983@gmail.com', 'LE QUANG BAO' ); 
-        $mail->addAddress('Ny22167@gmail.com', 'NHU HEO'); //mail và tên người nhận  
+        $mail->setFrom('ble07983@gmail.com', 'EMAIL CÔNG TY' ); 
+        $mail->addAddress('baole28082003@gmail.com', 'NHU HEO'); //mail và tên người nhận  
         $mail->isHTML(true);  // Set email format to HTML
         $mail->Subject = 'Thư gửi từ from Liên hệ';
-        $noidungthu = 'Chúc Qúy Khách tai qua nạn khỏi'; 
-        $mail->Body = $noidungthu;
+        // $noidungthu = "
+        // <h3>Thư liên hệ từ khách hàng</h3>
+        // <p> Email khách hàng: <br>{$_POST['Email']} </p>
+        // <p> Nội dung liên hệ: <br>{$_POST['txtnoidung']} </p>";
+        $noidungthu = file_get_contents("noidungthulienhe.txt");
+$noidungthu = str_replace(
+	[ '{email}' , '{noidung}','{DT}','{hoten}'], 
+	[$_POST['Email'], $_POST['txtnoidung'],$_POST['dt'],$_POST['hoten']]
+	, $noidungthu);
+        $mail->Body = nl2br($noidungthu) ;
         $mail->smtpConnect( array(
             "ssl" => array(
                 "verify_peer" => false,
@@ -76,12 +90,8 @@ function GuiMail(){
             )
         ));
         $mail->send();
-        echo 'Đã gửi mail xong';
+        header("location: LienHe.php");
     } catch (Exception $e) {
         echo 'Mail không gửi được. Lỗi: ', $mail->ErrorInfo;
     }
  }//function GuiMail
-?>
-<?php
-GuiMail();
-?>
